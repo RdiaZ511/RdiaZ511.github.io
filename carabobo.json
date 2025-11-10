@@ -1,0 +1,479 @@
+{
+  "estado": "Carabobo",
+  "capital": "Valencia",
+  "poblacion_estado": 2457708,
+  "ubicacion_estado": {
+    "latitud": 10.180142,
+    "longitud": -68.000263
+  },
+  "municipios": [
+    {
+      "municipio": "Valencia",
+      "capital": "Valencia",
+      "poblacion_municipio": 1627884,
+      "ubicacion_municipio": {
+        "latitud": 10.180142,
+        "longitud": -68.000263
+      },
+      "poblaciones": [
+        {
+          "nombre": "Valencia",
+          "latitud": 10.180142,
+          "longitud": -68.000263
+        },
+        {
+          "nombre": "Naguanagua",
+          "latitud": 10.260371,
+          "longitud": -68.013428
+        },
+        {
+          "nombre": "San Diego",
+          "latitud": 10.255949,
+          "longitud": -67.953523
+        },
+        {
+          "nombre": "Los Guayos",
+          "latitud": 10.187479,
+          "longitud": -67.937159
+        },
+        {
+          "nombre": "Tocuyito",
+          "latitud": 10.113888,
+          "longitud": -68.086666
+        }
+      ]
+    },
+    {
+      "municipio": "Puerto Cabello",
+      "capital": "Puerto Cabello",
+      "poblacion_municipio": 204578,
+      "ubicacion_municipio": {
+        "latitud": 10.473525,
+        "longitud": -68.012551
+      },
+      "poblaciones": [
+        {
+          "nombre": "Puerto Cabello",
+          "latitud": 10.473525,
+          "longitud": -68.012551
+        },
+        {
+          "nombre": "Borburata",
+          "latitud": 10.443611,
+          "longitud": -67.966944
+        },
+        {
+          "nombre": "Patanemo",
+          "latitud": 10.434444,
+          "longitud": -67.921111
+        },
+        {
+          "nombre": "San Esteban",
+          "latitud": 10.408333,
+          "longitud": -68.041667
+        },
+        {
+          "nombre": "Goaigoaza",
+          "latitud": 10.433333,
+          "longitud": -67.966667
+        }
+      ]
+    },
+    {
+      "municipio": "Guacara",
+      "capital": "Guacara",
+      "poblacion_municipio": 174868,
+      "ubicacion_municipio": {
+        "latitud": 10.229445,
+        "longitud": -67.873056
+      },
+      "poblaciones": [
+        {
+          "nombre": "Guacara",
+          "latitud": 10.229445,
+          "longitud": -67.873056
+        },
+        {
+          "nombre": "Yagua",
+          "latitud": 10.116667,
+          "longitud": -67.716667
+        },
+        {
+          "nombre": "Ciudad Alianza",
+          "latitud": 10.233333,
+          "longitud": -67.883333
+        },
+        {
+          "nombre": "Los Guayos",
+          "latitud": 10.187479,
+          "longitud": -67.937159
+        },
+        {
+          "nombre": "Tacarigua",
+          "latitud": 10.200000,
+          "longitud": -67.900000
+        }
+      ]
+    },
+    {
+      "municipio": "Naguanagua",
+      "capital": "Naguanagua",
+      "poblacion_municipio": 167150,
+      "ubicacion_municipio": {
+        "latitud": 10.260371,
+        "longitud": -68.013428
+      },
+      "poblaciones": [
+        {
+          "nombre": "Naguanagua",
+          "latitud": 10.260371,
+          "longitud": -68.013428
+        },
+        {
+          "nombre": "Urbanización La Entrada",
+          "latitud": 10.266667,
+          "longitud": -68.016667
+        },
+        {
+          "nombre": "Urbanización Parque Valencia",
+          "latitud": 10.250000,
+          "longitud": -68.016667
+        },
+        {
+          "nombre": "Urbanización Prebo",
+          "latitud": 10.266667,
+          "longitud": -68.000000
+        },
+        {
+          "nombre": "Urbanización Villa Jardín",
+          "latitud": 10.266667,
+          "longitud": -68.008333
+        }
+      ]
+    },
+    {
+      "municipio": "San Joaquín",
+      "capital": "San Joaquín",
+      "poblacion_municipio": 75329,
+      "ubicacion_municipio": {
+        "latitud": 10.262500,
+        "longitud": -67.793611
+      },
+      "poblaciones": [
+        {
+          "nombre": "San Joaquín",
+          "latitud": 10.262500,
+          "longitud": -67.793611
+        },
+        {
+          "nombre": "Guataparo",
+          "latitud": 10.283333,
+          "longitud": -67.800000
+        },
+        {
+          "nombre": "El Palito",
+          "latitud": 10.483333,
+          "longitud": -67.916667
+        },
+        {
+          "nombre": "Vigirima",
+          "latitud": 10.166667,
+          "longitud": -67.833333
+        },
+        {
+          "nombre": "El Morro",
+          "latitud": 10.216667,
+          "longitud": -67.633333
+        }
+      ]
+    },
+    {
+      "municipio": "Los Guayos",
+      "capital": "Los Guayos",
+      "poblacion_municipio": 70300,
+      "ubicacion_municipio": {
+        "latitud": 10.187479,
+        "longitud": -67.937159
+      },
+      "poblaciones": [
+        {
+          "nombre": "Los Guayos",
+          "latitud": 10.187479,
+          "longitud": -67.937159
+        },
+        {
+          "nombre": "Guacara",
+          "latitud": 10.229445,
+          "longitud": -67.873056
+        },
+        {
+          "nombre": "Central Tacarigua",
+          "latitud": 10.200000,
+          "longitud": -67.900000
+        },
+        {
+          "nombre": "Urbanización Los Guayos",
+          "latitud": 10.183333,
+          "longitud": -67.933333
+        },
+        {
+          "nombre": "Urbanización La Guacamaya",
+          "latitud": 10.191667,
+          "longitud": -67.941667
+        }
+      ]
+    },
+    {
+      "municipio": "Diego Ibarra",
+      "capital": "Mariara",
+      "poblacion_municipio": 122632,
+      "ubicacion_municipio": {
+        "latitud": 10.296389,
+        "longitud": -67.715278
+      },
+      "poblaciones": [
+        {
+          "nombre": "Mariara",
+          "latitud": 10.296389,
+          "longitud": -67.715278
+        },
+        {
+          "nombre": "Aguas Calientes",
+          "latitud": 10.333333,
+          "longitud": -67.683333
+        },
+        {
+          "nombre": "Ciudad Alianza",
+          "latitud": 10.233333,
+          "longitud": -67.883333
+        },
+        {
+          "nombre": "El Trompillo",
+          "latitud": 10.300000,
+          "longitud": -67.716667
+        },
+        {
+          "nombre": "La Entrada",
+          "latitud": 10.266667,
+          "longitud": -67.716667
+        }
+      ]
+    },
+    {
+      "municipio": "Carlos Arvelo",
+      "capital": "Güigüe",
+      "poblacion_municipio": 167150,
+      "ubicacion_municipio": {
+        "latitud": 10.083333,
+        "longitud": -67.783333
+      },
+      "poblaciones": [
+        {
+          "nombre": "Güigüe",
+          "latitud": 10.083333,
+          "longitud": -67.783333
+        },
+        {
+          "nombre": "Belén",
+          "latitud": 10.066667,
+          "longitud": -67.800000
+        },
+        {
+          "nombre": "Tacarigua",
+          "latitud": 10.200000,
+          "longitud": -67.900000
+        },
+        {
+          "nombre": "Central Tacarigua",
+          "latitud": 10.200000,
+          "longitud": -67.900000
+        },
+        {
+          "nombre": "El Paíto",
+          "latitud": 10.100000,
+          "longitud": -67.766667
+        }
+      ]
+    },
+    {
+      "municipio": "Juan José Mora",
+      "capital": "Morón",
+      "poblacion_municipio": 78280,
+      "ubicacion_municipio": {
+        "latitud": 10.488889,
+        "longitud": -68.200278
+      },
+      "poblaciones": [
+        {
+          "nombre": "Morón",
+          "latitud": 10.488889,
+          "longitud": -68.200278
+        },
+        {
+          "nombre": "Urama",
+          "latitud": 10.433333,
+          "longitud": -68.250000
+        },
+        {
+          "nombre": "El Palito",
+          "latitud": 10.483333,
+          "longitud": -67.916667
+        },
+        {
+          "nombre": "Borburata",
+          "latitud": 10.443611,
+          "longitud": -67.966944
+        },
+        {
+          "nombre": "Patanemo",
+          "latitud": 10.434444,
+          "longitud": -67.921111
+        }
+      ]
+    },
+    {
+      "municipio": "Bejuma",
+      "capital": "Bejuma",
+      "poblacion_municipio": 53200,
+      "ubicacion_municipio": {
+        "latitud": 10.173056,
+        "longitud": -68.258889
+      },
+      "poblaciones": [
+        {
+          "nombre": "Bejuma",
+          "latitud": 10.173056,
+          "longitud": -68.258889
+        },
+        {
+          "nombre": "Cantera",
+          "latitud": 10.166667,
+          "longitud": -68.266667
+        },
+        {
+          "nombre": "Canoabo",
+          "latitud": 10.116667,
+          "longitud": -68.233333
+        },
+        {
+          "nombre": "Simón Bolívar",
+          "latitud": 10.183333,
+          "longitud": -68.250000
+        },
+        {
+          "nombre": "El Jagüey",
+          "latitud": 10.150000,
+          "longitud": -68.283333
+        }
+      ]
+    },
+    {
+      "municipio": "Montalbán",
+      "capital": "Montalbán",
+      "poblacion_municipio": 28900,
+      "ubicacion_municipio": {
+        "latitud": 10.212500,
+        "longitud": -68.326389
+      },
+      "poblaciones": [
+        {
+          "nombre": "Montalbán",
+          "latitud": 10.212500,
+          "longitud": -68.326389
+        },
+        {
+          "nombre": "Las Agüitas",
+          "latitud": 10.200000,
+          "longitud": -68.333333
+        },
+        {
+          "nombre": "El Rincón",
+          "latitud": 10.216667,
+          "longitud": -68.316667
+        },
+        {
+          "nombre": "La Entrada",
+          "latitud": 10.233333,
+          "longitud": -68.300000
+        },
+        {
+          "nombre": "San Diego",
+          "latitud": 10.255949,
+          "longitud": -67.953523
+        }
+      ]
+    },
+    {
+      "municipio": "Miranda",
+      "capital": "Miranda",
+      "poblacion_municipio": 25800,
+      "ubicacion_municipio": {
+        "latitud": 10.149444,
+        "longitud": -68.394444
+      },
+      "poblaciones": [
+        {
+          "nombre": "Miranda",
+          "latitud": 10.149444,
+          "longitud": -68.394444
+        },
+        {
+          "nombre": "Agua Caliente",
+          "latitud": 10.133333,
+          "longitud": -68.383333
+        },
+        {
+          "nombre": "El Trompillo",
+          "latitud": 10.300000,
+          "longitud": -67.716667
+        },
+        {
+          "nombre": "La Entrada",
+          "latitud": 10.233333,
+          "longitud": -68.300000
+        },
+        {
+          "nombre": "San Diego",
+          "latitud": 10.255949,
+          "longitud": -67.953523
+        }
+      ]
+    },
+    {
+      "municipio": "Mina",
+      "capital": "Mina",
+      "poblacion_municipio": 19800,
+      "ubicacion_municipio": {
+        "latitud": 10.216667,
+        "longitud": -68.433333
+      },
+      "poblaciones": [
+        {
+          "nombre": "Mina",
+          "latitud": 10.216667,
+          "longitud": -68.433333
+        },
+        {
+          "nombre": "Las Agüitas",
+          "latitud": 10.200000,
+          "longitud": -68.333333
+        },
+        {
+          "nombre": "El Rincón",
+          "latitud": 10.216667,
+          "longitud": -68.316667
+        },
+        {
+          "nombre": "La Entrada",
+          "latitud": 10.233333,
+          "longitud": -68.300000
+        },
+        {
+          "nombre": "San Diego",
+          "latitud": 10.255949,
+          "longitud": -67.953523
+        }
+      ]
+    }
+  ]
+}

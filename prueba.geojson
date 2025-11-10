@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "VALENCIA_CENTRO",
+        "nombre_region": "Centro de Valencia",
+        "poblacion": 15000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-68.000, 10.200],
+            [-68.050, 10.200],
+            [-68.050, 10.150],
+            [-68.000, 10.150],
+            [-68.000, 10.200]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_id": "VALENCIA_NORTE",
+        "nombre_region": "Norte de Valencia",
+        "poblacion": 25000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-67.950, 10.250],
+            [-68.000, 10.250],
+            [-68.000, 10.200],
+            [-67.950, 10.200],
+            [-67.950, 10.250]
+          ]
+        ]
+      }
+    }
+  ]
+}

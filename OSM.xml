@@ -1,0 +1,156 @@
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2238943 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<relation id="272745" visible="true" version="67" changeset="173489739" timestamp="2025-10-19T12:43:24Z" user="bolollo" uid="143604">
+<member type="node" ref="13243189169" role="label"/>
+<member type="way" ref="1336963107" role="outer"/>
+<member type="way" ref="1336963108" role="outer"/>
+<member type="way" ref="1336963105" role="outer"/>
+<member type="way" ref="1336963104" role="outer"/>
+<member type="way" ref="1336911318" role="outer"/>
+<member type="way" ref="1336911321" role="outer"/>
+<member type="way" ref="1336911315" role="outer"/>
+<member type="way" ref="1336911314" role="outer"/>
+<member type="way" ref="1336911312" role="outer"/>
+<member type="way" ref="1152689302" role="outer"/>
+<member type="way" ref="1152689461" role="outer"/>
+<member type="way" ref="1336911310" role="outer"/>
+<member type="way" ref="1336911311" role="outer"/>
+<member type="way" ref="1152689462" role="outer"/>
+<member type="way" ref="1336911308" role="outer"/>
+<member type="way" ref="1337192983" role="outer"/>
+<member type="way" ref="1337192984" role="outer"/>
+<member type="way" ref="1337192985" role="outer"/>
+<member type="way" ref="1337192986" role="outer"/>
+<member type="way" ref="1154878681" role="outer"/>
+<member type="way" ref="1337192987" role="outer"/>
+<member type="way" ref="1337192990" role="outer"/>
+<member type="way" ref="1337192991" role="outer"/>
+<member type="way" ref="1337192992" role="outer"/>
+<member type="way" ref="1337192993" role="outer"/>
+<member type="way" ref="1337205670" role="outer"/>
+<member type="way" ref="1154878679" role="outer"/>
+<member type="way" ref="1154878678" role="outer"/>
+<member type="way" ref="1154878619" role="outer"/>
+<member type="way" ref="1154878444" role="outer"/>
+<member type="way" ref="1154878677" role="outer"/>
+<member type="way" ref="1154878676" role="outer"/>
+<member type="way" ref="1154878674" role="outer"/>
+<member type="way" ref="1154878673" role="outer"/>
+<member type="way" ref="1154878671" role="outer"/>
+<member type="way" ref="1154878670" role="outer"/>
+<member type="way" ref="1154878579" role="outer"/>
+<member type="way" ref="1388393553" role="outer"/>
+<member type="way" ref="1154878668" role="outer"/>
+<member type="way" ref="1154878667" role="outer"/>
+<member type="way" ref="1154878666" role="outer"/>
+<member type="way" ref="1154878664" role="outer"/>
+<member type="way" ref="1154878660" role="outer"/>
+<member type="way" ref="1155007012" role="outer"/>
+<member type="way" ref="1162786164" role="outer"/>
+<member type="way" ref="1154878658" role="outer"/>
+<member type="way" ref="1154878662" role="outer"/>
+<member type="way" ref="1154878659" role="outer"/>
+<member type="way" ref="1154878661" role="outer"/>
+<member type="way" ref="1154878656" role="outer"/>
+<member type="way" ref="1154878657" role="outer"/>
+<member type="way" ref="1154878655" role="outer"/>
+<member type="way" ref="1154878654" role="outer"/>
+<member type="way" ref="1154878653" role="outer"/>
+<member type="way" ref="1154878651" role="outer"/>
+<member type="way" ref="1336976133" role="outer"/>
+<member type="way" ref="1336976134" role="outer"/>
+<member type="way" ref="1154878650" role="outer"/>
+<member type="way" ref="1154878556" role="outer"/>
+<member type="way" ref="1154878559" role="outer"/>
+<member type="way" ref="1154878649" role="outer"/>
+<member type="way" ref="1154878648" role="outer"/>
+<member type="way" ref="1154878647" role="outer"/>
+<member type="way" ref="1154878644" role="outer"/>
+<member type="way" ref="1154878646" role="outer"/>
+<member type="way" ref="1154878642" role="outer"/>
+<member type="way" ref="1336976125" role="outer"/>
+<member type="way" ref="1336976126" role="outer"/>
+<member type="way" ref="1154878638" role="outer"/>
+<member type="way" ref="1154878637" role="outer"/>
+<member type="way" ref="1154878636" role="outer"/>
+<member type="way" ref="1305311163" role="outer"/>
+<member type="way" ref="1154878635" role="outer"/>
+<member type="way" ref="1305311165" role="outer"/>
+<member type="way" ref="1154878634" role="outer"/>
+<member type="way" ref="1154878633" role="outer"/>
+<member type="way" ref="1154878632" role="outer"/>
+<member type="way" ref="1154878629" role="outer"/>
+<member type="way" ref="1154878630" role="outer"/>
+<member type="way" ref="1154878627" role="outer"/>
+<member type="way" ref="1154878624" role="outer"/>
+<member type="way" ref="1154878488" role="outer"/>
+<member type="way" ref="1154878626" role="outer"/>
+<member type="way" ref="1154878623" role="outer"/>
+<member type="way" ref="1390240159" role="outer"/>
+<member type="way" ref="1212692814" role="outer"/>
+<member type="way" ref="1212652859" role="outer"/>
+<member type="way" ref="1155007011" role="outer"/>
+<member type="way" ref="1212652860" role="outer"/>
+<member type="way" ref="1330364181" role="outer"/>
+<member type="way" ref="1212652858" role="outer"/>
+<member type="way" ref="1154878622" role="outer"/>
+<member type="way" ref="1155007008" role="outer"/>
+<member type="way" ref="721504733" role="outer"/>
+<member type="way" ref="1155006997" role="outer"/>
+<member type="way" ref="1155006983" role="outer"/>
+<member type="way" ref="1155006991" role="outer"/>
+<member type="way" ref="1155006989" role="outer"/>
+<member type="way" ref="1154878735" role="outer"/>
+<member type="way" ref="1154878725" role="outer"/>
+<member type="way" ref="1155006986" role="outer"/>
+<member type="way" ref="1154878727" role="outer"/>
+<member type="way" ref="1157668603" role="outer"/>
+<member type="way" ref="1154878551" role="outer"/>
+<member type="way" ref="1155006998" role="outer"/>
+<member type="way" ref="1154878733" role="outer"/>
+<member type="way" ref="1155006999" role="outer"/>
+<member type="way" ref="1155007000" role="outer"/>
+<member type="way" ref="1154878548" role="outer"/>
+<member type="way" ref="1157668602" role="outer"/>
+<member type="way" ref="1337192980" role="outer"/>
+<member type="way" ref="1337192978" role="outer"/>
+<member type="way" ref="1336963114" role="outer"/>
+<member type="way" ref="1336963113" role="outer"/>
+<member type="way" ref="1157668601" role="outer"/>
+<member type="way" ref="1336963111" role="outer"/>
+<member type="way" ref="1336963112" role="outer"/>
+<member type="way" ref="1336963110" role="outer"/>
+<member type="way" ref="1336963109" role="outer"/>
+<member type="node" ref="7179881094" role="admin_centre"/>
+<member type="relation" ref="10833248" role="subarea"/>
+<member type="relation" ref="10833247" role="subarea"/>
+<member type="relation" ref="10833246" role="subarea"/>
+<member type="relation" ref="10833245" role="subarea"/>
+<member type="relation" ref="10833244" role="subarea"/>
+<member type="relation" ref="10833249" role="subarea"/>
+<member type="relation" ref="10833239" role="subarea"/>
+<member type="relation" ref="10833250" role="subarea"/>
+<member type="relation" ref="2689581" role="subarea"/>
+<member type="relation" ref="9997544" role="subarea"/>
+<member type="relation" ref="10833251" role="subarea"/>
+<member type="relation" ref="10833240" role="subarea"/>
+<member type="relation" ref="10833252" role="subarea"/>
+<member type="relation" ref="10833253" role="subarea"/>
+<tag k="admin_level" v="4"/>
+<tag k="border_type" v="entidad federal"/>
+<tag k="boundary" v="administrative"/>
+<tag k="ISO3166-2" v="VE-G"/>
+<tag k="name" v="Carabobo"/>
+<tag k="name:en" v="Carabobo State"/>
+<tag k="name:es" v="Estado Carabobo"/>
+<tag k="name:ja" v="カラボボ州"/>
+<tag k="place" v="state"/>
+<tag k="population" v="2245744"/>
+<tag k="population:date" v="2011"/>
+<tag k="ref" v="CA"/>
+<tag k="source:population" v="INE (2014)"/>
+<tag k="source:ref" v="INTT (2011)"/>
+<tag k="type" v="boundary"/>
+<tag k="wikidata" v="Q191186"/>
+<tag k="wikipedia" v="es:Estado Carabobo"/>
+</relation>
+</osm>

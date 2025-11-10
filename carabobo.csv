@@ -1,0 +1,1214 @@
+osm_id,osm_type,is_in,name,population,admin_level,place,boundary,longitude,latitude,geom_type
+5770481483,nodes,,La Palma,,,village,,-67.5474966,9.8239629,POINT
+5770481484,nodes,,El Níspero,,,village,,-67.5675809,9.8569602,POINT
+5770476606,nodes,,Terrón Colorado,,,village,,-67.8030575,9.8506813,POINT
+5773596518,nodes,,Cajobal,,,village,,-67.9768753,9.847341,POINT
+5818210130,nodes,,Las Hermanitas,,,village,,-67.9879475,9.8362415,POINT
+5818210129,nodes,,Morrocoy,,,village,,-67.9566085,9.8319284,POINT
+5770475620,nodes,,Terronal,,,village,,-67.8415418,9.8132802,POINT
+5372687799,nodes,,Agua Honda,,,village,,-67.8987306,9.9130832,POINT
+9014236126,nodes,,,,,isolated_dwelling,,-67.6259791,9.8814378,POINT
+1788514002,nodes,,Urbanización Popular Las Garcitas,"50",,neighbourhood,,-67.9329881,10.1920618,POINT
+7118052979,nodes,,Guataparo,,,suburb,,-68.0581325,10.1929348,POINT
+5816400574,nodes,Aguirre,La Guamita,,,suburb,,-68.2709098,10.2376651,POINT
+12426890488,nodes,,El Chuponal,,,suburb,,-68.0609832,10.2806993,POINT
+5784038951,nodes,Puerto Cabello,Los Lanceros,,,suburb,,-68.0895925,10.4684633,POINT
+5370197999,nodes,,El Guarapo,,,village,,-68.2364362,10.2906173,POINT
+5784038893,nodes,Puerto Cabello,La Sorpresa,,,suburb,,-68.0604315,10.471966,POINT
+10878519425,nodes,,Los Metidos,,,hamlet,,-68.302002,10.5773017,POINT
+10878526410,nodes,,Parcelamiento Paují IV,,,hamlet,,-68.346355,10.5685058,POINT
+4162829993,nodes,,Barrio Nelson Ballestero,,,neighbourhood,,-68.0255961,10.1267168,POINT
+4162830395,nodes,,Barrio Miguel Bello,,,neighbourhood,,-68.0235105,10.1350805,POINT
+4162830396,nodes,,Barrio La Lagunita,,,neighbourhood,,-68.019274,10.1377106,POINT
+4162844891,nodes,,Barrio Andrés Eloy Blanco,,,neighbourhood,,-68.0204525,10.1350893,POINT
+4162821302,nodes,,Barrio Los Jardines,,,neighbourhood,,-68.0149026,10.1331795,POINT
+8375551021,nodes,,Lomas de Funval,,,suburb,,-68.0176577,10.1240792,POINT
+7118093161,nodes,,Ciudad Jardín Mañongo,,,quarter,,-67.9967008,10.2392445,POINT
+7118093164,nodes,,El Rincón,,,quarter,,-67.9977233,10.249063,POINT
+8425830109,nodes,,Tarapío,,,neighbourhood,,-68.0167462,10.2574915,POINT
+8425830115,nodes,,Caprenco,,,neighbourhood,,-68.018921,10.2551139,POINT
+5818216948,nodes,,Paya,,,village,,-68.045218,9.9231458,POINT
+5818215139,nodes,,El Mosquitero,,,town,,-68.0925322,9.9239807,POINT
+5818220001,nodes,,Amador,,,village,,-68.1976211,9.8426898,POINT
+5818220549,nodes,,El Barníz,,,village,,-68.2309985,9.9745778,POINT
+5370280330,nodes,,Pirapira,,,village,,-68.0643027,9.9600897,POINT
+5816400074,nodes,,Algarrobal,,,village,,-68.1873858,10.0285479,POINT
+5816400079,nodes,La Yaguara,Alto de Cañafístola,,,suburb,,-68.1041193,10.0499939,POINT
+5370280366,nodes,,Barrera,,,town,,-68.1492643,10.0222291,POINT
+12258901618,nodes,,Barrio 19 de Abril,,,quarter,,-68.0159908,10.1670766,POINT
+12258865351,nodes,,Barrio La Raya,,,neighbourhood,,-68.0153879,10.1648232,POINT
+12258887625,nodes,,La Florida,,,neighbourhood,,-68.0326006,10.1443005,POINT
+7118058562,nodes,,Guataparo Country Club,,,neighbourhood,,-68.051528,10.1827603,POINT
+7118003857,nodes,,Los  Nísperos,,,neighbourhood,,-68.0129596,10.1952049,POINT
+5154800581,nodes,,Conjunto Residencial Llano Verde,,,neighbourhood,,-68.0377438,10.1478092,POINT
+7118047118,nodes,,La Esmeralda,,,suburb,,-67.9708885,10.2293899,POINT
+4725001327,nodes,,El Tulipán,,,neighbourhood,,-67.9603831,10.2695984,POINT
+5784037898,nodes,San Diego,El Polvero,,,neighbourhood,,-67.9398823,10.2691054,POINT
+8027587926,nodes,,Urbanización Tamanaco,,,suburb,,-68.308314,9.9223008,POINT
+8027610273,nodes,,Zona Industrial II,,,suburb,,-68.2875343,9.9220682,POINT
+9108013099,nodes,,Zona Industrial Municipal Norte,,,quarter,,-67.955761,10.1772042,POINT
+1788465553,nodes,,La Vivienda Popular,,,neighbourhood,,-67.9371697,10.177982,POINT
+8375545915,nodes,,Santa Rosa,,,quarter,,-68.0003749,10.1656102,POINT
+3828417023,nodes,,Valle de Oro,,,suburb,,-67.9587396,10.2349808,POINT
+2078292773,nodes,,Lomas del Este,,,neighbourhood,,-67.9945474,10.1931186,POINT
+7118093162,nodes,,Mañongo,,,suburb,,-67.9977457,10.2344257,POINT
+7258603887,nodes,,Valle de Mozanga,,,suburb,,-67.9187019,10.215875,POINT
+7118052980,nodes,,El Trigal,,,suburb,,-67.99411,10.21741,POINT
+2518181948,nodes,,Choroní,,,town,,-67.6124527,10.4876575,POINT
+5190975273,nodes,,San Diego,,,city,,-67.9617968,10.2299896,POINT
+1676439371,nodes,,Guacara,"194009",,city,,-67.8836179,10.2172127,POINT
+12291930296,nodes,,Barrio Coromoto,,,quarter,,-67.622249,10.2610174,POINT
+12057917853,nodes,,La Esperanza,,,quarter,,-67.604534,10.2592846,POINT
+3437635569,nodes,,Sector 4,,,neighbourhood,,-67.623872,10.2810121,POINT
+615101291,nodes,,El Limón,"106166",,city,,-67.6298607,10.2925851,POINT
+1787209503,nodes,,Los Guayos,"149606",,city,,-67.9194222,10.1755763,POINT
+10873535087,nodes,,Urbanización Santa Barbara Suite,,,neighbourhood,,-67.5429541,10.2089793,POINT
+10873535078,nodes,,Barrio Pedro Leon,,,neighbourhood,,-67.5273924,10.2143073,POINT
+10878950403,nodes,,Condominio San Román,,,neighbourhood,,-67.5350207,10.2119422,POINT
+10878950404,nodes,,Condominio Santa Barbara,,,neighbourhood,,-67.5351059,10.2098298,POINT
+10878956005,nodes,,Urb. Parque Los Samanes,,,neighbourhood,,-67.5347187,10.2084443,POINT
+10878956006,nodes,,Urb. Laguna de Coropo,,,neighbourhood,,-67.5370652,10.2076852,POINT
+10878204492,nodes,,El Museo,,,neighbourhood,,-67.5675247,10.2025881,POINT
+10878204491,nodes,,Barrio Los Proceres,,,neighbourhood,,-67.5685108,10.1973829,POINT
+10878439805,nodes,,Urb. Las Amazonas,,,neighbourhood,,-67.5658154,10.2102967,POINT
+10878439806,nodes,,Conjunto Residencial Santa Rita,,,neighbourhood,,-67.5663795,10.2075193,POINT
+10878491646,nodes,,Funda Coropo,,,neighbourhood,,-67.5401181,10.2017213,POINT
+10873535076,nodes,,Urb. La Rosaleda,,,neighbourhood,,-67.5339334,10.2145561,POINT
+10873535077,nodes,,Conjunto Residencial Los Girasoles,,,neighbourhood,,-67.5318256,10.2142716,POINT
+10873535084,nodes,,Urb. SAn Antonio,,,neighbourhood,,-67.5430528,10.2116425,POINT
+10873535086,nodes,,Urb. La Arboleda,,,neighbourhood,,-67.5451503,10.2115511,POINT
+10873535095,nodes,,El Reverdecer,,,neighbourhood,,-67.5524995,10.2094217,POINT
+10873535069,nodes,,Urb. Las Bromelias,,,neighbourhood,,-67.5440586,10.2141484,POINT
+10873535070,nodes,,Los Ovejos,,,neighbourhood,,-67.5428941,10.21429,POINT
+10873535071,nodes,,Barrio El Eden,,,neighbourhood,,-67.5416884,10.2145013,POINT
+10873535072,nodes,,Conjunto Residencial Doña Juana,,,neighbourhood,,-67.5397369,10.2140843,POINT
+10873535073,nodes,,Urb. Villa Esperanza,,,neighbourhood,,-67.5383232,10.2144969,POINT
+10873535079,nodes,,Urb. Garza Blanca,,,neighbourhood,,-67.5327017,10.211504,POINT
+10873535080,nodes,,Humberto Trejo,,,neighbourhood,,-67.5362286,10.2122982,POINT
+10873535081,nodes,,Prados del Sur,,,neighbourhood,,-67.537524,10.2114034,POINT
+10873535082,nodes,,Caridad del Cobre 1,,,neighbourhood,,-67.5398029,10.2112211,POINT
+10873535083,nodes,,7 de Octubre,,,neighbourhood,,-67.540743,10.2116793,POINT
+10873535085,nodes,,Urb. La Arboleda,,,neighbourhood,,-67.5442159,10.2115448,POINT
+10873535088,nodes,,Urb. Parque Jardin,,,neighbourhood,,-67.5442391,10.2088398,POINT
+10873535089,nodes,,Urb. Los Tamarindos,,,neighbourhood,,-67.5455536,10.2091023,POINT
+10873535090,nodes,,Rafael Dordelys,,,neighbourhood,,-67.5466081,10.2090564,POINT
+10873535091,nodes,,Conjunto Residencial y Comercial Villa Morita,,,neighbourhood,,-67.5479687,10.2092486,POINT
+10873535092,nodes,,Barrio La Conquista,,,neighbourhood,,-67.5490922,10.2100845,POINT
+10873535093,nodes,,Urb. Villas El Angel,,,neighbourhood,,-67.5508453,10.211274,POINT
+10873535094,nodes,,Residencias Canarias,,,neighbourhood,,-67.5515087,10.2086697,POINT
+10873535098,nodes,,Barrio La Paz,,,neighbourhood,,-67.5538189,10.2126008,POINT
+9111866138,nodes,,Los Hornos,,,suburb,,-67.5614333,10.154721,POINT
+5411239102,nodes,,Base Libertador,,,suburb,,-67.5622351,10.1726325,POINT
+4190277312,nodes,,Urbanizacion El Portal del Valle,,,neighbourhood,,-67.5352362,10.2197239,POINT
+4190294202,nodes,,Urbanizacion Quinta Grande,,,neighbourhood,,-67.5340851,10.219312,POINT
+2756820692,nodes,,Palo Negro,,,city,,-67.5534347,10.1630257,POINT
+3575812677,nodes,,Santa Rita,"151245",,city,,-67.5587748,10.2068719,POINT
+12060154142,nodes,,Barrio Santa Rosa,,,quarter,,-67.6102121,10.2460939,POINT
+9780304736,nodes,,Brisas del Lago,,,suburb,,-67.6182267,10.2245602,POINT
+5820617868,nodes,,Agua Blanca,,,village,,-68.1969667,9.9688718,POINT
+5818215140,nodes,,Guafalito,,,village,,-68.0633712,9.9687978,POINT
+5818220268,nodes,,Caño Muerto,,,village,,-68.2255483,9.9081913,POINT
+5818217800,nodes,,La Araguata,,,village,,-68.0704737,9.9208947,POINT
+5818218333,nodes,,Los Pegones,,,village,,-68.3347035,9.8757645,POINT
+5370281642,nodes,,Chirguita,,,village,,-68.2233683,9.966356,POINT
+5370280331,nodes,,La Arenosa,,,town,,-68.0881635,9.9950228,POINT
+5816400073,nodes,,El Escondido,,,village,,-68.1615186,10.0410565,POINT
+5784038912,nodes,Puerto Cabello,Rancho Grande,,,suburb,,-68.0070953,10.4581269,POINT
+7118160936,nodes,,Bárbula,,,suburb,,-68.0165795,10.2863478,POINT
+5370348145,nodes,,El Cambur,,,town,,-68.1051463,10.3956698,POINT
+9105613138,nodes,,Barrio Bartolomé Salóm,,,quarter,,-68.032482,10.4693811,POINT
+2671375604,nodes,,Ocumare de La Costa,,,town,,-67.7680815,10.4620171,POINT
+5820618101,nodes,,Las Piñas,,,village,,-68.2289064,9.8652104,POINT
+5818216947,nodes,,Riachón,,,village,,-68.0471385,9.9456556,POINT
+5370281630,nodes,,Agua Linda,,,village,,-68.161463,9.9525923,POINT
+5773594642,nodes,,El Zancudo,,,village,,-67.8835988,9.9581568,POINT
+5773597446,nodes,,El Tesoro,,,village,,-67.951684,9.952609,POINT
+5372687800,nodes,,Barrancones,,,village,,-67.9116588,9.954013,POINT
+5773377019,nodes,,Juaniquero,,,village,,-67.7387703,9.9333018,POINT
+5770477691,nodes,,El Guásimo,,,village,,-67.7490699,9.8563894,POINT
+9113616440,nodes,,Bicentenario,,,neighbourhood,,-67.5538695,10.2365988,POINT
+9113616444,nodes,,Sector 1 de Girardot,,,neighbourhood,,-67.5705099,10.2384359,POINT
+5774986051,nodes,,Parcelamiento La Constancia,,,suburb,,-67.7652812,10.4726201,POINT
+5774986052,nodes,,La Oficina,,,suburb,,-67.7749157,10.4481007,POINT
+5774984952,nodes,Mariara,Parcelamiento Las Vueltas,,,suburb,,-67.6747084,10.301577,POINT
+5774985971,nodes,Mariara,Parcelamiento La Guaricha,,,suburb,,-67.6680994,10.2942722,POINT
+5774985982,nodes,Mariara,Natalicio,,,suburb,,-67.6715112,10.2830403,POINT
+5774986002,nodes,San Joaquín,El Carmen,,,suburb,,-67.7943456,10.2595406,POINT
+5774986010,nodes,San Joaquín,Panamericano,,,suburb,,-67.8043986,10.2699921,POINT
+5774986161,nodes,,Cansamacho La Trilla,,,village,,-67.7517414,10.3944128,POINT
+5774986479,nodes,,La Cesiva,,,village,,-67.5876439,10.4657097,POINT
+5774986519,nodes,,La Chivera,,,village,,-67.5457585,10.5184359,POINT
+5412901365,nodes,,La Soledad,,,village,,-67.6049402,10.475542,POINT
+9113460576,nodes,,Las Delicias,,,suburb,,-67.562399,10.2947578,POINT
+2671356899,nodes,,El Castaño,,,quarter,,-67.5555646,10.3166398,POINT
+2671359500,nodes,,Barrio Ojo de Agua,,,quarter,,-67.5571525,10.308301,POINT
+12057700715,nodes,,Los Rauseos,,,quarter,,-67.6410078,10.3162347,POINT
+5773371960,nodes,Güigüe,5 de Julio,,,suburb,,-67.7738214,10.0786428,POINT
+12875846856,nodes,,Sector La Noria,,,quarter,,-68.0187504,10.47108,POINT
+12875846857,nodes,,Barrio La Alcantarilla,,,neighbourhood,,-68.0161147,10.4717529,POINT
+12875846858,nodes,,Barrio Paralelo 38,,,neighbourhood,,-68.0215967,10.4725544,POINT
+12875846859,nodes,,Barrio San Pedro,,,neighbourhood,,-68.0236135,10.4685872,POINT
+12875846860,nodes,,San Millán,,,quarter,,-68.0147942,10.4675743,POINT
+12875846861,nodes,,Barrio Playa Blanca,,,neighbourhood,,-68.0176162,10.4732287,POINT
+1692044165,nodes,,Guaiguaza,,,town,,-68.0566216,10.4361212,POINT
+5784038911,nodes,Puerto Cabello,El Polvorín,,,neighbourhood,,-68.0030612,10.4631558,POINT
+5784038907,nodes,Puerto Cabello,Bartolomé Salóm,,,suburb,,-68.029448,10.470459,POINT
+5784038906,nodes,,Urbanización Cumboto II,,,suburb,,-68.0358339,10.4655007,POINT
+5784038904,nodes,,Barrio Valle Verde,,,suburb,,-68.0210352,10.452532,POINT
+5784038898,nodes,Puerto Cabello,Valle Seco,,,suburb,,-68.0072808,10.4497255,POINT
+5784038899,nodes,Puerto Cabello,Colinas de Santa Cruz,,,suburb,,-68.0404866,10.4574698,POINT
+5784038905,nodes,Puerto Cabello,Urbanización San Esteban,,,suburb,,-68.0228162,10.4589469,POINT
+5784039254,nodes,,Santa Lucía,,,village,,-67.985394,10.4538192,POINT
+10910174750,nodes,,Valle de La Tinaja,,,hamlet,,-68.4264994,10.3765148,POINT
+5816397865,nodes,,Las Palmas,,,village,,-68.4195364,10.0928395,POINT
+5368785788,nodes,,La Guarura,,,village,,-68.4151167,10.17596,POINT
+6554124221,nodes,,Montaña Fresca,,,quarter,,-67.5585877,10.2455325,POINT
+5784037914,nodes,Naguanagua,Negra Matea,,,neighbourhood,,-68.0039335,10.292161,POINT
+7200871540,nodes,,La Ceiba,,,neighbourhood,,-68.0095615,10.2139899,POINT
+13243189169,nodes,,Carabobo,,,state,,-68.0350028,10.1686583,POINT
+5370348147,nodes,,La Pastora,,,town,,-68.1137991,10.4287034,POINT
+9105613137,nodes,,Urbanización La Belleza,,,quarter,,-68.0405107,10.471203,POINT
+9105613140,nodes,,Urbanización Las Llaves,,,neighbourhood,,-68.0295063,10.4653066,POINT
+5784038901,nodes,,Barrio Los Cocos,,,neighbourhood,,-68.0423073,10.4622926,POINT
+5784038902,nodes,,Urbanización Santa Cruz,,,quarter,,-68.0460483,10.4602266,POINT
+5370462785,nodes,,Alpargatón,,,town,,-68.2587463,10.4655616,POINT
+5784038885,nodes,,Cariaprima,,,village,,-68.0498421,10.4267343,POINT
+5784038895,nodes,Puerto Cabello,San José,,,suburb,,-68.0540586,10.4591157,POINT
+5784038896,nodes,Puerto Cabello,El Milagro,,,suburb,,-68.0504751,10.4716073,POINT
+5784038900,nodes,Puerto Cabello,La Corina,,,suburb,,-68.0293179,10.4605083,POINT
+5784038903,nodes,Puerto Cabello,Las Populares,,,suburb,,-68.045497,10.4530596,POINT
+5370348144,nodes,,El Mamón,,,village,,-68.0980975,10.3714504,POINT
+7118061777,nodes,,Urbanización Carabobo,,,neighbourhood,,-68.011097,10.2175919,POINT
+7118030720,nodes,,El Viñedo,,,neighbourhood,,-68.0131012,10.2126045,POINT
+7118030719,nodes,,Guaparo,,,neighbourhood,,-68.0162581,10.2278629,POINT
+7118061776,nodes,,Prebo II,,,neighbourhood,,-68.0232639,10.2099318,POINT
+8375612387,nodes,,Prebo,,,suburb,,-68.0215219,10.2098796,POINT
+7118061775,nodes,,Prebo I,,,neighbourhood,,-68.0154809,10.2078486,POINT
+7117991659,nodes,,Sabana Larga,,,neighbourhood,,-68.0218935,10.2058497,POINT
+7117991658,nodes,,Urbanización El Parral,,,neighbourhood,,-68.0330153,10.2049625,POINT
+7118141765,nodes,,Mañongo,,,quarter,,-68.0008859,10.2375611,POINT
+7118093158,nodes,,El Naranjal,,,neighbourhood,,-68.0272441,10.2677904,POINT
+5816400385,nodes,,La Emilia,,,village,,-68.1774509,10.2520659,POINT
+5816400396,nodes,,Perico,,,village,,-68.2016873,10.2513269,POINT
+5816400587,nodes,,Valle Hondo,,,village,,-68.2585931,10.2805489,POINT
+5370348139,nodes,,La Entrada,,,town,,-68.053825,10.300103,POINT
+5784038572,nodes,,El Salto,,,town,,-68.0758274,10.3037515,POINT
+5784037912,nodes,Naguanagua,Malagón,,,neighbourhood,,-68.0181813,10.2951167,POINT
+5784037910,nodes,Naguanagua,Lorenzo Fernández,,,neighbourhood,,-68.0141258,10.2957289,POINT
+5784037913,nodes,Naguanagua,Bella Vista,,,neighbourhood,,-68.0082894,10.29461,POINT
+5784037903,nodes,Naguanagua,González Plaza,,,neighbourhood,,-68.0009508,10.2845815,POINT
+5816399723,nodes,,Las Marías,,,village,,-68.1127668,10.2827447,POINT
+5816400368,nodes,,La Guadalupe,,,village,,-68.1738353,10.2901447,POINT
+5370348140,nodes,,Las Trincheras,,,town,,-68.0864943,10.3056553,POINT
+5816400733,nodes,,Canoabito,,,village,,-68.260814,10.3155949,POINT
+5816400735,nodes,,Los Rastrojos,,,village,,-68.2625413,10.3298338,POINT
+5370198002,nodes,,La Sabana,,,village,,-68.3044571,10.3357738,POINT
+3247435822,nodes,,Canoabo,,,town,,-68.2819486,10.3028189,POINT
+9780304742,nodes,,Aguacatal,,,neighbourhood,,-67.6020443,10.2183416,POINT
+9780304744,nodes,,Antiguo La Tablantera,,,neighbourhood,,-67.6035721,10.2137628,POINT
+3869312673,nodes,,Urbanización Safari Country Club,,,suburb,,-68.1178381,10.0653971,POINT
+9107435730,nodes,,La Arenera,,,suburb,,-68.0922961,10.0597551,POINT
+5372748585,nodes,,El Trompillo,,,village,,-67.7710925,10.0566558,POINT
+5816397592,nodes,,El Amparo,,,village,,-68.2491946,10.0468986,POINT
+5773600939,nodes,,Las Rosas,,,village,,-67.9391957,10.0489164,POINT
+5372748595,nodes,,Guacamaya,,,town,,-67.6589303,10.049148,POINT
+5773371556,nodes,,Sabanita,,,village,,-67.8732348,10.0533956,POINT
+5372687777,nodes,,Jabillal,,,village,,-67.8828305,9.9992909,POINT
+2351588746,nodes,,Buena Vista,,,village,,-67.9145771,9.9941911,POINT
+5773376460,nodes,,El Barbasco,,,village,,-67.7461651,9.9597736,POINT
+5372748615,nodes,,Casupito,,,village,,-67.6049182,9.9600631,POINT
+5372687781,nodes,,Las Piedras,,,village,,-67.7711647,9.9402012,POINT
+5773594641,nodes,,Naranjal,,,village,,-67.8781486,9.9642646,POINT
+5372687798,nodes,,Lagunita,,,village,,-67.8802985,9.9238207,POINT
+5773595586,nodes,,Pacaragua,,,village,,-67.8398681,9.926665,POINT
+5818219654,nodes,,Serrano,,,village,,-68.2202804,9.8141629,POINT
+5818214388,nodes,,Garrido,,,village,,-68.1727409,9.8648351,POINT
+5818220002,nodes,,El Rincón,,,village,,-68.182236,9.8455651,POINT
+5818220004,nodes,,Rondón,,,village,,-68.1507683,9.8780688,POINT
+5818220145,nodes,,Los Colorados,,,village,,-68.190229,9.9102839,POINT
+5818220269,nodes,,Aguirre,,,town,,-68.2470918,9.9088254,POINT
+5818220309,nodes,,El Bajío,,,village,,-68.2534111,9.9297404,POINT
+2335470971,nodes,,Cachinche,,,village,,-68.164185,9.9385296,POINT
+5818220574,nodes,,Quintana,,,village,,-68.1619048,9.9748314,POINT
+5370281641,nodes,,El Naipe,,,village,,-68.192405,9.9886092,POINT
+5820617871,nodes,El Naipe,El Morro,,,suburb,,-68.1962264,9.9926463,POINT
+9737553799,nodes,,Zona Industrial I,,,neighbourhood,,-68.2947614,9.9201757,POINT
+9737553800,nodes,,Casco Central,,,suburb,,-68.3071879,9.9153621,POINT
+5818218331,nodes,Tinaquillo,San Isidro,,,suburb,,-68.2980538,9.9302371,POINT
+3794321039,nodes,,Urb. Villa Clara,,,neighbourhood,,-68.3218444,9.9056614,POINT
+3794320674,nodes,Tinaquillo,Urbanización Apamates II,,,quarter,,-68.3123551,9.9028752,POINT
+5818218332,nodes,Tinaquillo,Los Apamates,,,suburb,,-68.3264315,9.8918092,POINT
+3794320742,nodes,Tinaquillo,Barrio Las Grajitas,,,suburb,,-68.3149837,9.8965338,POINT
+5818218330,nodes,Tinaquillo,Punta de Mata,,,suburb,,-68.2983756,9.9394523,POINT
+5818220468,nodes,,Marta,,,village,,-68.2857371,9.9630177,POINT
+7118106784,nodes,,Michelena,,,neighbourhood,,-67.9931494,10.1761311,POINT
+7118139585,nodes,,San Blas,,,suburb,,-67.9931525,10.1836742,POINT
+7118146868,nodes,,Santa Inés,,,neighbourhood,,-67.9723435,10.1382899,POINT
+9108013095,nodes,,Urbanización Industrial Aeropuerto,,,neighbourhood,,-67.9562008,10.1475502,POINT
+7118106782,nodes,,Parque Valencia,,,neighbourhood,,-67.9643893,10.1541369,POINT
+9108013093,nodes,,Urbanización Los Bucares,,,quarter,,-67.9264498,10.1370313,POINT
+2333624261,nodes,,La Glorieta,,,village,,-67.8998749,10.1385611,POINT
+7118139586,nodes,,Flor Amarillo,,,suburb,,-67.9361145,10.1407681,POINT
+5372671847,nodes,,El Roble,,,suburb,,-67.911858,10.1580231,POINT
+5372748586,nodes,,Pedernales,,,town,,-67.7692793,10.0399749,POINT
+5773371263,nodes,,Las Minas,,,village,,-67.877934,10.0036348,POINT
+5773372473,nodes,,La Sapera,,,village,,-67.7696908,10.0143694,POINT
+5370250277,nodes,,La Mona,,,village,,-68.1947821,10.1416905,POINT
+5816400451,nodes,,Reyes Arriba,,,village,,-68.2617474,10.1494934,POINT
+5816400448,nodes,,Alto de Reyes,,,town,,-68.2842887,10.1557771,POINT
+5816400452,nodes,,Paso Real,,,village,,-68.3323538,10.1555659,POINT
+3845327357,nodes,,Miranda,,,town,,-68.3948126,10.1490678,POINT
+5816397608,nodes,,San Roque,,,suburb,,-68.3959544,10.1299868,POINT
+5816400439,nodes,,El Caracaro,,,village,,-68.1875682,10.1830966,POINT
+5816400443,nodes,,Banco Largo,,,village,,-68.2489908,10.1621452,POINT
+5412943666,nodes,,Los Tanques,,,suburb,,-67.5240086,10.0393361,POINT
+5773378447,nodes,,Sabaneta,,,village,,-67.5207818,9.9498614,POINT
+5773378449,nodes,,Santa Rosa del Sur,,,village,,-67.5327659,9.9052743,POINT
+5773591192,nodes,,La Pavona,,,village,,-67.5735355,10.0505855,POINT
+5773594589,nodes,,La Florida,,,village,,-67.7202845,10.0930931,POINT
+5773594579,nodes,,Agua Clara,,,village,,-67.6526499,10.0660723,POINT
+5773594581,nodes,,Asentamiento Arenales,,,village,,-67.6017523,10.1057259,POINT
+5412943665,nodes,,La Huérfana,,,village,,-67.5946646,10.123603,POINT
+9108005403,nodes,,Zona Industrial Castillete,,,suburb,,-67.9593122,10.2045851,POINT
+5251331789,nodes,,Los Magallanes,"3000",,neighbourhood,,-67.9686085,10.2116723,POINT
+12258977446,nodes,,Barrio Bello Monte 1,,,quarter,,-67.9798962,10.1689262,POINT
+5774986025,nodes,Yagua,Negro Primero,,,suburb,,-67.8838992,10.2362926,POINT
+5773371793,nodes,,Cogollal,,,village,,-67.8462625,10.0602992,POINT
+5773372387,nodes,,Agua Blanca,,,village,,-67.8539229,10.0324146,POINT
+2334720073,nodes,,El Vigia,,,neighbourhood,,-68.0983525,10.1242269,POINT
+2334681140,nodes,,Bajos de Guataparo,,,neighbourhood,,-68.0735043,10.1066867,POINT
+2334658545,nodes,,La Esperanza,,,quarter,,-68.0916924,10.0851735,POINT
+5370280363,nodes,,Los Molinos,,,neighbourhood,,-68.0973582,10.0718602,POINT
+5816400061,nodes,,Las Vegas del Torito,,,village,,-68.1295896,10.1247376,POINT
+5370250309,nodes,,El Rosario,,,quarter,,-68.1115853,10.098355,POINT
+5370280364,nodes,,La Yaguara,,,quarter,,-68.1109408,10.0588246,POINT
+5370280365,nodes,,Santa Isabel,,,quarter,,-68.1370764,10.0335759,POINT
+8375545916,nodes,,El Palotal,,,neighbourhood,,-68.0047165,10.162265,POINT
+8375551017,nodes,,Fundación Mendoza,,,neighbourhood,,-68.0046459,10.1576665,POINT
+12258821731,nodes,,Araguaney,,,neighbourhood,,-68.0190934,10.1582169,POINT
+5818220270,nodes,,Caño de Indio,,,town,,-68.2629705,9.8992077,POINT
+11372323660,nodes,,Altos de Caño Claro,,,neighbourhood,,-68.3186295,9.9070933,POINT
+11372323661,nodes,,Sol de Villa Clara,,,neighbourhood,,-68.3200467,9.9059425,POINT
+8375545913,nodes,,Centro de Valencia,,,suburb,,-68.0033919,10.1826858,POINT
+8375545914,nodes,,Candelaria,,,quarter,,-68.0055554,10.1769113,POINT
+5372748598,nodes,,Cocotero,,,village,,-67.6462671,9.9568612,POINT
+5816396598,nodes,,Palma Bonita,,,village,,-68.2029855,10.0314109,POINT
+5816400075,nodes,,Pueblo Nuevo,,,quarter,,-68.1592441,10.0236668,POINT
+5818220551,nodes,,Gualembe,,,village,,-68.1754446,10.0010991,POINT
+5370280367,nodes,,Campo Carabobo,,,town,,-68.1585555,10.009107,POINT
+5816396597,nodes,,Santo Domingo,,,village,,-68.2401502,10.0060966,POINT
+5816400085,nodes,,Aguita de Dios,,,village,,-68.1952983,10.1171753,POINT
+427733456,nodes,,El Copey,,,village,,-67.746204,10.0848703,POINT
+5773370880,nodes,,El Portachuelo,,,town,,-67.8637934,10.0926494,POINT
+5372717327,nodes,Güigüe,La Aduana,,,suburb,,-67.7578937,10.0839224,POINT
+427733472,nodes,,Güigüe,"162920",,town,,-67.7762937,10.0842357,POINT
+5773371959,nodes,Güigüe,La Bolivariana,,,suburb,,-67.7699161,10.0764773,POINT
+5773371927,nodes,,El Hatico,,,village,,-67.8248692,10.0719456,POINT
+5784037904,nodes,Naguanagua,Las Palmeras,,,neighbourhood,,-68.0229235,10.2909998,POINT
+5784037909,nodes,Naguanagua,Arturo Ramírez,,,neighbourhood,,-68.0115509,10.2919709,POINT
+7118058565,nodes,,Los Colorados,,,neighbourhood,,-68.0092641,10.1924616,POINT
+5370198000,nodes,,Las Rosas,,,village,,-68.2655329,10.2675617,POINT
+5370250279,nodes,,Casupito,,,town,,-68.1873953,10.1690798,POINT
+8425830071,nodes,,Sansur,,,neighbourhood,,-67.9626279,10.2412241,POINT
+9229968241,nodes,,Asentamiento Campesino Maco Maco,,,suburb,,-67.9499889,10.246956,POINT
+12295726327,nodes,,Fundación Mendoza,,,quarter,,-67.5895863,10.233397,POINT
+7639645405,nodes,,Urbanizacion La Gaviota,,,neighbourhood,,-67.9628769,10.2239975,POINT
+7637085141,nodes,,Conjunto Residencial Los Andes I,,,neighbourhood,,-67.9627448,10.222931,POINT
+7637085142,nodes,,Conjunto Residencial Los Andes II,,,neighbourhood,,-67.9606522,10.2237797,POINT
+10729799137,nodes,,Caño Rico,,,quarter,,-67.5965381,10.1376227,POINT
+8375585753,nodes,,Los Parques,,,neighbourhood,,-68.0345767,10.1399109,POINT
+5154800582,nodes,,Urbanización Las Acacias,,,neighbourhood,,-68.0388341,10.1459219,POINT
+7118058558,nodes,,Los Mangos,,,neighbourhood,,-68.0231499,10.1976781,POINT
+7118079202,nodes,,Agua Blanca,,,neighbourhood,,-68.0148146,10.1988312,POINT
+8425855819,nodes,,Campo Alegre,,,neighbourhood,,-68.0159801,10.1962595,POINT
+7118003856,nodes,,Terrazas de Los Nísperos,,,neighbourhood,,-68.016088,10.1929577,POINT
+7118058561,nodes,,Terrazas del Country,,,neighbourhood,,-68.0541506,10.1747342,POINT
+5370250310,nodes,,El Vigía,,,quarter,,-68.0878814,10.1348697,POINT
+9108991052,nodes,,Nueva Valencia,,,suburb,,-68.0731559,10.1289729,POINT
+5412901361,nodes,,La Esmeralda,,,village,,-67.5997796,10.4179757,POINT
+5412901362,nodes,,Uraca,,,village,,-67.598063,10.4275568,POINT
+5412901363,nodes,,Parapara,,,village,,-67.5984492,10.4456629,POINT
+5412901364,nodes,,El Placer,,,village,,-67.6002302,10.4568678,POINT
+5774986521,nodes,,Paraguata,,,village,,-67.5284099,10.4834338,POINT
+1192326636,nodes,,Chuao,,,village,,-67.5276819,10.4926152,POINT
+5816400398,nodes,,El León,,,village,,-68.1931794,10.2126944,POINT
+7118061774,nodes,,Hato Royal,,,neighbourhood,,-68.0642191,10.2113082,POINT
+5816400399,nodes,,Los Merecures,,,village,,-68.1802511,10.1963067,POINT
+5816400573,nodes,,Aguirre Abajo,,,quarter,,-68.2793856,10.2086081,POINT
+5370197996,nodes,,Las Matas,,,village,,-68.334353,10.1645559,POINT
+5370197995,nodes,,Sabaneta,,,town,,-68.3186138,10.1634998,POINT
+3260410243,nodes,,Bejuma,"50000",,town,,-68.2578551,10.1740211,POINT
+5370250280,nodes,,La Paredeña,,,town,,-68.1754648,10.1894183,POINT
+5816400397,nodes,,Potrerito,,,village,,-68.195014,10.2246151,POINT
+5816400440,nodes,Bejuma,Carrizal,,,suburb,,-68.2369423,10.1768029,POINT
+5816400569,nodes,,Potrerito,,,village,,-68.3062935,10.1826953,POINT
+9108013097,nodes,,Zona Industrial Oeste,,,quarter,,-67.9782915,10.1795273,POINT
+1674688172,nodes,,Trigal Norte,,,neighbourhood,,-67.9972643,10.2275573,POINT
+7117991660,nodes,,Piedras Pintadas,,,neighbourhood,,-67.9921317,10.2306626,POINT
+7118093163,nodes,,Palma Real,,,neighbourhood,,-67.9969057,10.2444262,POINT
+1787214913,nodes,,Urbanización Araguaney,,,neighbourhood,,-67.9341206,10.1938446,POINT
+1674688156,nodes,,La Trigaleña,,,neighbourhood,,-67.9946634,10.2082193,POINT
+1674688148,nodes,,Parque El Trigal,,,neighbourhood,,-67.9952206,10.2169473,POINT
+1674688153,nodes,,Trigal Sur,,,neighbourhood,,-67.9923001,10.2129853,POINT
+5773619977,nodes,,Parcelamiento San Luis,,,suburb,,-67.5276804,10.1872994,POINT
+10878419158,nodes,,Conjunto Residencial Parque Coropo,,,neighbourhood,,-67.5448351,10.2064222,POINT
+10873535096,nodes,,Barrio La Candelaria,,,neighbourhood,,-67.5542667,10.2097226,POINT
+7638114410,nodes,,Las Agüitas,,,neighbourhood,,-67.9266179,10.1704811,POINT
+7638114413,nodes,,sector 2,,,neighbourhood,,-67.9236175,10.1711318,POINT
+1676453476,nodes,,Ciudad Alianza,,,suburb,,-67.8984018,10.2047125,POINT
+5774985995,nodes,Guaraca,Las Tunitas,,,quarter,,-67.8733421,10.20109,POINT
+5801215012,nodes,Morón,Las Rosas,,,suburb,,-68.2234669,10.4761438,POINT
+5410072772,nodes,,Cata,,,village,,-67.7337589,10.4623462,POINT
+2671375603,nodes,,Independencia,,,town,,-67.7733332,10.4809651,POINT
+5410072770,nodes,,La Boca,,,village,,-67.7611437,10.4887734,POINT
+5410072771,nodes,,Urbanización Cata,,,village,,-67.7397994,10.4887457,POINT
+5784038909,nodes,,Casco Histórico,,,suburb,,-68.008343,10.4791295,POINT
+5784038910,nodes,,Centro,,,suburb,,-68.0136383,10.4700229,POINT
+5784038892,nodes,Puerto Cabello,Portuario,,,suburb,,-68.069787,10.473443,POINT
+5784038894,nodes,Puerto Cabello,La Libertad,,,suburb,,-68.0660534,10.4684,POINT
+5784038908,nodes,,Urbanización Cumboto Norte,,,suburb,,-68.0345834,10.4758856,POINT
+9105613139,nodes,,Urbanización Cumboto Sur,,,neighbourhood,,-68.0356485,10.4713797,POINT
+5801215010,nodes,,Río Abajo,,,village,,-68.2859087,10.4826003,POINT
+5774985985,nodes,La Cabrera,El Campito,,,suburb,,-67.670846,10.2577247,POINT
+5774985974,nodes,Mariara,El Bosque,,,suburb,,-67.6659322,10.2851093,POINT
+3437635570,nodes,,Sector 5,,,neighbourhood,,-67.6257495,10.2804949,POINT
+5372671839,nodes,,El Frío,,,town,,-67.9123515,10.0742979,POINT
+5372671841,nodes,,Chaguaramos,,,town,,-67.8940267,10.0845653,POINT
+5372671843,nodes,,Verdún,,,town,,-67.8820104,10.0886426,POINT
+5372671835,nodes,,La Unión,,,village,,-67.9223518,10.1046471,POINT
+5372671837,nodes,,Pirital,,,village,,-67.8944998,10.1055554,POINT
+5372671836,nodes,,Cascabel,,,village,,-67.9196052,10.1166669,POINT
+5773594595,nodes,,Agua Dulce,,,village,,-67.9252053,10.1133941,POINT
+2351588747,nodes,,Pomarrosa,,,village,,-67.9258425,10.0183125,POINT
+9780304743,nodes,,Las Vegas,,,neighbourhood,,-67.6017356,10.2169298,POINT
+9780304739,nodes,,Urbanización La Punta,,,neighbourhood,,-67.5945871,10.2062788,POINT
+9780304735,nodes,,Barrio El Indio,,,neighbourhood,,-67.6137559,10.2218726,POINT
+12293945964,nodes,,Urbanización San Miguel,,,quarter,,-67.6062878,10.2370887,POINT
+12295726328,nodes,,Urbanización Madre María de San José,,,quarter,,-67.5964407,10.2235869,POINT
+7118058554,nodes,,El Recreo,,,neighbourhood,,-68.0089795,10.2261127,POINT
+7118058553,nodes,,Las Clavellinas,,,neighbourhood,,-68.0018521,10.2251839,POINT
+8425830107,nodes,,Majay,,,neighbourhood,,-68.0087913,10.2210998,POINT
+5370462786,nodes,,El Guarataro,,,village,,-68.2388819,10.4704411,POINT
+5370462787,nodes,Urama,La Jodera,,,suburb,,-68.3303881,10.452959,POINT
+5801215011,nodes,,Sanguijuela,,,town,,-68.2936549,10.4628717,POINT
+3243049301,nodes,,Urama,,,town,,-68.3201946,10.4564702,POINT
+5370198004,nodes,,Agua Clara,,,village,,-68.3234901,10.397112,POINT
+9108013098,nodes,,Zona Industrial Michelena,,,suburb,,-67.9793215,10.1727478,POINT
+8375585754,nodes,,Ricardo Urriera,,,neighbourhood,,-68.0204887,10.1433312,POINT
+8375551018,nodes,,Los Caobos,,,neighbourhood,,-68.0255685,10.1546876,POINT
+4162821095,nodes,,Barrio Ruiz Pineda II,,,quarter,,-68.014066,10.1374749,POINT
+5773594381,nodes,,Pedregal,,,suburb,,-67.550447,10.0278929,POINT
+5372748594,nodes,,Cocorote,,,village,,-67.6524287,10.0086843,POINT
+2339354950,nodes,,Las Vegas de Caicara,,,village,,-67.7468377,10.0345696,POINT
+5372687779,nodes,,Santa Rosa,,,village,,-67.7673238,9.9635551,POINT
+5372687780,nodes,,Peñas Negras,,,village,,-67.7531295,9.9511704,POINT
+5773371264,nodes,,Guayabillo,,,village,,-67.8583968,10.0243853,POINT
+5773372396,nodes,,El Piñal,,,town,,-67.7883375,10.0466767,POINT
+5773376994,nodes,,El Jobal,,,village,,-67.783885,9.9514994,POINT
+5818210952,nodes,,La Raya,,,village,,-68.0240178,9.8367383,POINT
+5818218324,nodes,,Santa Bárbara,,,village,,-68.050164,9.8644546,POINT
+5818217801,nodes,,Dominguera,,,village,,-68.0745828,9.9020296,POINT
+5818213442,nodes,,Los Pilones,,,village,,-68.0362058,9.9385435,POINT
+5820617878,nodes,,El Piñal,,,village,,-68.0943775,9.9856409,POINT
+2351513006,nodes,,El Arbolito,,,village,,-67.965384,9.988734,POINT
+5773598141,nodes,,Los Caracaros,,,village,,-67.9525853,9.9757613,POINT
+5773597445,nodes,,Río Abajo,,,village,,-67.9450965,9.9581779,POINT
+5784038886,nodes,,Guillermina,,,suburb,,-68.0175805,10.4443392,POINT
+1691988583,nodes,,San Esteban,,,town,,-68.013225,10.4247826,POINT
+5784038887,nodes,Puerto Cabello,Morrillo,,,suburb,,-68.0914378,10.4762757,POINT
+5784038888,nodes,Puerto Cabello,Santa Lucía,,,suburb,,-68.0990338,10.4754897,POINT
+5784038890,nodes,Puerto Cabello,Chupulún,,,suburb,,-68.096931,10.4720715,POINT
+5370348149,nodes,,Taborda,,,town,,-68.1117875,10.4636219,POINT
+5370348148,nodes,,Las Tablas,,,town,,-68.1117928,10.4431798,POINT
+5370348150,nodes,Taborda,Las Barreras,,,suburb,,-68.1139654,10.4543797,POINT
+5774985990,nodes,,Punta Palmita,,,village,,-67.6884413,10.2470405,POINT
+5774985988,nodes,,Papayal,,,village,,-67.7005649,10.2481068,POINT
+4190696850,nodes,,Urbanizacion Villas de Angel,,,neighbourhood,,-67.5501574,10.2104428,POINT
+10878950402,nodes,,Caridad de Cobre I,,,neighbourhood,,-67.5408719,10.2093865,POINT
+4190294205,nodes,,Urbanizacion Roraima,,,neighbourhood,,-67.5313981,10.2186761,POINT
+4190356506,nodes,,Urb. El Remanso,,,neighbourhood,,-67.5452858,10.2140429,POINT
+10873535074,nodes,,Urb. La Rosaleda,,,neighbourhood,,-67.5372151,10.2147981,POINT
+10873535075,nodes,,Urb La Esperanza,,,neighbourhood,,-67.5348668,10.2143427,POINT
+5372786654,nodes,,Aguas Calientes,,,suburb,,-67.69031,10.2998165,POINT
+5816400572,nodes,,Montero,,,village,,-68.3014333,10.2269697,POINT
+5370197998,nodes,,Mocundo,,,village,,-68.271069,10.2498254,POINT
+5818218334,nodes,,Los Monos,,,village,,-68.3505714,9.8546876,POINT
+3794312103,nodes,,Los Leoncitos,,,village,,-68.3897047,9.8561782,POINT
+5270567435,nodes,,Carache,,,town,,-68.3966419,9.9309354,POINT
+5820707049,nodes,,Las Mesas,,,village,,-68.3968663,9.8764304,POINT
+8375551019,nodes,,El Socorro,,,neighbourhood,,-68.0510797,10.1279898,POINT
+8375585752,nodes,,José Rafael Pocaterra,,,suburb,,-68.0850193,10.1053237,POINT
+4162821097,nodes,,Barrio Negro Primero,,,neighbourhood,,-68.0245367,10.1311332,POINT
+4162870089,nodes,,Barrio Freddy Franco,,,neighbourhood,,-68.0103113,10.1244508,POINT
+4162870389,nodes,,Barrio Las Lomas,,,neighbourhood,,-68.0061893,10.1252531,POINT
+8375551020,nodes,,Trapichito,,,suburb,,-68.0243168,10.1227715,POINT
+9108986203,nodes,,Zona Industrial El Nepe,,,suburb,,-67.9048687,10.2139087,POINT
+10878204488,nodes,,Urb. Villas Apamates,,,neighbourhood,,-67.5723539,10.1930119,POINT
+10878204489,nodes,,Barrio Camburito,,,neighbourhood,,-67.5672543,10.192806,POINT
+10878204490,nodes,,Barrio Rafael Urdaneta,,,neighbourhood,,-67.5712352,10.1970502,POINT
+10878439807,nodes,,Urb. La Guadalupe,,,neighbourhood,,-67.5576598,10.2119375,POINT
+10873535097,nodes,,Morean Soto,,,neighbourhood,,-67.5564778,10.2117804,POINT
+5411239101,nodes,,La Pica,,,suburb,,-67.5652392,10.1637407,POINT
+9681212246,nodes,,Casco Central,,,neighbourhood,,-68.0943541,10.0905899,POINT
+6088978096,nodes,,Adaca,,,neighbourhood,,-68.0484831,10.1161126,POINT
+7118061772,nodes,,Colinas de Guataparo,,,neighbourhood,,-68.0508442,10.1884376,POINT
+3247434254,nodes,,Montalbán,,,town,,-68.3248544,10.2117994,POINT
+5816400083,nodes,,Barrera Arriba,,,village,,-68.1772041,10.107944,POINT
+5370197997,nodes,,Sabana de Aguirre,,,town,,-68.2881654,10.167724,POINT
+9108005405,nodes,,Lomas de La Hacienda,,,neighbourhood,,-67.984246,10.2675007,POINT
+5784037906,nodes,Naguanagua,La Coromoto,,,neighbourhood,,-68.0334807,10.2966579,POINT
+5784037907,nodes,Naguanagua,Colinas de Girardot,,,neighbourhood,,-68.0280519,10.2933432,POINT
+5784037915,nodes,Naguanagua,Brisas de Carabobo,,,neighbourhood,,-68.0118084,10.2875373,POINT
+5370374043,nodes,,Miquija,,,village,,-68.0687481,10.4200276,POINT
+5774986518,nodes,,Playa Chuao,,,village,,-67.5405336,10.5186574,POINT
+3631538570,nodes,,Puerto Colombia,,,town,,-67.6084946,10.5041612,POINT
+7200871539,nodes,,Urbanización Prebo III,,,neighbourhood,,-68.0321363,10.2139975,POINT
+7118030721,nodes,,La Viña,,,neighbourhood,,-68.0192345,10.2157708,POINT
+5784037911,nodes,Naguanagua,Santa Eduvigis,,,neighbourhood,,-68.0174303,10.2901764,POINT
+7118003855,nodes,,El Bosque,,,neighbourhood,,-68.0232811,10.1924474,POINT
+5784039263,nodes,,Los Caneyes,,,suburb,,-67.9224372,10.4410315,POINT
+5784039264,nodes,,Flamenco,,,suburb,,-67.9236496,10.4516458,POINT
+1692006623,nodes,,Gañango,,,town,,-67.9570279,10.4666278,POINT
+5784039255,nodes,,Puerto Borburata,,,village,,-67.9811937,10.4864668,POINT
+7118093157,nodes,,La Campiña,,,quarter,,-68.0177187,10.26833,POINT
+7118093166,nodes,,Manantial,,,neighbourhood,,-68.0021303,10.2662408,POINT
+8425855817,nodes,,Los Guayabitos,,,neighbourhood,,-68.0081102,10.2595612,POINT
+8425830076,nodes,,Parque Naguanagua,,,neighbourhood,,-68.0100729,10.2549724,POINT
+2173323118,nodes,,Naguanagua,,,city,,-68.0120991,10.258136,POINT
+8425830116,nodes,,La Begoña,,,neighbourhood,,-68.0221925,10.2604985,POINT
+3794320711,nodes,,Urbanización Matías Salazar II,,,neighbourhood,,-68.3246289,9.9027162,POINT
+3794321036,nodes,,Urbanización Villas de Santa María,,,neighbourhood,,-68.3218072,9.9032446,POINT
+5770477692,nodes,,Santa Bárbara,,,village,,-67.7288542,9.8443944,POINT
+5820617877,nodes,,El Tigre,,,village,,-68.0539298,9.9759303,POINT
+5818215138,nodes,,Candelero,,,village,,-68.0229449,9.9206622,POINT
+3803976502,nodes,Tinaquillo,Urbanización Caja de Agua,,,suburb,,-68.2814298,9.9097679,POINT
+5773595587,nodes,,El Escondido,,,village,,-67.8352225,9.9072295,POINT
+5773595589,nodes,,La Gilera,,,village,,-67.8415203,9.8661458,POINT
+5773595590,nodes,,El Algarrobo,,,village,,-67.8357267,9.8563154,POINT
+5773595866,nodes,,Aguacatico,,,village,,-67.887075,9.8719805,POINT
+5773596513,nodes,,Potrerito,,,village,,-67.9046273,9.8956353,POINT
+5773600427,nodes,,Flores,,,village,,-67.9744506,9.9630494,POINT
+5773375453,nodes,,El Carmen,,,village,,-67.8276158,9.9653213,POINT
+5770475249,nodes,,Campo Alegre,,,village,,-67.8334093,9.8275202,POINT
+5820708162,nodes,Monagas,Agua de Polo,,,suburb,,-68.413775,9.8194435,POINT
+5774985972,nodes,,Tequendama,,,suburb,,-67.6896,10.3047648,POINT
+5774985955,nodes,Mariara,La Haciendita,,,suburb,,-67.716229,10.2930054,POINT
+5774985959,nodes,Mariara,El Guamacho,,,suburb,,-67.7232456,10.292161,POINT
+5774986024,nodes,Yagua,El Perrote,,,suburb,,-67.8980184,10.2522032,POINT
+5784037899,nodes,,Quebrada Honda,,,town,,-67.9192186,10.2788387,POINT
+2506109238,nodes,,Sector El Sisal,,,neighbourhood,,-67.8811447,10.2782033,POINT
+2506109241,nodes,,Sector El Dorado,,,neighbourhood,,-67.8809219,10.2798325,POINT
+2506109245,nodes,,Sector Villas del Toco,,,neighbourhood,,-67.8803952,10.2814762,POINT
+1676449967,nodes,,Yagua,,,city,,-67.9039675,10.2598654,POINT
+5372786651,nodes,,San Joaquín,"72463",,city,,-67.8015459,10.256756,POINT
+5774984948,nodes,San Joaquín,La Camachera,,,suburb,,-67.8080678,10.2567112,POINT
+5774984949,nodes,Mariara,Parcelamiento Agua Blanca,,,suburb,,-67.752471,10.2637002,POINT
+5774986009,nodes,San Joaquín,Palo Negro,,,suburb,,-67.8003216,10.2640907,POINT
+5774984947,nodes,San Joaquín,Los Palomares,,,suburb,,-67.8254271,10.2610608,POINT
+1430181813,nodes,,San Jacinto,,,quarter,,-67.5604973,10.2414968,POINT
+5372748593,nodes,,Belén,,,town,,-67.6868925,9.988828,POINT
+9014234991,nodes,,,,,isolated_dwelling,,-67.6791586,9.8613312,POINT
+5773595588,nodes,,Las Tunas,,,village,,-67.8405762,9.885848,POINT
+5773595864,nodes,,Quebrada Honda,,,village,,-67.8466487,9.8744962,POINT
+5773596615,nodes,,Los Mangos,,,village,,-67.9326618,9.915695,POINT
+5773372405,nodes,,Los Guaches,,,village,,-67.7469242,10.0189865,POINT
+5773372472,nodes,,Copetón,,,village,,-67.8266823,10.0018598,POINT
+5773377016,nodes,,Monte Esperanza,,,village,,-67.8000641,9.9698439,POINT
+5773377017,nodes,,El Cocuy,,,village,,-67.7813316,9.9565083,POINT
+5773378448,nodes,,Las Trincheras,,,village,,-67.5222087,9.9313996,POINT
+1618952248,nodes,,Manuare,,,town,,-67.8070053,9.9638513,POINT
+5770481486,nodes,,El Chïgüire,,,village,,-67.5669694,9.8468336,POINT
+1618952245,nodes,,Los Naranjos,,,town,,-67.9005194,9.9564757,POINT
+5820613754,nodes,,Higuerotal,,,village,,-68.048898,9.8220759,POINT
+5773596520,nodes,,El Cumbito,,,village,,-67.9729378,9.8787769,POINT
+5773596614,nodes,,Jengibre,,,village,,-67.9805017,9.8991442,POINT
+8425830074,nodes,,Pueblo de San Diego,,,suburb,,-67.9544219,10.2561229,POINT
+8425830075,nodes,,Las Morochas,,,neighbourhood,,-67.9443765,10.2550676,POINT
+5413131356,nodes,,La Cumaca,,,town,,-67.9426773,10.2856952,POINT
+5784037902,nodes,,Cumaquita,,,quarter,,-67.9373932,10.296869,POINT
+5412901360,nodes,,Tremaria,,,village,,-67.6012816,10.4051865,POINT
+5410072782,nodes,,Cumboto,,,town,,-67.7918049,10.4037868,POINT
+5410072775,nodes,,Aponte,,,village,,-67.7640077,10.4097663,POINT
+5774986156,nodes,,Las Palmitas,,,neighbourhood,,-67.7886915,10.4086376,POINT
+5784039262,nodes,,La Primavera,,,suburb,,-67.9084039,10.415581,POINT
+5774985958,nodes,Mariara,Las Brisas,,,suburb,,-67.7229667,10.3016931,POINT
+5774985960,nodes,Mariara,La Democracia,,,suburb,,-67.7282775,10.2921187,POINT
+5773594593,nodes,,Caraquita,,,village,,-67.8976965,10.0951845,POINT
+5773594590,nodes,Samán Mocho,El Barrial,,,village,,-67.8917313,10.1112394,POINT
+5372671846,nodes,,La Culebra,,,village,,-67.8773112,10.136447,POINT
+5773370882,nodes,,García,,,town,,-67.8706169,10.0897763,POINT
+5816400080,nodes,,La India,,,village,,-68.1517339,10.0788118,POINT
+9107396327,nodes,,11 de Mayo,,,neighbourhood,,-67.9120141,10.0762977,POINT
+5773591190,nodes,,Paigüa,,,village,,-67.5510693,10.0562901,POINT
+5773591189,nodes,,Rancho Grande,,,town,,-67.5413275,10.0636637,POINT
+5773370876,nodes,,El Naranjito,,,village,,-67.9287887,10.0520222,POINT
+5773370881,nodes,,Maruria,,,town,,-67.9029536,10.0801005,POINT
+5773371964,nodes,Güigüe,Requena,,,suburb,,-67.7896142,10.0741639,POINT
+5774986030,nodes,,Vigirimita,,,quarter,,-67.8745652,10.305546,POINT
+8425830105,nodes,,San José de Tarbes,,,neighbourhood,,-68.005224,10.2111557,POINT
+8425830108,nodes,,Mañonguito,,,neighbourhood,,-68.0057769,10.2234081,POINT
+5784037908,nodes,Naguanagua,La Luz,,,neighbourhood,,-68.0219794,10.2870728,POINT
+5784037905,nodes,Naguanagua,Carialinda,,,neighbourhood,,-68.0374718,10.3015136,POINT
+7118079203,nodes,,La Alegría,,,neighbourhood,,-68.011481,10.2220053,POINT
+5370198001,nodes,,Palmichal,,,village,,-68.2286364,10.2983339,POINT
+5370198003,nodes,,Pueblo Nuevo,,,village,,-68.2930845,10.329272,POINT
+5784038574,nodes,,La Belén,,,village,,-68.095193,10.2985369,POINT
+5784038875,nodes,,El Poblado,,,village,,-68.1067586,10.2946311,POINT
+5370348143,nodes,,El Castaño,,,village,,-68.0960912,10.3607067,POINT
+5774986026,nodes,Yagua,El Toco,,,suburb,,-67.8867102,10.2576192,POINT
+5774986027,nodes,Yagua,La Compañía,,,suburb,,-67.8779555,10.288234,POINT
+5774986031,nodes,,Vigirima,,,town,,-67.8821612,10.3316176,POINT
+4162829992,nodes,,Barrio La Victoria,,,quarter,,-68.0068266,10.1185298,POINT
+7118146867,nodes,,Ciudad Chávez,,,neighbourhood,,-67.973539,10.1321801,POINT
+9108013094,nodes,,Urbanización Bucaral II,,,quarter,,-67.9230595,10.1375171,POINT
+9108013096,nodes,,Urbanización Industrial El Recreo,,,quarter,,-67.957027,10.1375382,POINT
+7118106781,nodes,,La Isabelica,,,suburb,,-67.9694285,10.1636281,POINT
+9108013101,nodes,,Zona Industrial Municipal Sur I,,,quarter,,-67.9508686,10.1608991,POINT
+7118058559,nodes,,Lomas del Country Club,,,neighbourhood,,-68.0396045,10.1809581,POINT
+7126094170,nodes,,Urbanización Valle de Camoruco,,,quarter,,-68.0255759,10.2019047,POINT
+9108005404,nodes,,Zona Industrial Terrazas de Castillito,,,suburb,,-67.9753518,10.190066,POINT
+9107700036,nodes,,Parque Comercial Industrial Castillito,,,suburb,,-67.960664,10.1927217,POINT
+5773601206,nodes,,El Diamante,,,hamlet,,-67.9082215,10.0013421,POINT
+5816400070,nodes,,La Guásima,,,quarter,,-68.1079173,10.1198369,POINT
+5816400082,nodes,,La Lagunita,,,village,,-68.1587184,10.075516,POINT
+8375545912,nodes,,Valle Blanco,,,neighbourhood,,-68.0195489,10.1994463,POINT
+5773594591,nodes,García,Bucarito,,,neighbourhood,,-67.870574,10.0938958,POINT
+5816400570,nodes,,Agua de Obispo,,,village,,-68.3496005,10.1915971,POINT
+5370280362,nodes,,Barrerita,,,town,,-68.0869512,10.033428,POINT
+5773594580,nodes,,El Pedregal,,,village,,-67.6532722,10.0603678,POINT
+5773594597,nodes,,El Trillo,,,village,,-67.9463196,10.0710794,POINT
+5773598139,nodes,,Santa Bárbara,,,village,,-67.9403973,9.996038,POINT
+5773598140,nodes,,El Viento,,,village,,-67.9432619,9.986893,POINT
+5773600680,nodes,,El Yagual,,,village,,-67.9976464,9.9809389,POINT
+5773601208,nodes,,Paso Ancho,,,village,,-67.9274368,10.0076604,POINT
+5372687797,nodes,,San Vicente,,,village,,-67.9196626,10.0370088,POINT
+5773371956,nodes,Güigüe,Boca de Río,,,suburb,,-67.7791107,10.0876743,POINT
+5773371962,nodes,Güigüe,El Rosario,,,suburb,,-67.7836919,10.0778717,POINT
+5773371963,nodes,Güigüe,La Linda,,,suburb,,-67.7919638,10.0838716,POINT
+5773372397,nodes,,La Marucha,,,village,,-67.7668691,10.0656814,POINT
+2339368764,nodes,,Las Colonias,,,village,,-67.7668501,10.0292789,POINT
+2351588748,nodes,,Noguera,,,town,,-67.9151458,10.0488658,POINT
+5372671842,nodes,,Las Tiamitas,,,town,,-67.8519052,10.0939452,POINT
+5773594391,nodes,,El Algodón,,,quarter,,-67.5327873,10.0387323,POINT
+5773594392,nodes,,La Ceniza,,,suburb,,-67.5672055,10.0185956,POINT
+9111866137,nodes,,Urbanización Los Naranjos,,,neighbourhood,,-67.5702524,10.1586708,POINT
+9111866136,nodes,,Urbanización La Croquera,,,neighbourhood,,-67.5396323,10.1797174,POINT
+3633729957,nodes,,San Francisco de Asís,,,town,,-67.5527618,10.0751052,POINT
+5370280361,nodes,,Sabanita,,,village,,-68.0933027,9.9768805,POINT
+5773594399,nodes,,Cogollal,,,village,,-67.6000786,10.0270054,POINT
+5773371679,nodes,,El 25,,,village,,-67.8825259,10.0379505,POINT
+5773377018,nodes,,Vallecito,,,village,,-67.7687574,9.957565,POINT
+5773377036,nodes,,Guárico,,,village,,-67.6188004,9.9640004,POINT
+5189582741,nodes,,Urbanización El Morro II,,,neighbourhood,,-67.9685928,10.2178863,POINT
+5212491973,nodes,,Urbanización El Morro I,,,neighbourhood,,-67.9611555,10.2188101,POINT
+10031553408,nodes,,Yuma III,,,quarter,,-67.9640007,10.2355957,POINT
+5769404904,nodes,,Valle Verde,,,suburb,,-67.9624302,10.2281197,POINT
+12221985573,nodes,,Cantapiedra,,,neighbourhood,,-68.0055495,10.2429704,POINT
+4162821301,nodes,,Alexander Burgos,,,neighbourhood,,-68.0099363,10.1380792,POINT
+4162830394,nodes,,Bella Vista I,,,quarter,,-68.0079762,10.1327721,POINT
+4162843390,nodes,,Barrio Ambrosio Plaza,,,neighbourhood,,-68.0067901,10.1398904,POINT
+4162844892,nodes,,Barrio Andrés Bello,,,neighbourhood,,-68.0067362,10.130143,POINT
+8425830104,nodes,,Los Naranjos,,,neighbourhood,,-68.0047436,10.2094043,POINT
+8425830106,nodes,,Chaguaramal,,,neighbourhood,,-68.0064815,10.2135869,POINT
+10740246069,nodes,,Barrio Democracia,,,suburb,,-67.9970133,10.1246637,POINT
+4162821300,nodes,,Barrio Impacto,,,neighbourhood,,-68.003497,10.1291037,POINT
+4162841391,nodes,,Bella Vista II,,,neighbourhood,,-68.0027579,10.1368321,POINT
+8425830077,nodes,,La Isabela,,,neighbourhood,,-68.000743,10.204561,POINT
+7179881094,nodes,,Valencia,"2299026",,city,,-68.0003987,10.170026,POINT
+5816397609,nodes,,Las Parchas,,,village,,-68.4102666,10.1211519,POINT
+3248394632,nodes,,La Aguadita,,,town,,-68.3866662,9.8144004,POINT
+983827510,nodes,,Tinaquillo,,,city,,-68.3075027,9.9177602,POINT
+11372323659,nodes,,Sabana Grande,,,neighbourhood,,-68.3175761,9.9075178,POINT
+5820696118,nodes,,La Montañita,,,village,,-68.4156203,9.9283982,POINT
+5820708163,nodes,,Monagas,,,town,,-68.4083784,9.8137771,POINT
+5820612581,nodes,,Los Bagres,,,village,,-68.1378722,9.8125402,POINT
+5820618096,nodes,,Quebrada Amarilla,,,village,,-68.2329807,9.91207,POINT
+5818214813,nodes,,El Paují,,,village,,-68.1500709,9.8299305,POINT
+5818218335,nodes,,La Guamita,,,town,,-68.3393491,9.838842,POINT
+5370281643,nodes,,Taguanes,,,village,,-68.2439034,9.9574162,POINT
+9108013100,nodes,,Zona Industrial Municipal Sur II,,,quarter,,-67.936492,10.1625888,POINT
+12216035442,nodes,,Urbanización Calicanto,,,neighbourhood,,-67.9541426,10.11985,POINT
+5372671838,nodes,,El Charal,,,village,,-67.9064087,10.1052808,POINT
+5370468866,nodes,,La Hoya,,,village,,-68.4183806,10.5145589,POINT
+10909993402,nodes,,La Hoyita,,,hamlet,,-68.4082389,10.5210835,POINT
+12760163014,nodes,,San Diego,,,neighbourhood,,-68.207213,10.4827163,POINT
+12641399682,nodes,,Barrio Las Parcelas,,,quarter,,-68.2048975,10.4882273,POINT
+12626670553,nodes,,Las Colinas,,,suburb,,-68.2096184,10.4756963,POINT
+332581617,nodes,,Morón,"71327",,city,,-68.2027171,10.4861731,POINT
+9737601058,nodes,,Vistamar,,,quarter,,-68.0910019,10.4802466,POINT
+5801215013,nodes,Morón,Santa Ana,,,suburb,,-68.1991351,10.4816361,POINT
+5410072774,nodes,,Cuyagua,,,village,,-67.7003535,10.4792504,POINT
+1692301944,nodes,,El Palito,,,town,,-68.1104562,10.477589,POINT
+5784038889,nodes,Puerto Cabello,El Faro,,,suburb,,-68.102043,10.4797685,POINT
+9701502583,nodes,,Barrio Coro,,,neighbourhood,,-68.2029,10.4914734,POINT
+5370468853,nodes,,La Llanada,,,village,,-68.4058709,10.485538,POINT
+10909993425,nodes,,,,,neighbourhood,,-68.4080511,10.4845362,POINT
+10909993424,nodes,,,,,neighbourhood,,-68.4062648,10.4874638,POINT
+12875876330,nodes,,El Jabillo II,,,neighbourhood,,-68.1962147,10.5004157,POINT
+5370419883,nodes,,Palma Sola,,,town,,-68.1801028,10.5004385,POINT
+9111039738,nodes,,El Vegote,,,hamlet,,-68.3759129,10.5039207,POINT
+10910038884,nodes,,Alto Maporita II,,,hamlet,,-68.4093333,10.4010188,POINT
+10910038890,nodes,,Alto Maporita I,,,hamlet,,-68.4175301,10.4120565,POINT
+10910038893,nodes,,Río Grande,,,hamlet,,-68.4286559,10.4054614,POINT
+10910174739,nodes,,Jirajarita,,,hamlet,,-68.4227872,10.3911942,POINT
+1691948025,nodes,,Borburata,,,town,,-67.9629867,10.4438385,POINT
+10910174698,nodes,,Urbanización Santa Eduvigis,,,neighbourhood,,-68.4009433,10.4461435,POINT
+10910174700,nodes,,Urbanización Simón Bolívar,,,neighbourhood,,-68.4036845,10.4417964,POINT
+1499443093,nodes,,La Raya,,,village,,-68.4031392,10.4448942,POINT
+5370468830,nodes,,Guaremal,,,village,,-68.3933127,10.445415,POINT
+5370468867,nodes,,Bella Vista,,,village,,-68.4276611,10.4384196,POINT
+10909993433,nodes,,La Rayita,,,hamlet,,-68.4091616,10.4551064,POINT
+10910174699,nodes,,El Ejemplo,,,neighbourhood,,-68.4023005,10.4413955,POINT
+10910174634,nodes,,,,,neighbourhood,,-68.4254211,10.4379663,POINT
+10910174635,nodes,,,,,neighbourhood,,-68.4280872,10.4358613,POINT
+10910174636,nodes,,,,,neighbourhood,,-68.4284788,10.4391903,POINT
+10910174692,nodes,,,,,neighbourhood,,-68.3932185,10.4478896,POINT
+10910174696,nodes,,,,,neighbourhood,,-68.404752,10.4452308,POINT
+10910174697,nodes,,,,,neighbourhood,,-68.4020913,10.445062,POINT
+5370468828,nodes,,Canoabito Abajo,,,town,,-68.3601928,10.4529696,POINT
+1691983332,nodes,,Patanemo,,,town,,-67.916451,10.4295572,POINT
+5410074641,nodes,,Turiamo,,,hamlet,,-67.8477677,10.4435528,POINT
+5784038891,nodes,Puerto Cabello,23 de Enero,,,suburb,,-68.0554962,10.4675982,POINT
+5774986153,nodes,,Asentamiento Las Monjas,,,village,,-67.7690363,10.4376129,POINT
+5774986478,nodes,,La Fundación,,,village,,-67.6027179,10.4617322,POINT
+332585440,nodes,,Puerto Cabello,"208080",,city,,-68.0436682,10.4677932,POINT
+12875876329,nodes,,Barrio El Mamón,,,neighbourhood,,-68.1986032,10.4951011,POINT
+5370462814,nodes,,San Pablo,,,village,,-68.3561052,10.4947689,POINT
+7126094171,nodes,,Camoruco,,,neighbourhood,,-68.0105603,10.208922,POINT
+7118058555,nodes,,Los Sauces,,,neighbourhood,,-68.0052847,10.2073445,POINT
+7118058557,nodes,,Las Acacias,,,neighbourhood,,-68.0053946,10.2051194,POINT
+7118058556,nodes,,Kerdell,,,neighbourhood,,-68.0043448,10.2013342,POINT
+7118079201,nodes,,Santa Cecilia,,,neighbourhood,,-68.0122598,10.1996141,POINT
+8425830073,nodes,,Parqueserino,,,neighbourhood,,-67.9660095,10.2562622,POINT
+9107700032,nodes,,Urbanización El Remanso,,,quarter,,-67.9605299,10.2626814,POINT
+1609709457,nodes,,Chirgua,"1000",,town,,-68.181823,10.205932,POINT
+5370197994,nodes,,Aguirre,,,town,,-68.273778,10.2272841,POINT
+8425830072,nodes,,Ciudad Montemayor,,,neighbourhood,,-67.9675713,10.247435,POINT
+1834768688,nodes,,Central Tacarigua,,,town,,-67.9208253,10.0868901,POINT
+2172770131,nodes,,Tocuyito,"197449",,city,,-68.0942185,10.1062443,POINT
+10740246070,nodes,,Sector 1 de Barrio Democracia,,,neighbourhood,,-67.997185,10.1310218,POINT
+9780304738,nodes,,La Vaquera,,,neighbourhood,,-67.5906486,10.202211,POINT
+9780304741,nodes,,Urbanización Mata Redonda,,,neighbourhood,,-67.5935311,10.2099463,POINT
+4162821299,nodes,,Barrio Jacinto Lara,,,neighbourhood,,-68.0108328,10.1302212,POINT
+4162831393,nodes,,Barrio Luis Herrera,,,neighbourhood,,-68.0021135,10.1320624,POINT
+4162841390,nodes,,Barrio Las Flores,,,neighbourhood,,-68.0043646,10.1224633,POINT
+5816400069,nodes,,El Torito,,,quarter,,-68.0975104,10.1268711,POINT
+8425855825,nodes,,El Parque,,,neighbourhood,,-68.0035022,10.1933849,POINT
+2334699037,nodes,,San José de Los Chorritos,,,neighbourhood,,-68.0673316,10.1122329,POINT
+5368789778,nodes,,Santo Tomás,,,village,,-68.3947971,10.1210339,POINT
+7118061773,nodes,,El Solar,,,neighbourhood,,-68.0583536,10.2057378,POINT
+5773371957,nodes,Güigüe,Buenaventura,,,neighbourhood,,-67.7721048,10.0870088,POINT
+5773594594,nodes,,Jabillal,,,village,,-67.9055715,10.1113873,POINT
+5773594592,nodes,Verdún,Santa Rita,,,neighbourhood,,-67.8826761,10.0932409,POINT
+5818213396,nodes,,La Palma,,,village,,-68.0965501,9.8722289,POINT
+4196382898,nodes,,Parque Mirador,,,neighbourhood,,-68.0302403,10.1896225,POINT
+10878526460,nodes,,La Lorena,,,hamlet,,-68.4227658,10.5556173,POINT
+10878697721,nodes,,El Mog,,,hamlet,,-68.3963514,10.5294378,POINT
+10878697724,nodes,,Costa del Yaracuy I,,,hamlet,,-68.2679808,10.5619666,POINT
+10878519458,nodes,,Costa del Yaracuy III,,,village,,-68.3142811,10.5391578,POINT
+10878519432,nodes,,El Eneal,,,hamlet,,-68.3076024,10.5463355,POINT
+10878519437,nodes,,Costa del Yaracuy II,,,hamlet,,-68.2934404,10.5491728,POINT
+10878526440,nodes,,Costa del Yaracuy VI,,,hamlet,,-68.3886319,10.5344587,POINT
+10878526475,nodes,,Costa del Yaracuy VIII,,,hamlet,,-68.4240317,10.5251974,POINT
+10878697722,nodes,,Costa del Yaracuy V,,,hamlet,,-68.3665037,10.5415047,POINT
+10878697723,nodes,,Costa del Yaracuy IV,,,village,,-68.3482969,10.549774,POINT
+10878519423,nodes,,Parcelamiento Paují VI,,,hamlet,,-68.365109,10.5657214,POINT
+5370462784,nodes,,Venepal,,,village,,-68.2302559,10.5492832,POINT
+1293996917,nodes,"Maracay, Aragua, Venezuela",La Pedrera,,,hamlet,,-67.5637819,10.2792873,POINT
+5412943667,nodes,,Chaguaramos,,,suburb,,-67.5374411,10.0241439,POINT
+5774986028,nodes,,Tronconero,,,village,,-67.8914309,10.2912531,POINT
+5774986029,nodes,Yagua,Ojo de Agua,,,suburb,,-67.8784061,10.2727792,POINT
+1270725316,nodes,,El Toro,,,quarter,,-67.5667907,10.2884537,POINT
+12291930289,nodes,,La Cooperativa,,,quarter,,-67.5798002,10.2627215,POINT
+12291930290,nodes,,Barrio Los Olivos Nuevos,,,quarter,,-67.5853522,10.2587055,POINT
+12291930292,nodes,,Los Naranjos,,,quarter,,-67.5743879,10.2672355,POINT
+12291930293,nodes,,Barrio Santa Eduvigis,,,quarter,,-67.5711401,10.2741457,POINT
+12291930294,nodes,,La Arboleda,,,quarter,,-67.5918757,10.2682584,POINT
+1270713479,nodes,,La Floresta,,,quarter,,-67.5877584,10.2707175,POINT
+1293996915,nodes,,Barrio Sucre,,,quarter,,-67.5679876,10.2813675,POINT
+1293996940,nodes,,Cantarrana,,,quarter,,-67.5726439,10.2811986,POINT
+12057700713,nodes,,El Bosque,,,quarter,,-67.5890795,10.2581947,POINT
+12057700714,nodes,,Andrés Bello,,,quarter,,-67.5841095,10.2668599,POINT
+12057917852,nodes,,San Isidro,,,quarter,,-67.5946428,10.2568981,POINT
+5774986005,nodes,San Joaquín,Campo Alegre,,,suburb,,-67.7944422,10.2491309,POINT
+4325156492,nodes,,Urbanización Villas Ingenió,,,neighbourhood,,-67.5456631,10.2246581,POINT
+3437629915,nodes,,Sector 6,,,neighbourhood,,-67.6245534,10.2739919,POINT
+3437631187,nodes,,Sector 8,,,neighbourhood,,-67.6244505,10.2716587,POINT
+4174866201,nodes,,Urbanización José Félix Rivas,,,suburb,,-67.6238498,10.2669146,POINT
+5774985963,nodes,Mariara,Libertador,,,suburb,,-67.7189541,10.2866083,POINT
+5773597444,nodes,,El Cocuy,,,village,,-67.954495,9.9384167,POINT
+5818218323,nodes,,El Cogollal,,,village,,-68.0113793,9.8738408,POINT
+5372671840,nodes,,Boquerón,,,town,,-67.9264064,10.0635019,POINT
+5372687776,nodes,,El Copey,,,village,,-67.887122,10.013787,POINT
+5372687778,nodes,,Santa Inés,,,village,,-67.8484768,9.9654572,POINT
+5773370854,nodes,,La Candelaria,,,village,,-67.8364992,9.9618342,POINT
+5773372388,nodes,,Buena Vista,,,village,,-67.8037119,10.0413734,POINT
+5773372467,nodes,,El Aletón,,,village,,-67.8337097,10.0032333,POINT
+5773372468,nodes,,Altamira,,,village,,-67.7848828,10.0010885,POINT
+5773372469,nodes,,Santa Efigenia,,,village,,-67.8051818,10.0028107,POINT
+5773378450,nodes,,La Trilla,,,village,,-67.5359845,9.9198379,POINT
+7118052978,nodes,,Potrerito,,,suburb,,-67.8328365,10.2356784,POINT
+5773619979,nodes,,Las Vegas,,,town,,-67.5490844,10.1568649,POINT
+12269421312,nodes,,Sector Antonieta de Celli,,,quarter,,-67.9382498,10.1786595,POINT
+5060004917,nodes,,La Quizanda,"500",,neighbourhood,,-67.9710323,10.1773323,POINT
+4162831394,nodes,,Barrio Ezequiel Zamora,,,neighbourhood,,-68.0066813,10.1372633,POINT
+4162843094,nodes,,Barrio Renny Otolina,,,neighbourhood,,-68.0030455,10.140277,POINT
+4162870689,nodes,,Barrio Brisas de Valencia,,,neighbourhood,,-68.0018925,10.1258223,POINT
+7118093159,nodes,,Las Quintas,,,quarter,,-68.0069451,10.2452932,POINT
+7118093160,nodes,,La Granja,,,quarter,,-68.0109814,10.2426519,POINT
+8375551022,nodes,,El Morro,,,suburb,,-67.9642404,10.2183071,POINT
+8425855818,nodes,,Guayabal,,,neighbourhood,,-68.0082965,10.2634115,POINT
+5773600426,nodes,,Las Dos Bocas,,,village,,-67.9885805,9.9533699,POINT
+7118058552,nodes,,Las Chimeneas,,,neighbourhood,,-67.9975328,10.2032544,POINT
+7118093165,nodes,,Tazajal,,,neighbourhood,,-67.9997331,10.2538417,POINT
+5372671845,nodes,,Samán Mocho,,,village,,-67.8927822,10.1180908,POINT
+7118058560,nodes,,Altos de Guataparo,,,neighbourhood,,-68.0459141,10.1809252,POINT
+5801215020,nodes,,Urbanización Los Gavilanes,,,village,,-68.2032967,10.5360198,POINT
+5773591188,nodes,,Las Mercedes,,,village,,-67.567302,10.084537,POINT
+5372786657,nodes,,La Cabrera,,,town,,-67.6781435,10.254323,POINT
+5774985954,nodes,Mariara,La Fajina,,,suburb,,-67.7132464,10.2953067,POINT
+5774985970,nodes,Mariara,Urbanización El Deleite,,,suburb,,-67.6936448,10.2813934,POINT
+5774985973,nodes,Mariara,Humberto Celli,,,suburb,,-67.6868534,10.2958345,POINT
+5774985976,nodes,Mariara,El Cujisal,,,suburb,,-67.6877761,10.2908942,POINT
+5774985983,nodes,La Cabrera,El Bosque,,,suburb,,-67.6675308,10.2690209,POINT
+5774985993,nodes,,El Muerto,,,village,,-67.6818431,10.2410648,POINT
+5774986484,nodes,,Payares,,,village,,-67.6013017,10.4661739,POINT
+5372786656,nodes,La Cabrera,Alezurca,,,suburb,,-67.6710518,10.2631806,POINT
+5372786655,nodes,Mariara,Vista Alegre,,,suburb,,-67.6945485,10.2899858,POINT
+5773594578,nodes,,Sabana Grande,,,village,,-67.6832485,10.0518532,POINT
+427733458,nodes,,Magdaleno,,,town,,-67.6134795,10.0972969,POINT
+5372748596,nodes,,Tucupido,,,village,,-67.6488882,10.080649,POINT
+5773619978,nodes,,La Quinta,,,town,,-67.5615621,10.1519858,POINT
+5372748597,nodes,,Parcelamiento Los Leones,,,village,,-67.6489064,9.9729126,POINT
+5774985981,nodes,Mariara,La Guaricha,,,suburb,,-67.6760709,10.2802217,POINT
+5774985967,nodes,Mariara,Félix Navarro,,,suburb,,-67.6902437,10.2802322,POINT
+5801214994,nodes,,Río Chiquito,,,village,,-68.417455,10.4240014,POINT
+10913999451,nodes,,El Fraile,,,hamlet,,-68.4042263,10.4232839,POINT
+1270713432,nodes,,La Soledad,,,quarter,,-67.5914277,10.2624935,POINT
+12509469599,nodes,,Cogollal,,,neighbourhood,,-67.6723803,10.2560697,POINT
+12291930295,nodes,,Barrio 23 de Enero,,,quarter,,-67.6201279,10.2474155,POINT
+12291930297,nodes,,Barrio San Vicente,,,quarter,,-67.6361713,10.2437313,POINT
+12057700716,nodes,,La Romana,,,quarter,,-67.6175995,10.2543005,POINT
+5372786658,nodes,,La Palmita,,,suburb,,-67.6839157,10.2463838,POINT
+9109374780,nodes,,El Cabrito,,,suburb,,-67.9049492,10.2473784,POINT
+12057704993,nodes,,Calicanto,,,quarter,,-67.5987849,10.2562558,POINT
+3631550863,nodes,,Tocorón,,,town,,-67.5866016,10.0922577,POINT
+333000089,nodes,,Maracay,"1425606",,city,,-67.5890216,10.2375144,POINT
+12571695805,nodes,,La Unión,,,suburb,,-67.702715,10.2820524,POINT
+5774985969,nodes,Mariara,Los Tamarindos,,,suburb,,-67.7004469,10.2834414,POINT
+12571677798,nodes,,La Esperanza,,,suburb,,-67.6977686,10.2841857,POINT
+12571689395,nodes,,Los Chaguaramos,,,suburb,,-67.6980691,10.2817045,POINT
+12290684717,nodes,,Mata Seca,,,quarter,,-67.6399977,10.2991737,POINT
+4991521788,nodes,,La Candelaria,,,quarter,,-67.6360202,10.2874951,POINT
+5774984950,nodes,Mariara,Parcelamiento Los Cocos,,,suburb,,-67.7307987,10.2763263,POINT
+5774985957,nodes,Mariara,Las Cocuizas,,,suburb,,-67.7193296,10.3005741,POINT
+5774985965,nodes,Mariara,19 de Abril,,,suburb,,-67.7127528,10.2851516,POINT
+5774985966,nodes,Mariara,Las Brisas,,,suburb,,-67.704041,10.284307,POINT
+5774985968,nodes,Mariara,Las Vueltas,,,suburb,,-67.6830983,10.27981,POINT
+5774985980,nodes,Mariara,Bicentenario,,,suburb,,-67.6675415,10.2771602,POINT
+5774985975,nodes,Mariara,Mariscal Sucre,,,suburb,,-67.7003503,10.2920132,POINT
+5774985986,nodes,La Cabrera,Los Olivos,,,suburb,,-67.6671016,10.2585799,POINT
+427733453,nodes,,Yuma,,,town,,-67.7004348,10.1050834,POINT
+5372717328,nodes,,El Milagro,,,town,,-67.7370153,10.0855491,POINT
+5372786659,nodes,,Base Sucre,,,suburb,,-67.6528235,10.2582821,POINT
+11266786099,nodes,,Urbanización Las Gardenias,,,neighbourhood,,-67.8280105,10.2394898,POINT
+10729784790,nodes,,Parcelamiento Las Palmeras,,,suburb,,-67.8045702,10.240558,POINT
+5773371928,nodes,,El Venado,,,town,,-67.8107071,10.0873891,POINT
+5773371953,nodes,Güigüe,Turén,,,suburb,,-67.7833808,10.0884137,POINT
+5773371930,nodes,,San Juan de Dios,,,town,,-67.7999783,10.0857412,POINT
+5773371954,nodes,Güigüe,Casco Central,,,suburb,,-67.7820933,10.0843047,POINT
+5773371955,nodes,Güigüe,Pueblo Nuevo,,,suburb,,-67.7820611,10.0871461,POINT
+2339343034,nodes,,Guaica,,,town,,-67.8304705,10.0875179,POINT
+5820707044,nodes,Tinaquillo,Parcelamiento Los Manantiales,,,suburb,,-68.3521056,9.9178087,POINT
+5818220310,nodes,Tinaquillo,La Floresta,,,suburb,,-68.2777548,9.9284405,POINT
+12308374282,nodes,,La Barraca,,,quarter,,-67.5821223,10.2463276,POINT
+12308374283,nodes,,Las Acacias,,,quarter,,-67.5837617,10.2335011,POINT
+12303222277,nodes,,Urbanización Bermúdez,,,quarter,,-67.5919015,10.2399474,POINT
+9780304740,nodes,,Urbanización Araguama Country,,,neighbourhood,,-67.5916311,10.2131877,POINT
+12057700717,nodes,,Urbanización El Centro,,,quarter,,-67.5979696,10.2360576,POINT
+12295726329,nodes,,Urbanización La Mulera,,,quarter,,-67.593591,10.2225641,POINT
+12290684716,nodes,,San Agustín,,,quarter,,-67.5865843,10.2456751,POINT
+12060154143,nodes,,Barrio El Carmen,,,quarter,,-67.5965521,10.2456765,POINT
+7886358488,nodes,,Paraparal,,,suburb,,-67.5853962,10.2021227,POINT
+9780304737,nodes,,Casanova Godoy,,,neighbourhood,,-67.5843167,10.2076376,POINT
+9780304745,nodes,,Antiguo Barrio 13 de Enero,,,neighbourhood,,-67.5994691,10.2124509,POINT
+1325868639,nodes,,Campo Alegre,,,hamlet,,-67.6002102,10.2252722,POINT
+5370250292,nodes,,Camburito,,,village,,-68.1984031,10.1110932,POINT
+5370250293,nodes,,Barrera Abajo,,,village,,-68.1604445,10.0940928,POINT
+5372671844,nodes,Guaica,Corocito,,,suburb,,-67.8348464,10.0828541,POINT
+5372717326,nodes,,Las Cañadas,,,village,,-67.8184681,10.0853079,POINT
+5773371958,nodes,Güigüe,Panecito,,,suburb,,-67.7731776,10.0818963,POINT
+5773371961,nodes,Güigüe,Campo Alegre,,,suburb,,-67.7774048,10.081442,POINT
+5774985961,nodes,Mariara,Zona Industrial La Sabana,,,suburb,,-67.738545,10.2851522,POINT
+12765911519,nodes,,La Toma,,,neighbourhood,,-67.7153488,10.2973755,POINT
+12663582309,nodes,,Santa Clara,,,neighbourhood,,-67.755444,10.2819928,POINT
+12590984449,nodes,,Urbanización Monte Horeb,,,neighbourhood,,-67.7215556,10.2876828,POINT
+12591015503,nodes,,La Esperanza Mía,,,neighbourhood,,-67.7256104,10.283993,POINT
+12571515690,nodes,,Pueblo Nuevo,,,suburb,,-67.7127862,10.2926376,POINT
+12571698914,nodes,,La Gran Bendición,,,suburb,,-67.7081952,10.2893108,POINT
+12571709562,nodes,,Nuestro Esfuerzo,,,suburb,,-67.7067792,10.2871781,POINT
+5774985962,nodes,Mariara,Primero de Diciembre,,,suburb,,-67.7250803,10.2865028,POINT
+11453974437,nodes,,Ciudadela José Antonio Anzoátegui,,,neighbourhood,,-67.7203113,10.2875466,POINT
+11234797845,nodes,,22 de Mayo,,,neighbourhood,,-67.7086729,10.2830732,POINT
+5774984951,nodes,Mariara,Los Jardines,,,suburb,,-67.7223659,10.2769597,POINT
+5774985956,nodes,Mariara,El Carmen,,,suburb,,-67.7189326,10.2967001,POINT
+5774985964,nodes,Mariara,San José,,,suburb,,-67.7109075,10.2893424,POINT
+5774985977,nodes,Mariara,Las Vegas de Mariara,,,suburb,,-67.7017022,10.2745105,POINT
+5774986000,nodes,San Joaquín,Centro,,,suburb,,-67.7878869,10.2604696,POINT
+5774986001,nodes,San Joaquín,Indiana,,,suburb,,-67.8009009,10.2557822,POINT
+5774986004,nodes,San Joaquín,José Tomás Gallardo,,,suburb,,-67.7960086,10.253903,POINT
+5774986006,nodes,San Joaquín,Villas del Centro,,,suburb,,-67.8178954,10.2534384,POINT
+5774986007,nodes,San Joaquín,Ciudadela Negro Primero,,,suburb,,-67.8102458,10.2618104,POINT
+5774986008,nodes,San Joaquín,Los Jabillos,,,suburb,,-67.8056002,10.2643758,POINT
+12591015402,nodes,,Urbanización La Estancia,,,neighbourhood,,-67.7259304,10.2833435,POINT
+332978047,nodes,,Mariara,"120861",,city,,-67.7089327,10.2891045,POINT
+7638114411,nodes,,Sector 1,,,neighbourhood,,-67.9292093,10.1741399,POINT
+2351383587,nodes,,Ciudad Plaza,,,quarter,,-67.9792886,10.1259097,POINT
+5773596180,nodes,,La Mapora,,,village,,-67.9459012,9.8664312,POINT
+5773600940,nodes,,Las Delicias,,,village,,-67.9538512,10.0304073,POINT
+12291930288,nodes,,Barrio Independencia,,,quarter,,-67.5802169,10.2500824,POINT
+12291930291,nodes,,Barrio La Lagunita,,,quarter,,-67.5803297,10.2561657,POINT
+9115283692,nodes,,Base Aragua,,,quarter,,-67.5891566,10.2548742,POINT
+5370250291,nodes,,Cariaprima,,,village,,-68.1826102,10.2570243,POINT
+5816400441,nodes,,Tierra Blanca,,,town,,-68.2456541,10.1947122,POINT
+5816400586,nodes,,El Rincón,,,town,,-68.2540119,10.1936562,POINT
+535355549,ways_poly,,Monteserino,,,neighbourhood,,-67.9611921466868,10.254941420208,POLYGON
+534633993,ways_poly,,,,,neighbourhood,,-67.9628774585839,10.2382268243083,POLYGON
+534634004,ways_poly,,,,,neighbourhood,,-67.9650163320223,10.2363869342041,POLYGON
+534410350,ways_poly,,,,,neighbourhood,,-67.9681163326104,10.2148206880507,POLYGON
+541607196,ways_poly,,Urbanizacion Bosqueserino,,,neighbourhood,,-67.9644465208539,10.2595850038144,POLYGON
+535330776,ways_poly,,,,,neighbourhood,,-67.9645887490585,10.2670772910282,POLYGON
+518799037,ways_poly,,La Quizanda,"500",,neighbourhood,,-67.9710758877959,10.1773394952598,POLYGON
+534413146,ways_poly,,,,,neighbourhood,,-67.9571346456453,10.2218673317662,POLYGON
+532657261,ways_poly,,Urbanizacion El Morro II,"2000",,quarter,,-67.9690276537449,10.2181150185952,POLYGON
+224488808,ways_poly,,Terazas de San Diego,,,neighbourhood,,-67.9692009880127,10.2231710183526,POLYGON
+534129601,ways_poly,,,,,neighbourhood,,-67.9686158828479,10.2187583505949,POLYGON
+535344674,ways_poly,,La Abadia,"500",,neighbourhood,,-67.9708971380884,10.2714368863343,POLYGON
+535330807,ways_poly,,Parque Residencial Amazonia,"300",,neighbourhood,,-67.9693618501671,10.2706237912013,POLYGON
+535058096,ways_poly,,Villas del Norte I,,,neighbourhood,,-68.0194338592865,10.2783040192351,POLYGON
+438035647,ways_poly,,Urbanización Los Bloques de Buenos Aires,,,neighbourhood,,-68.3156398954991,9.91611197965619,POLYGON
+532659058,ways_poly,,Residencias Cunaviche,"100",,neighbourhood,,-67.9598768,10.21054185,POLYGON
+532659057,ways_poly,,Residencias Cunaviche,"100",,neighbourhood,,-67.9602898666995,10.210432237752,POLYGON
+532659056,ways_poly,,Residencias Arauca,"100",,neighbourhood,,-67.9607098666875,10.2103232210665,POLYGON
+534410347,ways_poly,,,,,neighbourhood,,-67.9702181229954,10.2145897866081,POLYGON
+313328745,ways_poly,,,,,neighbourhood,,-67.8765683795803,10.2195030919218,POLYGON
+313328743,ways_poly,,,,,neighbourhood,,-67.8734833084874,10.2198128319216,POLYGON
+543211882,ways_poly,,Los Magallanes,"3000",,neighbourhood,,-67.9689616259081,10.2117175547546,POLYGON
+532657262,ways_poly,,Urbanizacion El Morro I,"2000",,quarter,,-67.9602349821332,10.2187147789255,POLYGON
+534410282,ways_poly,,,,,neighbourhood,,-67.9722994051444,10.2143867691114,POLYGON
+534410353,ways_poly,,,,,neighbourhood,,-67.9660116925152,10.2150340233872,POLYGON
+530962467,ways_poly,,Urbanizacion La Barquereña,,,neighbourhood,,-68.0363762566473,10.1459340598846,POLYGON
+530962468,ways_poly,,,,,neighbourhood,,-68.037538938436,10.1439426844642,POLYGON
+530962481,ways_poly,,Conjunto Residencial San José,,,neighbourhood,,-68.0303716216985,10.1503084274371,POLYGON
+530962472,ways_poly,,,,,neighbourhood,,-68.0365886790555,10.1435695177416,POLYGON
+529062220,ways_poly,,Urbanizacion Las Acacias,"100",,neighbourhood,,-68.0388134056359,10.1459428472668,POLYGON
+530967760,ways_poly,,Conjunto Residencial Sagrada Familia,,,neighbourhood,,-68.0307729591851,10.1515501997031,POLYGON
+518847137,ways_poly,,,,,neighbourhood,,-67.9438737265375,10.1471299626127,POLYGON
+888750419,ways_poly,,Urbanización Villa El Rosal,"250",,neighbourhood,,-67.5365008828743,10.2347729891041,POLYGON
+1390798540,ways_poly,,La Morita,,,city,,-67.5450106659785,10.2241005335246,POLYGON
+534930696,ways_poly,,Conjunto Residencial Las Aves,"200",,neighbourhood,,-67.9585125486683,10.2572376530329,POLYGON
+609063109,ways_poly,,Villa Maporal,,,neighbourhood,,-67.9640422625212,10.2559875943533,POLYGON
+541607197,ways_poly,,Condominios Monteserino,,,neighbourhood,,-67.9638139207618,10.2639069507467,POLYGON
+535344694,ways_poly,,Los Tulipanes,"1000",,neighbourhood,,-67.9596372065993,10.2704306060845,POLYGON
+511857352,ways_poly,,,,,neighbourhood,,-68.0012976737107,10.2482541041535,POLYGON
+224496128,ways_poly,,Ciudadela Tacarigua,,,quarter,,-67.9146035459699,10.1876361560663,POLYGON
+224496129,ways_poly,,Paraparal,,,quarter,,-67.9195751599048,10.1864188911904,POLYGON
+313328746,ways_poly,,,,,neighbourhood,,-67.8712272044973,10.2200608267286,POLYGON
+1415286920,ways_poly,,Paraiso de Buenos Aires,,,neighbourhood,,-68.3125121840742,9.91989116969894,POLYGON
+1212652861,ways_poly,,,,"8",,administrative,-68.2342018339102,10.5448535253935,POLYGON
+1388136819,ways_poly,,Terrazas de Naguanagua,,,quarter,,-68.0023888409804,10.2636302769844,POLYGON
+540088824,ways_poly,,La Florida,,,neighbourhood,,-68.0040479478789,10.2480009675217,POLYGON
+535355580,ways_poly,,Residencias Andrea Suites,"100",,neighbourhood,,-67.963589724385,10.2420985787595,POLYGON
+535330781,ways_poly,,,,,neighbourhood,,-67.9662670009397,10.2675785459715,POLYGON
+534930697,ways_poly,,,,,neighbourhood,,-67.9576835635159,10.2571377939292,POLYGON
+534633977,ways_poly,,,,,neighbourhood,,-67.9637479730995,10.2385435409816,POLYGON
+534634003,ways_poly,,,,,neighbourhood,,-67.96396810096,10.2359598837204,POLYGON
+535349722,ways_poly,,Urbanizacion Las Majaguas,"200",,neighbourhood,,-67.9641345841086,10.2545419487312,POLYGON
+535359513,ways_poly,,,,,neighbourhood,,-67.9665302485547,10.2377527978773,POLYGON
+535349684,ways_poly,,Residencias Aves del Paraiso,"200",,neighbourhood,,-67.9599415432116,10.2575931010431,POLYGON
+535344675,ways_poly,,Conjunto Residencial San Fancisco,,,neighbourhood,,-67.9678712839437,10.2647945476882,POLYGON
+535330782,ways_poly,,Urbanizacion Los Frailes,,,neighbourhood,,-67.9663474966865,10.269519392222,POLYGON
+535081377,ways_poly,,,,,neighbourhood,,-67.9530202191066,10.2730863695232,POLYGON
+534645845,ways_poly,,,,,neighbourhood,,-67.9611823589105,10.2411112081797,POLYGON
+534633976,ways_poly,,,,,neighbourhood,,-67.9639326781601,10.2372356880723,POLYGON
+534660658,ways_poly,,La Caracara,,,neighbourhood,,-67.9594418749223,10.2471817875076,POLYGON
+535355572,ways_poly,,Residencias Monte Mayor,,,neighbourhood,,-67.9673024712232,10.2456628186282,POLYGON
+1388137702,ways_poly,,Ciudad Jardín Mañongo,,,quarter,,-67.9953004434991,10.2395132894837,POLYGON
+1305102881,ways_poly,,,,"9",,administrative,-67.9533371746887,10.2584969145294,POLYGON
+535355586,ways_poly,,Residencias Pozo Esmeralda,,,neighbourhood,,-67.9657891245933,10.2385132679115,POLYGON
+1300262932,ways_poly,,Andrés Bello,,,suburb,,-67.5822082798158,10.2685676027217,POLYGON
+371836776,ways_poly,,Urb. Antonio Jose de Sucre,,,village,,-67.6486653510795,10.2587922265763,POLYGON
+1375442214,ways_poly,,Maracay,,,city,,-67.599713379693,10.2539469317356,POLYGON
+1391737211,ways_poly,,Zona Comercio-Industrial Lotes Monteserino,,,quarter,,-67.9635273381572,10.2717170040263,POLYGON
+1227695982,ways_poly,,Brisas de Buenos Aires,,,neighbourhood,,-68.3141622839428,9.92180290727091,POLYGON
+1227695983,ways_poly,,Alto de Buenos Aires,,,neighbourhood,,-68.3136036123005,9.92301107702819,POLYGON
+1227695984,ways_poly,,Comunidad Villa de San Antonio,,,neighbourhood,,-68.3110964201024,9.92337807660548,POLYGON
+1300266484,ways_poly,,Urb. Los Naranjos,,,suburb,,-67.574355574448,10.267235942778,POLYGON
+1429788219,ways_poly,,Valencia,,,city,,-68.0078167911313,10.1773528619886,POLYGON
+203738583,ways_poly,,Urbanización Las Palmitas,,,neighbourhood,,-67.9384273023052,10.1278812137895,POLYGON
+203739546,ways_poly,,Urbanización Bucaral Sur,,,neighbourhood,,-67.9326236252587,10.1353451530254,POLYGON
+886220742,ways_poly,,Urbanización Andrés Bello,,,suburb,,-67.5837345677568,10.2656225192682,POLYGON
+438030922,ways_poly,,Urbanización Los Naranjos,,,neighbourhood,,-68.3281632064421,9.92096071315418,POLYGON
+392113341,ways_poly,,Residencias Los Manguitos,,,neighbourhood,,-68.0195029707321,10.1625489186309,POLYGON
+524066158,ways_poly,,Residencia Los Mangos,"100",,neighbourhood,,-68.0213420949921,10.1601835558557,POLYGON
+1388137014,ways_poly,,Valle Alto,,,quarter,,-68.0031899508826,10.2600695612283,POLYGON
+721504731,ways_poly,,,,"6",,administrative,-68.1079095176579,10.5084029477795,POLYGON
+530967808,ways_poly,,Portal de la Florida - Town House,,,neighbourhood,,-68.0294984427195,10.153603493451,POLYGON
+534642483,ways_poly,,Poblado de San Diego,,,neighbourhood,,-67.9648939354945,10.2340227362019,POLYGON
+529054354,ways_poly,,Conjunto Residencial Llano Verde,"100",,neighbourhood,,-68.037700252013,10.1478263740412,POLYGON
+203735591,ways_poly,,Urbanización Parque Residencial Flor Amarillo,,,neighbourhood,,-67.9389840188416,10.1354201483755,POLYGON
+526769918,ways_poly,,Urbanizacion Roraima,,,neighbourhood,,-67.5314988951625,10.2180042702262,POLYGON
+18789588,relations,,La Volkswagen,,"9",,administrative,-68.1915773470269,10.4969160062441,POLYGON
+18924753,relations,,Vistamar,,"9",,administrative,-68.0915570369956,10.4808436334009,POLYGON
+18904257,relations,,Urbanización Ruiz Pineda,,"9",,administrative,-68.0651977285087,10.473134975495,POLYGON
+18956863,relations,,La Rosa,,"9",,administrative,-68.2268198437564,10.4736935315942,POLYGON
+3446809,relations,,Parroquia La Aguadita,,"7",,administrative,-68.3601813860972,9.79348066960061,POLYGON
+11126507,relations,,Municipio Nirgua,"58932","6",,administrative,-68.6436743216492,10.054682996685,POLYGON
+11221902,relations,,Sector 5,,,neighbourhood,,-67.9245453757468,10.1637804481345,POLYGON
+10833243,relations,,Parroquia Independencia,,"7",,administrative,-68.1748842730632,9.9939526786103,POLYGON
+3446837,relations,,Parroquia Tinaquillo,,"7",,administrative,-68.2905875162668,9.91106264184828,POLYGON
+11043134,relations,,Municipio Tinaquillo,"97687","6",,administrative,-68.2905875162668,9.91106264184828,POLYGON
+2465737,relations,,Parroquia San Lorenzo,,"7",,administrative,-67.6730050999612,9.77910198639711,POLYGON
+272662,relations,,Cojedes,"323165","4",state,administrative,-68.3471479359807,9.33563229218291,POLYGON
+11043141,relations,,Municipio El Pao,"16810","6",,administrative,-68.0776250000463,9.36941251904031,POLYGON
+11221904,relations,,Sector 4,,,neighbourhood,,-67.9264435095579,10.1666138048084,POLYGON
+15652340,relations,,Parroquia Guayabita,,"7",,administrative,-67.4884761761553,10.3122697585046,POLYGON
+10832855,relations,,Parroquia Los Guayos,,"7",,administrative,-67.9150806819756,10.1774596073257,POLYGON
+10832854,relations,,Parroquia Ciudad Alianza,,"7",,administrative,-67.8951542220438,10.1949433151495,POLYGON
+2497256,relations,,Parroquia Cantagallo,,"7",,administrative,-67.46146395834,9.77789210844463,POLYGON
+10833239,relations,,Municipio Valencia,"829856","6",,administrative,-67.9761523279594,9.99829699667984,POLYGON
+272745,relations,,Carabobo,"2245744","4",state,administrative,-68.0197712834137,10.1950622685423,POLYGON
+11066378,relations,,Municipio Ortíz,"23755","6",,administrative,-67.6035364801144,9.49687102808532,POLYGON
+15652452,relations,,Parroquia Los Tanques,,"7",,administrative,-67.5631361741396,10.0227633303281,POLYGON
+11023971,relations,,Parroquia Santa Rita,,"7",,administrative,-67.5291501023162,10.2030858669663,POLYGON
+11023964,relations,,Parroquia Las Delicias,,"7",,administrative,-67.5633921947342,10.3096324571989,POLYGON
+11023970,relations,,Parroquia Palo Negro,,"7",,administrative,-67.5982484390106,10.1818589465189,POLYGON
+15727730,relations,,Parroquia Guayabal,,"7",,administrative,-68.4293483108587,10.1353990677203,POLYGON
+19160158,relations,,Taborda,,"8",,administrative,-68.1121287900308,10.459570229469,POLYGON
+19184713,relations,,Guamacho Sur,,"9",,administrative,-67.7227167742418,10.2907356558643,POLYGON
+15652453,relations,,Parroquia Guacamaya,,"7",,administrative,-67.651495566446,10.0501884361918,POLYGON
+10833250,relations,,Municipio Naguanagua,"157437","6",,administrative,-68.0610790882325,10.2842171227077,POLYGON
+11023975,relations,,Parroquia Augusto Mijares,,"7",,administrative,-67.5776502934689,10.1007161227548,POLYGON
+11221610,relations,,Las Agüitas,,,suburb,,-67.9268555082891,10.1692974878027,POLYGON
+11221613,relations,,sector 2,,,neighbourhood,,-67.9237903611405,10.1710261748814,POLYGON
+19220177,relations,,Urbanización Las Brisas,,"9",,administrative,-67.7042195331264,10.2839749983858,POLYGON
+19220280,relations,,Sector 23,,"10",,administrative,-67.7031451874236,10.2899230823993,POLYGON
+4141767,relations,,Parroquia La Candelaria,,"7",,administrative,-68.0144034219517,10.1742866159289,POLYGON
+17900233,relations,,La Elvira,,"9",,administrative,-68.0512795181561,10.4524260333358,POLYGON
+18966747,relations,,Colinas de Guataparo,,"10",,administrative,-68.0501116458284,10.1890136055538,POLYGON
+16431190,relations,,Guanabanillo,,"9",,administrative,-68.2066974602273,10.4812845287446,POLYGON
+16501679,relations,,Valle Seco,,"9",,administrative,-67.9999080634446,10.4415116629954,POLYGON
+17899873,relations,,El Remanso,,"9",,administrative,-67.9612524602435,10.262550105857,POLYGON
+16441190,relations,,El Inca,,"9",,administrative,-68.1987467417865,10.4864664245775,POLYGON
+16543267,relations,,Urbanización Cumboto II,,"9",,administrative,-68.0359780639963,10.4654296518074,POLYGON
+16408933,relations,,Santa Ana de Morón,,"9",,administrative,-68.1981768095008,10.483119206413,POLYGON
+16543237,relations,,Las Amazonas,,"9",,administrative,-68.2073720598984,10.472919558888,POLYGON
+16431191,relations,,Casco Central de Morón,,"9",,administrative,-68.1999342536236,10.4882664099506,POLYGON
+16431177,relations,,El Dique,,"9",,administrative,-68.2013290868199,10.4731148244638,POLYGON
+16501680,relations,,Barrio Ezequiel Zamora,,"9",,administrative,-68.0102387963588,10.4530619821716,POLYGON
+16478345,relations,,Funda Morón,,"9",,administrative,-68.2009869827087,10.4821205292468,POLYGON
+16412865,relations,,Boca del Yaracuy,,"8",,administrative,-68.2436824199588,10.5800402664958,POLYGON
+11023968,relations,,Parroquia Joaquín Crespo,,"7",,administrative,-67.5726496103905,10.2318697263509,POLYGON
+15651635,relations,,Parroquia Cumboto,,"7",,administrative,-67.8262854123323,10.3993893700864,POLYGON
+19223031,relations,,Centro Histórico de Puerto Cabello,,"9",,administrative,-68.0081504793277,10.4794525089366,POLYGON
+11023953,relations,,Municipio Zamora,"144754","6",,administrative,-67.4829408771883,10.0519279276086,POLYGON
+11023954,relations,,Municipio Lamas,"32981","6",,administrative,-67.5103812339947,10.1606500109497,POLYGON
+18775332,relations,,Barrio Renny Ottolina,,"9",,administrative,-68.0024203444033,10.1402962946788,POLYGON
+10833245,relations,,Municipio San Diego,"93257","6",,administrative,-67.9519546231197,10.2645099396692,POLYGON
+19737169,relations,,Paralelo 38,,"9",,administrative,-68.0211724995571,10.4722304243414,POLYGON
+10832869,relations,,Parroquia Juan José Flores,,"7",,administrative,-68.0828975071953,10.479532091548,MULTIPOLYGON
+10832852,relations,,Parroquia Unión,,"7",,administrative,-68.0125832785715,10.4778809585035,POLYGON
+16412868,relations,,Gañango,,"8",,administrative,-67.9575920642874,10.4652506999018,POLYGON
+10833242,relations,,Parroquia Tocuyito,,"7",,administrative,-68.1238774759383,10.1159126059964,POLYGON
+10832870,relations,,Parroquia Goaigoaza,,"7",,administrative,-68.0484765380612,10.3965285981902,POLYGON
+272663,relations,,Guárico,"747739","4",state,administrative,-66.5331243451679,8.82880819426269,POLYGON
+272644,relations,,Venezuela,"26458853","2",,administrative,-66.1925989099591,7.4836331505609,MULTIPOLYGON
+11210009,relations,,Municipio Iragorry,"99852","6",,administrative,-67.6395209712512,10.32233305539,POLYGON
+19803375,relations,,Brisas del Lago,,"10",,administrative,-67.6174463019018,10.2287230539793,POLYGON
+16537205,relations,,Las Llaves (Urb. Alfredo Travieso Paul),,"9",,administrative,-68.0294260958319,10.4653949567512,POLYGON
+16431175,relations,,Banco Obrero Viejo,,"9",,administrative,-68.2025905754846,10.4763798201555,POLYGON
+18904256,relations,,Urbanización La Sorpresa,,"9",,administrative,-68.0600802944785,10.4719926542101,POLYGON
+3446032,relations,,Parroquia El Pao,,"7",,administrative,-68.0337409162266,9.71729306485708,POLYGON
+19135975,relations,,Las Tiamitas,,"8",,administrative,-67.8496846227045,10.0891955135097,POLYGON
+18968304,relations,,Agua Dulce,,"8",,administrative,-67.9273461715635,10.1105788782236,POLYGON
+18968305,relations,,Caño Seco,,"8",,administrative,-67.9323594004492,10.1079283866859,POLYGON
+11023962,relations,,Parroquia Ocumare,,"7",,administrative,-67.7573346813503,10.4209482340635,POLYGON
+15651633,relations,,Parroquia Cuyagua,,"7",,administrative,-67.6756250152581,10.4447876016484,POLYGON
+11223120,relations,,Conjunto Residencial Los Andes I,,,neighbourhood,,-67.9625818969504,10.2227847272883,POLYGON
+11023973,relations,,Parroquia San Martín de Porres,,"7",,administrative,-67.5724656512385,10.1519424485173,POLYGON
+18762461,relations,,Sector 1 Barrio la Democracia,,"10",,administrative,-67.9968075998674,10.1315629314656,POLYGON
+4141769,relations,,Parroquia Santa Rosa,,"7",,administrative,-67.9962397609385,10.1363559977212,POLYGON
+17899875,relations,,Uva de Playa,,"9",,administrative,-68.0939742554015,10.4795284380119,POLYGON
+18924756,relations,,Santa Lucía,,"9",,administrative,-68.0998533991381,10.4754806624363,POLYGON
+18924757,relations,,Chupulún,,"9",,administrative,-68.0967804975666,10.4715106318213,POLYGON
+17908370,relations,,La Pedrera (Morón),,"9",,administrative,-68.2187481899308,10.4719519373426,POLYGON
+10832858,relations,,Parroquia San Joaquín,,"7",,administrative,-67.7887751258251,10.2627833707627,POLYGON
+10833247,relations,,Municipio San Joaquín,"64124","6",,administrative,-67.7887751258251,10.2627833707627,POLYGON
+16454401,relations,,Puerto Cabello,,"8",,administrative,-68.046570225761,10.4681897075411,POLYGON
+10833240,relations,,Municipio Libertador,"166166","6",,administrative,-68.1292651147482,10.0355949498177,POLYGON
+10832873,relations,,Parroquia Bejuma,,"7",,administrative,-68.2571014595962,10.1337338518354,POLYGON
+11022334,relations,,Parroquia Chuao,,"7",,administrative,-67.5056041300785,10.4290891298754,POLYGON
+10832865,relations,,Parroquia Yagua,,"7",,administrative,-67.9104418505142,10.2687099631089,POLYGON
+18306324,relations,,La Paraguita,,"8",,administrative,-68.1662552291341,10.4816642782918,POLYGON
+17903522,relations,,Independencia,,"8",,administrative,-67.7730871669445,10.4822626958942,POLYGON
+10832063,relations,,Parroquia Montalbán,,"7",,administrative,-68.3350403085246,10.2095336492029,POLYGON
+15612467,relations,,Parroquia La Cabrera,,"7",,administrative,-67.6955656767404,10.2387524158028,POLYGON
+4141664,relations,,Parroquia El Socorro,,"7",,administrative,-68.0160028832664,10.1828799517066,POLYGON
+19184712,relations,,Guamacho Norte,,"9",,administrative,-67.7237014279295,10.2938292782328,POLYGON
+10832051,relations,,Parroquia Morón,,"7",,administrative,-68.2179322919996,10.4386972543067,POLYGON
+19184436,relations,,Río Abajo,,"8",,administrative,-68.2850921858016,10.4806047942646,POLYGON
+11023960,relations,,Parroquia Caña de Azúcar,,"7",,administrative,-67.634636919299,10.277560744809,POLYGON
+18966748,relations,,Altos de Guataparo,,"10",,administrative,-68.0454693407395,10.1773464091938,POLYGON
+18924759,relations,,Los Lanceros,,"9",,administrative,-68.0916083689789,10.4675539695476,POLYGON
+16501945,relations,,Urbanización San Esteban,,"9",,administrative,-68.0233317906471,10.4592225945609,POLYGON
+18321684,relations,,Gavilero,,"8",,administrative,-68.0151296427018,9.94695039160881,POLYGON
+17903080,relations,,La Raya,,"8",,administrative,-68.4099514359417,10.4420835010002,POLYGON
+17900232,relations,,Santa Cruz,,"9",,administrative,-68.044409253283,10.4515561454097,POLYGON
+4141783,relations,,Parroquia San Blas,,"7",,administrative,-67.9923719087562,10.1805281554173,POLYGON
+11223119,relations,,Conjunto Residencial Los Andes II,,,neighbourhood,,-67.9605012923254,10.2235695200271,POLYGON
+10832863,relations,,Parroquia Negro Primero,,"7",,administrative,-67.943938074037,9.90024767877527,POLYGON
+10832866,relations,,Parroquia Rafael Urdaneta,,"7",,administrative,-67.9590088191595,10.1366757272973,POLYGON
+15612711,relations,,Parroquia Agua Dulce,,"7",,administrative,-67.8940327076041,10.1247432567389,POLYGON
+10832050,relations,,Parroquia Canoabo,,"7",,administrative,-68.3117528469107,10.326938614358,POLYGON
+15612904,relations,,Parroquia Aguirre,,"7",,administrative,-68.2770326644361,10.2257242638608,POLYGON
+10832860,relations,,Parroquia Aguas Calientes,,"7",,administrative,-67.6815995167123,10.3100149168742,POLYGON
+10832862,relations,,Parroquia Borburata,,"7",,administrative,-67.9639700048774,10.4295363588919,POLYGON
+17900035,relations,,Quizandal,,"8",,administrative,-67.9705005177782,10.4747285382969,POLYGON
+19737170,relations,,Barrio San Pedro,,"9",,administrative,-68.0235006981418,10.4695458397141,POLYGON
+10833248,relations,,Municipio Diego Ibarra,"104536","6",,administrative,-67.7013259094907,10.2744063888369,POLYGON
+9998350,relations,,Municipio Mariño,"211010","6",,administrative,-67.4894924642894,10.373856832364,POLYGON
+11023955,relations,,Municipio Libertador,"114355","6",,administrative,-67.5906870690746,10.1730852750841,POLYGON
+11023956,relations,,Municipio Linares,"123122","6",,administrative,-67.535936176309,10.202967879898,POLYGON
+11023958,relations,,Parroquia Andrés Eloy Blanco,,"7",,administrative,-67.6051056385758,10.2632679718089,POLYGON
+10833253,relations,,Municipio Miranda,"29092","6",,administrative,-68.3662272688053,10.1098052907809,POLYGON
+11126508,relations,,Municipio Veroes,"27840","6",,administrative,-68.5085794573225,10.4418862209513,POLYGON
+10833251,relations,,Municipio Bejuma,"48538","6",,administrative,-68.2598485658248,10.2375039667838,POLYGON
+10833252,relations,,Municipio Montalbán,"24908","6",,administrative,-68.3131374840234,10.2156469847294,POLYGON
+16502514,relations,,Urama,,"8",,administrative,-68.3160555524599,10.4564130946869,POLYGON
+11126458,relations,,Parroquia Temerla,,"7",,administrative,-68.4322237852401,10.2838428317408,POLYGON
+11126457,relations,,Parroquia El Guayabo,,"7",,administrative,-68.5172758233384,10.3632668171659,POLYGON
+272743,relations,,Yaracuy,"600852","4",state,administrative,-68.7376505344724,10.2633747199812,POLYGON
+3446836,relations,,Parroquia Macapo,,"7",,administrative,-68.4499811744503,9.83180034918901,POLYGON
+10832874,relations,,Parroquia Miranda,,"7",,administrative,-68.3662272688053,10.1098052907809,POLYGON
+2465736,relations,,Parroquia San Juan,,"7",,administrative,-67.3486853224981,9.88144007381164,POLYGON
+11066365,relations,,Municipio Roscio,"126178","6",,administrative,-67.2793006250511,9.76944893673308,POLYGON
+272746,relations,,Aragua,"1630308","4",state,administrative,-67.175216076881,10.0274008632907,POLYGON
+11023967,relations,,Parroquia Pedro José Ovalles,,"7",,administrative,-67.5826036624403,10.21524886678,POLYGON
+10833241,relations,,Parroquia Miguel Peña,,"7",,administrative,-68.0188602397937,10.066594367948,POLYGON
+11221611,relations,,Sector 1,,,neighbourhood,,-67.9293400970494,10.1740491193907,POLYGON
+19220278,relations,,Sector 22,,"10",,administrative,-67.7020674839194,10.2934728114954,POLYGON
+18932494,relations,,Canoabo,,"8",,administrative,-68.280792380933,10.3026985546621,POLYGON
+18789679,relations,,Brisas de San Esteban,,"9",,administrative,-68.0270098560012,10.4655420118672,POLYGON
+16501946,relations,,Urbanización Valle Verde,,"9",,administrative,-68.0195824505852,10.4526670119193,POLYGON
+10664671,relations,,Parroquia San Diego,,"7",,administrative,-67.9519546231197,10.2645099396692,POLYGON
+10832867,relations,,Parroquia Naguanagua,,"7",,administrative,-68.0464988290214,10.2496097133322,POLYGON
+11221903,relations,,Sector 6,,,neighbourhood,,-67.9274342686678,10.1626155078155,POLYGON
+18904261,relations,,Barrio 23 de enero,,"9",,administrative,-68.0554782526411,10.4674857375463,POLYGON
+19220281,relations,,Sector 21,,"10",,administrative,-67.7060487775883,10.2920836392053,POLYGON
+15612769,relations,,Parroquia Bárbula,,"7",,administrative,-68.0202082497066,10.3022260947843,POLYGON
+10832859,relations,,Parroquia Mariara,,"7",,administrative,-67.7227400722524,10.2967556611743,POLYGON
+2689580,relations,,Municipio Girardot,"407109","6",,administrative,-67.5994322407254,10.3470886194477,POLYGON
+11022332,relations,,Parroquia Alfredo Pacheco Miranda,,"7",,administrative,-67.5313430873339,10.2528882549326,POLYGON
+16412867,relations,,Urbanización Los Gavilanes,,"8",,administrative,-68.2031984343793,10.5372502306768,POLYGON
+18932495,relations,,Canoabito,,"8",,administrative,-68.2643827687197,10.3183945993381,POLYGON
+10832871,relations,,Parroquia Democracia,,"7",,administrative,-68.1183840276469,10.3874654267691,POLYGON
+17900033,relations,,Reina Cedeño,,"9",,administrative,-68.2000173462559,10.4930323856429,POLYGON
+17900230,relations,,Cumboto Norte,,"9",,administrative,-68.0345225146232,10.4766093961318,POLYGON
+17900231,relations,,Cumboto Sur,,"9",,administrative,-68.0356899165837,10.4714604611476,POLYGON
+16501678,relations,,Polvorín,,"9",,administrative,-67.999577467792,10.4628330036531,POLYGON
+11126468,relations,,Parroquia Farriar,,"7",,administrative,-68.4984403697586,10.5335485334379,POLYGON
+19735273,relations,,Puerto Borburata,,"8",,administrative,-67.9811816180816,10.4859097188123,POLYGON
+2689581,relations,,Municipio Puerto Cabello,"182493","6",,administrative,-68.0254869366726,10.4180135788375,MULTIPOLYGON
+16412866,relations,,Venepal,,"8",,administrative,-68.2342018339102,10.5448535253935,POLYGON
+18904258,relations,,Urbanización Portuario,,"9",,administrative,-68.0688238817119,10.4735557466767,POLYGON
+18923708,relations,,El Milagro,,"9",,administrative,-68.0475326324926,10.4712239975132,POLYGON
+18924754,relations,,Villa Mar,,"9",,administrative,-68.0886568973566,10.4791261928525,POLYGON
+18924755,relations,,Urbanización Morrillo,,"9",,administrative,-68.0898456369762,10.4765245006403,POLYGON
+16454402,relations,,El Palito,,"8",,administrative,-68.107934679626,10.4753899899987,POLYGON
+17900034,relations,,El Trapiche,,"9",,administrative,-68.204987375363,10.4942258527923,POLYGON
+16543235,relations,,Unión,,"9",,administrative,-68.1982546597989,10.493675769373,POLYGON
+17915238,relations,,Nuestra Señora de Santa Ana,,"9",,administrative,-68.188349540193,10.4872873021721,POLYGON
+19205906,relations,,Palma Sola,,"9",,administrative,-68.180959651439,10.4982826282039,POLYGON
+18924760,relations,,El Faro,,"9",,administrative,-68.1023279377094,10.4787029213272,POLYGON
+17915237,relations,,Gabriel Guevara,,"9",,administrative,-68.1922271652383,10.4874376161929,POLYGON
+16441189,relations,,Mitrano,,"9",,administrative,-68.2038767420799,10.483947629877,POLYGON
+17908369,relations,,23 de Enero (Morón),,"9",,administrative,-68.1971557597695,10.4891057292979,POLYGON
+18728622,relations,,Los Bagres,,"8",,administrative,-68.1458982096154,9.81407707000304,POLYGON
+18321236,relations,,Rincón Hondo,,"8",,administrative,-67.6857155281208,10.1033534023312,POLYGON
+16449458,relations,,Santa Rita de Morón,,"9",,administrative,-68.2002193309376,10.4785065794275,POLYGON
+11223121,relations,,Urbanizacion La Gaviota,,,neighbourhood,,-67.9628742047654,10.2239987674395,POLYGON
+15652311,relations,,Parroquia Uraca,,"7",,administrative,-67.5994527758233,10.4123912361009,POLYGON
+15651634,relations,,Parroquia Cata,,"7",,administrative,-67.7233789459882,10.441533790418,POLYGON
+18319166,relations,,San Pablo de Urama,,"8",,administrative,-68.3590907784229,10.4930438737329,POLYGON
+11023974,relations,,Parroquia Magdaleno,,"7",,administrative,-67.6282985006527,10.1170715621889,POLYGON
+18789678,relations,,Rancho Chico,,"9",,administrative,-68.0007729636613,10.4552416882549,POLYGON
+18904259,relations,,Urbanización Vivas Lopez,,"9",,administrative,-68.0717077781292,10.4739226194331,POLYGON
+18904145,relations,,Urbanización la Victoria,,"9",,administrative,-68.2329148874062,10.4734869273558,POLYGON
+18966746,relations,,Guataparo Country Club,,"10",,administrative,-68.0548618120757,10.182270628699,POLYGON
+18966751,relations,,Hato Royal,,"10",,administrative,-68.06528462525,10.2142555781721,POLYGON
+10832856,relations,,Parroquia Tacarigua,,"7",,administrative,-67.8955534505006,10.0479568721914,POLYGON
+10832872,relations,,Parroquia Simón Bolívar,,"7",,administrative,-68.1834142092966,10.2290298769035,POLYGON
+9997544,relations,,Municipio Mora,"69236","6",,administrative,-68.2639874992736,10.4530236053836,POLYGON
+15612845,relations,,Parroquia La Arenosa,,"7",,administrative,-68.0803366176372,9.95618648592942,POLYGON
+11221612,relations,,Sector 3,,,neighbourhood,,-67.9284230989463,10.169830319675,POLYGON
+17899869,relations,,Centro de San Diego,,"9",,administrative,-67.9533371746887,10.2584969145294,POLYGON
+10832861,relations,,Parroquia Patanemo,,"7",,administrative,-67.9083088860817,10.4252975956986,POLYGON
+19205905,relations,,El Mamón,,"9",,administrative,-68.199382201719,10.4957992274443,POLYGON
+10831736,relations,,Parroquia Urama,,"7",,administrative,-68.3355728049613,10.4752915807532,POLYGON
+16412662,relations,,Alpargatón,,"8",,administrative,-68.2646223679868,10.4679930312846,POLYGON
+17899649,relations,,Sanguijuela,,"8",,administrative,-68.2908749640375,10.4642150292143,POLYGON
+11023969,relations,,Parroquia Francisco de Miranda,,"7",,administrative,-67.5754017722695,10.2024743366556,POLYGON
+17899872,relations,,Monteserino,,"9",,administrative,-67.9638249345483,10.2634260528891,POLYGON
+4141770,relations,,Parroquia Catedral,,"7",,administrative,-68.0011878302884,10.1847931872371,POLYGON
+11023972,relations,,Parroquia Santa Cruz,,"7",,administrative,-67.5103812339947,10.1606500109497,POLYGON
+11023976,relations,,Parroquia San Francisco de Asís,,"7",,administrative,-67.5501885504823,10.0798358342039,POLYGON
+10833244,relations,,Municipio Los Guayos,"149606","6",,administrative,-67.9023183121885,10.1454952221484,POLYGON
+18140413,relations,,Los Guayos,,"8",,administrative,-67.9178927297516,10.1793548915856,POLYGON
+19188204,relations,,Mariscal Sucre,,"9",,administrative,-67.7014159433964,10.292241820086,POLYGON
+19220176,relations,,Los Tamarindos,,"10",,administrative,-67.7006224966191,10.2839354624214,POLYGON
+19729004,relations,,El Salto,,"8",,administrative,-68.0746629598091,10.3034867702073,POLYGON
+19729005,relations,,Las Trincheras,,"8",,administrative,-68.0918048789968,10.305077855656,POLYGON
+10832851,relations,,Parroquia Fraternidad,,"7",,administrative,-68.0003767956546,10.4876134092298,MULTIPOLYGON
+11023959,relations,,Parroquia María de San José,,"7",,administrative,-67.5839302099905,10.2552765070251,POLYGON
+11023965,relations,,Parroquia José Casanova Godoy,,"7",,administrative,-67.5991776941445,10.2250490901541,POLYGON
+11023966,relations,,Parroquia Monseñor Feliciano González,,"7",,administrative,-67.588964045873,10.2017948197342,POLYGON
+11023957,relations,,Parroquia Los Tacariguas,,"7",,administrative,-67.6392749882658,10.2468817215904,POLYGON
+15652450,relations,,Parroquia Taguaiguay,,"7",,administrative,-67.4786200072414,10.0980380276264,POLYGON
+17899871,relations,,Bosqueserino,,"9",,administrative,-67.9642988431256,10.2600119170552,POLYGON
+17899874,relations,,San Antonio,,"9",,administrative,-67.9663317838562,10.2705252726643,POLYGON
+9998351,relations,,Municipio Ocumare,"12816","6",,administrative,-67.7566811374846,10.4219600681765,POLYGON
+10833249,relations,,Municipio Carlos Arvelo,"150277","6",,administrative,-67.7422543995962,10.0153245594076,POLYGON
+10832857,relations,,Parroquia Güigüe,,"7",,administrative,-67.7543744922321,10.0972261864018,POLYGON
+10832864,relations,,Parroquia Belén,,"7",,administrative,-67.6722389457403,9.9381717587805,POLYGON
+10833246,relations,,Municipio Guacara,"176218","6",,administrative,-67.875268547787,10.2579199425763,POLYGON
+15612616,relations,,Parroquia Vigirima,,"7",,administrative,-67.879763136677,10.3367615632611,POLYGON
+18319194,relations,,Valle Verde I,,"9",,administrative,-68.2085004183405,10.4909345394544,POLYGON
+11043135,relations,,Municipio Lima Blanco,"9454","6",,administrative,-68.419516275632,9.8188002610728,POLYGON
+11023980,relations,,Parroquia Villa de Cura,,"7",,administrative,-67.4757084736003,10.0104614169947,POLYGON
+16449457,relations,,Colinas de Mara II,,"9",,administrative,-68.2079869097726,10.4776589604049,POLYGON
+16412664,relations,,La Charneca,,"9",,administrative,-68.1959323276267,10.4911898993113,POLYGON
+11022331,relations,,Parroquia Samán de Güere,,"7",,administrative,-67.5175135650556,10.2263966184731,POLYGON
+19160159,relations,,Las Tablas,,"8",,administrative,-68.1051751522089,10.4405193039214,POLYGON
+4141768,relations,,Parroquia San José,,"7",,administrative,-68.0543812126717,10.2047388474571,POLYGON
+18775311,relations,,Colinas de Pequiven,,"9",,administrative,-68.2123155659182,10.4746952672411,POLYGON
+18318222,relations,,Terón Colorado,,"8",,administrative,-67.800556524718,9.85147548285517,POLYGON
+18318224,relations,,Sabaneta,,"8",,administrative,-67.5204994730951,9.94701882648676,POLYGON
+17899870,relations,,El Tulipán,,"9",,administrative,-67.9590171300399,10.2722271071956,POLYGON
+16449456,relations,,Colinas de Mara I,,"9",,administrative,-68.2047001607931,10.4761802199259,POLYGON
+16543236,relations,,El Jabillo I,,"9",,administrative,-68.1950015287368,10.4981250872809,POLYGON
+16431176,relations,,Banco Obrero Nuevo,,"9",,administrative,-68.2038370666018,10.4800693936454,POLYGON
+10832868,relations,,Parroquia Bartolomé Salom,,"7",,administrative,-68.005656735523,10.3992305587169,POLYGON
+17622383,relations,,Barrio Coromoto,,"9",,administrative,-68.1954848952948,10.4880043072151,POLYGON
+18789677,relations,,Barrio El Fortín,,"9",,administrative,-68.0212128035234,10.4612350932579,POLYGON
+18904260,relations,,Barrio La Libertad,,"9",,administrative,-68.0674707446697,10.4676963909984,POLYGON
+18956862,relations,,Covetra,,"9",,administrative,-68.2181766949742,10.4749315503315,POLYGON
+19205371,relations,,Barrio Coro,,"9",,administrative,-68.2027925738225,10.4917960842863,POLYGON
+16501681,relations,,Tejerías,,"9",,administrative,-68.0115037194683,10.4598514642425,POLYGON
+16412663,relations,,Morón,,"8",,administrative,-68.1999285011043,10.4873380429707,POLYGON
+16441344,relations,,Borburata,,"8",,administrative,-67.9658984011134,10.4395471890934,POLYGON
+10832853,relations,,Parroquia Guacara,,"7",,administrative,-67.859977525522,10.2185983294563,POLYGON
+11023963,relations,,Parroquia Choroní,,"7",,administrative,-67.6173217184038,10.4814490819289,POLYGON
+11023961,relations,,Parroquia El Limón,,"7",,administrative,-67.6405033789839,10.3313388285788,POLYGON
+15652341,relations,,Parroquia Cepe,,"7",,administrative,-67.4857360719838,10.5019177391328,POLYGON
+18319089,relations,,Chirguita (Carabobo),,"8",,administrative,-68.2226605493978,9.96801287307927,POLYGON
+11126460,relations,,Parroquia Nirgua,,"7",,administrative,-68.6837952227018,10.0197079709603,POLYGON
