@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carabobo Map - Leaflet Demo</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Una guía educativa de las funciones de Leaflet.js enfocada en el estado Carabobo, Venezuela, con ejemplos prácticos y visualizaciones en tiempo real.">
+  <meta name="keywords" content="Leaflet, Carabobo, Venezuela, Mapas, OpenStreetMap, Educación, Programación">
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Fira+Code&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside>
+    <header>
+      <h1>Carabobo Leaflet</h1>
+      <p class="subtitle">Guía educativa completa del uso de Leaflet.js enfocada en el corazón de Venezuela.</p>
+    </header>
+
+    <div id="edu-content">
+      <!-- L.map -->
+      <section class="edu-card">
+        <h3>L.map</h3>
+        <p>El núcleo de la aplicación. Crea un mapa en un div de HTML con coordenadas y zoom inicial.</p>
+        <code>const map = L.map('map').setView([10.1, -68.0], 10);</code>
+      </section>
+
+      <!-- L.tileLayer -->
+      <section class="edu-card">
+        <h3>L.tileLayer</h3>
+        <p>Define la fuente de las imágenes del mapa (tiles). Aquí usamos OpenStreetMap.</p>
+        <code>L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);</code>
+      </section>
+
+      <!-- L.marker -->
+      <section class="edu-card">
+        <h3>L.marker</h3>
+        <p>Añade marcadores icónicos en coordenadas específicas. Ideales para puntos de interés.</p>
+        <code>L.marker([10.16, -67.99]).addTo(map);</code>
+      </section>
+
+      <!-- L.popup -->
+      <section class="edu-card">
+        <h3>L.popup</h3>
+        <p>Ventanas emergentes que aparecen al hacer clic en un objeto. Muy útiles para mostrar información extra.</p>
+        <code>marker.bindPopup('¡Bienvenido a Valencia!');</code>
+      </section>
+
+      <!-- L.tooltip -->
+      <section class="edu-card">
+        <h3>L.tooltip</h3>
+        <p>Etiquetas pequeñas flotantes que aparecen al pasar el mouse por encima del elemento.</p>
+        <code>marker.bindTooltip('Valencia', { permanent: false });</code>
+      </section>
+
+      <!-- L.circle -->
+      <section class="edu-card">
+        <h3>L.circle</h3>
+        <p>Dibuja un círculo sobre el mapa. Requiere centro y radio en metros. Útil para expresar áreas de influencia.</p>
+        <code>L.circle([10.2, -67.9], { radius: 500 }).addTo(map);</code>
+      </section>
+
+      <!-- L.polygon -->
+      <section class="edu-card">
+        <h3>L.polygon</h3>
+        <p>Permite dibujar formas geométricas cerradas basándose en una lista de coordenadas (lat, lng).</p>
+        <code>L.polygon([[lat1, lng1], [lat2, lng2], ...]).addTo(map);</code>
+      </section>
+
+      <!-- L.polyline -->
+      <section class="edu-card">
+        <h3>L.polyline</h3>
+        <p>Dibuja líneas que conectan varios puntos. Ideal para rutas de transporte o fronteras.</p>
+        <code>L.polyline([[10.1, -68.0], [10.2, -68.1]]).addTo(map);</code>
+      </section>
+
+      <!-- L.layerGroup -->
+      <section class="edu-card">
+        <h3>L.layerGroup</h3>
+        <p>Permite agrupar varios elementos (marcadores, círculos) para controlarlos como una sola unidad.</p>
+        <code>const group = L.layerGroup([marker1, marker2]).addTo(map);</code>
+      </section>
+
+      <!-- L.control.layers -->
+      <section class="edu-card">
+        <h3>L.control.layers</h3>
+        <p>Control de capas que permite al usuario alternar entre diferentes mapas base y superposiciones.</p>
+        <code>L.control.layers(baseMaps, overlays).addTo(map);</code>
+      </section>
+
+      <!-- L.control.scale -->
+      <section class="edu-card">
+        <h3>L.control.scale</h3>
+        <p>Un control visual sencillo que indica la escala actual del mapa en kilómetros o millas.</p>
+        <code>L.control.scale().addTo(map);</code>
+      </section>
+
+      <!-- Event Handling -->
+      <section class="edu-card">
+        <h3>Event Handling</h3>
+        <p>Permite interactuar con el mapa. Detecta clics, movimientos de cámara o cambios de zoom.</p>
+        <code>map.on('click', (e) => console.log(e.latlng));</code>
+      </section>
+
+    </div>
+  </aside>
+
+  <main>
+    <div id="map"></div>
+  </main>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
