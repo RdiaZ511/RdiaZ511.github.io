@@ -1,0 +1,131 @@
+Tengo una tabla en postgresql llamada alcaldiainfraestructura con las siguientes columnas:
+	alcaldia bpchar(14) NOT NULL,
+	fechaingreso date DEFAULT CURRENT_DATE NOT NULL,
+	areadato bpchar(2) NOT NULL,
+	gestionpor bpchar(2) NOT NULL,
+	clasedato bpchar(2) NOT NULL,
+	datoespecifico text NOT NULL,
+	tipovalordato bpchar(2) NOT NULL,
+	valordato text NOT NULL,
+	parroquia bpchar(20) NULL.
+
+alcaldia son los municipios del estado carabobo, Venezuela
+parroquia son las parrouias relativas a los municipios del estado Carabobo, Venezuela
+fechaingreso debe ser no anterior al 01/01/2026 y posterior a 31/03/2026
+areadato responde a este json y son los eventos que comunmente ocurren en un municipio
+[
+	{
+    "name": "Agua Potable",
+    "code": "01"
+  },
+  {
+    "name": "Agua Residual",
+    "code": "02"
+  },
+	{
+    "name": "Alumbrado",
+    "code": "03"
+  },
+  {
+    "name": "Educacion",
+    "code": "04"
+  },
+	{
+    "name": "Electricidad",
+    "code": "05"
+  },
+	{
+    "name": "Espacios Publicos",
+    "code": "06"
+  },
+  {
+    "name": "Residuos Solidos",
+    "code": "07"
+  },
+	{
+    "name": "Salud",
+    "code": "08"
+  },
+  {
+    "name": "Seguridad",
+    "code": "09"
+  },
+ 	{
+    "name": "Telecomunicaciones",
+    "code": "10"
+  },
+ 	{
+    "name": "Transporte",
+    "code": "11"
+  },
+
+ {
+    "name": "Vialidad",
+    "code": "12"
+  }
+]
+
+gestionpor responde a este json
+[
+  {
+    "name": "Ente Publico",
+    "code": "01"
+  },
+  {
+    "name": "Ente Privado",
+    "code": "02"
+  },
+  {
+    "name": "Ente Mixto",
+    "code": "03"
+  }
+]
+
+clasedato responde al siguiente json
+[
+  {
+    "name": "Evento",
+    "code": "01"
+  },
+  {
+    "name": "Informacion",
+    "code": "02"
+  },
+  {
+    "name": "Estadistico",
+    "code": "03"
+  },
+  {
+    "name": "Ubicacion",
+    "code": "04"
+  }
+
+]
+
+tipovalordato responde al siguiente json
+[
+  {
+    "name": "Numerico",
+    "code": "01"
+  },
+  {
+    "name": "Texto",
+    "code": "02"
+  },
+  {
+    "name": "Logico",
+    "code": "03"
+  },
+	{
+    "name": "Fecha",
+    "code": "04"
+  },
+	{
+    "name": "Ubicacion",
+    "code": "05"
+  }
+]
+
+valordato es una explicacion coerente con areadato, clasedato y tipovalordato.
+
+Con esta informacion te voy a pedir me generes 1000 filas en formato sql para importalos por dbeaver a la tabla alcaldiainfraestructura, donde alcaldia y parroquia tengan una relacion integral y hagas que areadato, clasedato, tipovalordato y valordato se relacionen entre si de manera logica.
