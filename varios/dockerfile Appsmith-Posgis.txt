@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # Base de datos PostgreSQL
+  db-postgres:
+    image: postgis/postgis:15-3.4
+    container_name: db-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 0511.diazaponte
+      POSTGRES_DB: appsmith_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  # Instancia de Appsmith
+  appsmith-ce:
+    image: index.docker.io/appsmith/appsmith-ce
+    container_name: appsmith-ce
+    restart: always
+    ports:
+      - "8080:80"  # Lo puse en el 8080 para que no choque con otros servicios
+      - "8443:443"
+    environment:
+      # Es vital que Appsmith sepa su URL para que las redirecciones funcionen
+      - APPSMITH_BASE_URL=http://192.168.1.150:8080
+    volumes:
+      - appsmith_stacks:/appsmith-stacks
+    depends_on:
+      - db-postgres
+
+volumes:
+  postgres_data:
+  appsmith_stacks:

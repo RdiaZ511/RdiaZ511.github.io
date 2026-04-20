@@ -1,0 +1,581 @@
+{
+  "type": "PAGE",
+  "name": "Entidades",
+  "widgets": [
+    {
+      "type": "CONTAINER_WIDGET",
+      "widgetName": "MainContainer",
+      "version": 1,
+      "parentColumnSpace": 1,
+      "parentRowSpace": 1,
+      "leftColumn": 0,
+      "rightColumn": 64,
+      "topRow": 0,
+      "bottomRow": 100,
+      "children": [
+        {
+          "type": "TABLE_WIDGET_V2",
+          "widgetName": "TablaEntidades",
+          "version": 1,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "leftColumn": 2,
+          "rightColumn": 62,
+          "topRow": 2,
+          "bottomRow": 50,
+          "isVisible": true,
+          "primaryColumns": {
+            "codigo": {
+              "id": "codigo",
+              "alias": "Código",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "entidad": {
+              "id": "entidad",
+              "alias": "Entidad",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "identificacion": {
+              "id": "identificacion",
+              "alias": "Identificación",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "municipio_parroquia": {
+              "id": "municipio_parroquia",
+              "alias": "Municipio/Parroquia",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "direccion": {
+              "id": "direccion",
+              "alias": "Dirección",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "ubicacion": {
+              "id": "ubicacion",
+              "alias": "Ubicación",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "fecha_inicio": {
+              "id": "fecha_inicio",
+              "alias": "Fecha Inicio",
+              "columnType": "date",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "telefono": {
+              "id": "telefono",
+              "alias": "Teléfono",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "tipo_entidad": {
+              "id": "tipo_entidad",
+              "alias": "Tipo Entidad",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "tamano_entidad": {
+              "id": "tamano_entidad",
+              "alias": "Tamaño Entidad",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "contacto": {
+              "id": "contacto",
+              "alias": "Contacto",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "telefono_contacto": {
+              "id": "telefono_contacto",
+              "alias": "Teléfono Contacto",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "web_entidad": {
+              "id": "web_entidad",
+              "alias": "Web",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "instagram_entidad": {
+              "id": "instagram_entidad",
+              "alias": "Instagram",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "twitter_entidad": {
+              "id": "twitter_entidad",
+              "alias": "Twitter",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "facebook_entidad": {
+              "id": "facebook_entidad",
+              "alias": "Facebook",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "capital_humano": {
+              "id": "capital_humano",
+              "alias": "Capital Humano",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "productos": {
+              "id": "productos",
+              "alias": "Productos",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "capacidad_produccion": {
+              "id": "capacidad_produccion",
+              "alias": "Capacidad Producción",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "instalada": {
+              "id": "instalada",
+              "alias": "Cap. Instalada",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "operativa": {
+              "id": "operativa",
+              "alias": "Cap. Operativa",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "participacion_mercado": {
+              "id": "participacion_mercado",
+              "alias": "Participación Mercado",
+              "columnType": "number",
+              "isVisible": true,
+              "isDerived": false
+            },
+            "materia_prima": {
+              "id": "materia_prima",
+              "alias": "Materia Prima",
+              "columnType": "string",
+              "isVisible": true,
+              "isDerived": false
+            }
+          },
+          "tableData": "{{getEntidades.data}}",
+          "defaultSelectedRowIndex": 0,
+          "selectedRowIndex": 0,
+          "triggeredRowIndex": 0,
+          "onRowSelected": "{{storeValue('selectedEntidad', TablaEntidades.selectedRow); showModal('ModalForm');}}",
+          "enableEdit": true,
+          "enableDelete": true,
+          "onEdit": "{{storeValue('selectedEntidad', TablaEntidades.triggeredRow); showModal('ModalForm');}}",
+          "onDelete": "{{deleteEntidad.run(() => getEntidades.run(), () => {})}}"
+        },
+        {
+          "type": "BUTTON_WIDGET",
+          "widgetName": "BtnAgregar",
+          "version": 1,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "leftColumn": 2,
+          "rightColumn": 10,
+          "topRow": 52,
+          "bottomRow": 56,
+          "text": "Agregar Entidad",
+          "buttonColor": "#2E3B4E",
+          "onClick": "{{storeValue('selectedEntidad', null); resetWidget('FormularioEntidad', true); showModal('ModalForm');}}"
+        },
+        {
+          "type": "MODAL_WIDGET",
+          "widgetName": "ModalForm",
+          "version": 1,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "leftColumn": 10,
+          "rightColumn": 54,
+          "topRow": 60,
+          "bottomRow": 200,
+          "isVisible": false,
+          "children": [
+            {
+              "type": "FORM_WIDGET",
+              "widgetName": "FormularioEntidad",
+              "version": 1,
+              "parentColumnSpace": 1,
+              "parentRowSpace": 1,
+              "leftColumn": 0,
+              "rightColumn": 44,
+              "topRow": 0,
+              "bottomRow": 140,
+              "children": [
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputEntidad",
+                  "version": 1,
+                  "label": "Entidad",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.entidad : ''}}",
+                  "isRequired": true,
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 2,
+                  "bottomRow": 8
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputIdentificacion",
+                  "version": 1,
+                  "label": "Identificación (RIF/Cédula)",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.identificacion : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 2,
+                  "bottomRow": 8
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputMunicipioParroquia",
+                  "version": 1,
+                  "label": "Municipio/Parroquia (ID)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.municipio_parroquia : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 10,
+                  "bottomRow": 16
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputDireccion",
+                  "version": 1,
+                  "label": "Dirección",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.direccion : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 10,
+                  "bottomRow": 16
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputUbicacion",
+                  "version": 1,
+                  "label": "Ubicación (coordenadas)",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.ubicacion : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 18,
+                  "bottomRow": 24
+                },
+                {
+                  "type": "DATE_PICKER_WIDGET2",
+                  "widgetName": "DateFechaInicio",
+                  "version": 1,
+                  "label": "Fecha de Inicio",
+                  "defaultDate": "{{selectedEntidad ? selectedEntidad.fecha_inicio : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 18,
+                  "bottomRow": 24
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputTelefono",
+                  "version": 1,
+                  "label": "Teléfono",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.telefono : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 26,
+                  "bottomRow": 32
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputTipoEntidad",
+                  "version": 1,
+                  "label": "Tipo de Entidad (1,2,3...)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.tipo_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 26,
+                  "bottomRow": 32
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputTamanoEntidad",
+                  "version": 1,
+                  "label": "Tamaño Entidad (código)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.tamano_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 34,
+                  "bottomRow": 40
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputContacto",
+                  "version": 1,
+                  "label": "Nombre Contacto",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.contacto : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 34,
+                  "bottomRow": 40
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputTelefonoContacto",
+                  "version": 1,
+                  "label": "Teléfono Contacto",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.telefono_contacto : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 42,
+                  "bottomRow": 48
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputWeb",
+                  "version": 1,
+                  "label": "Sitio Web",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.web_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 42,
+                  "bottomRow": 48
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputInstagram",
+                  "version": 1,
+                  "label": "Instagram",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.instagram_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 50,
+                  "bottomRow": 56
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputTwitter",
+                  "version": 1,
+                  "label": "Twitter",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.twitter_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 50,
+                  "bottomRow": 56
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputFacebook",
+                  "version": 1,
+                  "label": "Facebook",
+                  "inputType": "TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.facebook_entidad : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 58,
+                  "bottomRow": 64
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputCapitalHumano",
+                  "version": 1,
+                  "label": "Capital Humano (# empleados)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.capital_humano : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 58,
+                  "bottomRow": 64
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputProductos",
+                  "version": 1,
+                  "label": "Productos (descripción)",
+                  "inputType": "MULTI_LINE_TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.productos : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 66,
+                  "bottomRow": 76
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputCapacidadProduccion",
+                  "version": 1,
+                  "label": "Capacidad de Producción",
+                  "inputType": "MULTI_LINE_TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.capacidad_produccion : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 66,
+                  "bottomRow": 76
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputInstalada",
+                  "version": 1,
+                  "label": "Capacidad Instalada (%)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.instalada : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 78,
+                  "bottomRow": 84
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputOperativa",
+                  "version": 1,
+                  "label": "Capacidad Operativa (%)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.operativa : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 78,
+                  "bottomRow": 84
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputParticipacionMercado",
+                  "version": 1,
+                  "label": "Participación Mercado (%)",
+                  "inputType": "NUMBER",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.participacion_mercado : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 2,
+                  "rightColumn": 30,
+                  "topRow": 86,
+                  "bottomRow": 92
+                },
+                {
+                  "type": "INPUT_WIDGET_V2",
+                  "widgetName": "InputMateriaPrima",
+                  "version": 1,
+                  "label": "Materia Prima",
+                  "inputType": "MULTI_LINE_TEXT",
+                  "defaultText": "{{selectedEntidad ? selectedEntidad.materia_prima : ''}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 32,
+                  "rightColumn": 60,
+                  "topRow": 86,
+                  "bottomRow": 96
+                },
+                {
+                  "type": "BUTTON_WIDGET",
+                  "widgetName": "BtnSubmit",
+                  "version": 1,
+                  "text": "Guardar",
+                  "buttonColor": "#03B365",
+                  "onClick": "{{selectedEntidad ? updateEntidad.run(() => { getEntidades.run(); closeModal('ModalForm'); }, () => {}) : insertEntidad.run(() => { getEntidades.run(); closeModal('ModalForm'); }, () => {})}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 10,
+                  "rightColumn": 26,
+                  "topRow": 100,
+                  "bottomRow": 106
+                },
+                {
+                  "type": "BUTTON_WIDGET",
+                  "widgetName": "BtnCancelar",
+                  "version": 1,
+                  "text": "Cancelar",
+                  "buttonColor": "#F22B2B",
+                  "onClick": "{{closeModal('ModalForm')}}",
+                  "parentColumnSpace": 1,
+                  "parentRowSpace": 1,
+                  "leftColumn": 30,
+                  "rightColumn": 46,
+                  "topRow": 100,
+                  "bottomRow": 106
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+}

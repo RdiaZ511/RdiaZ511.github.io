@@ -1,0 +1,27 @@
+Campo - Tipo de Dato - Longitud
+----------------------------------
+codigo, entero, 5
+entidad, caracter, 80
+identificacion, caracter, 10
+estado, entero, 2
+municipio, entero, 2
+parroquia, entero, 2
+direccion, caracter, 80
+ubicacion, caracter, 20
+fecha_inicio, fecha
+telefono, caracter, 12
+tipo_entidad, entero, 1
+tamano_entidad, entero, 1
+contacto, caracter, 60
+telefono_contacto, caracter, 12
+web_entidad, caracter, 30
+instagram_entidad, caracter, 25
+twitter_entidad, caracter, 25
+facebook_entidad, caracter, 25
+capital_humano, entero, 4
+productos, caracter, 400
+capacidad_produccion, caracter, 320
+instalada, entero, 2
+operativa, entero, 2
+participacion_mercado, entero, 2
+materia_prima, caracter, 300
