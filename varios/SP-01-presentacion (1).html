@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SP-01 · Estrategia de Bilingüismo Turístico · Carabobo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #C0392B;
+    --red-light: #E05545;
+    --red-pale: #FDECEA;
+    --blue-dark: #0F2D5E;
+    --blue-mid: #1B4F9A;
+    --blue: #2563EB;
+    --blue-light: #4A90D9;
+    --blue-pale: #E8F0FB;
+    --blue-xpale: #F0F5FF;
+    --white: #FFFFFF;
+    --page: #F4F7FC;
+    --text-muted: #5B6B82;
+    --text-body: #1E2D3D;
+    --border: rgba(37,99,235,0.15);
+    --border-red: rgba(192,57,43,0.2);
+    --serif: 'Playfair Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--page);
+    color: var(--text-body);
+    overflow-x: hidden;
+  }
+
+  /* ---- UTILITY ---- */
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 2.5rem; }
+  .fade-up { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+  .delay-1 { transition-delay: 0.1s; }
+  .delay-2 { transition-delay: 0.2s; }
+  .delay-3 { transition-delay: 0.35s; }
+  .delay-4 { transition-delay: 0.5s; }
+  .delay-5 { transition-delay: 0.65s; }
+
+  /* ---- NAV ---- */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(15,45,94,0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(37,99,235,0.2);
+    padding: 1rem 0;
+    transition: all 0.3s;
+  }
+  nav .inner {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand {
+    font-family: var(--serif); color: #fff; font-size: 1.1rem; letter-spacing: 0.04em;
+    text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.82rem;
+    letter-spacing: 0.06em; text-transform: uppercase; font-weight: 400;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: #fff; }
+
+  /* ---- HERO ---- */
+  #hero {
+    min-height: 100vh;
+    background: var(--blue-dark);
+    display: flex; flex-direction: column; justify-content: center;
+    position: relative; overflow: hidden;
+    padding: 7rem 0 4rem;
+  }
+  .hero-geo {
+    position: absolute; right: -120px; top: 50%; transform: translateY(-50%);
+    width: 700px; height: 700px; opacity: 0.07;
+    border: 1px solid var(--blue-light);
+    border-radius: 50%;
+  }
+  .hero-geo::before {
+    content: ''; position: absolute; inset: 60px;
+    border: 1px solid var(--blue-light); border-radius: 50%;
+  }
+  .hero-geo::after {
+    content: ''; position: absolute; inset: 130px;
+    border: 1px solid var(--red-light); border-radius: 50%;
+  }
+  .hero-line {
+    display: inline-block;
+    width: 60px; height: 3px; background: var(--red);
+    margin-bottom: 1.8rem;
+    animation: growLine 1.2s ease forwards;
+  }
+  @keyframes growLine { from { width: 0; } to { width: 60px; } }
+
+  .hero-eyebrow {
+    color: var(--blue-light); font-size: 0.75rem; letter-spacing: 0.2em;
+    text-transform: uppercase; font-weight: 500; margin-bottom: 1.2rem;
+  }
+  .hero-title {
+    font-family: var(--serif); color: #fff;
+    font-size: clamp(2.8rem, 6vw, 5.2rem);
+    line-height: 1.1; font-weight: 900;
+    max-width: 800px; margin-bottom: 1.5rem;
+  }
+  .hero-title em { color: #7BB3F0; font-style: normal; }
+  .hero-subtitle {
+    color: rgba(255,255,255,0.5); font-size: 1.05rem; font-weight: 300;
+    max-width: 560px; line-height: 1.7; margin-bottom: 3.5rem;
+  }
+  .hero-meta {
+    display: flex; gap: 3rem; flex-wrap: wrap;
+  }
+  .hero-stat { display: flex; flex-direction: column; gap: 4px; }
+  .hero-stat-num {
+    font-family: var(--serif); color: #fff; font-size: 2.4rem; font-weight: 700; line-height: 1;
+  }
+  .hero-stat-num.accent { color: var(--red-light); }
+  .hero-stat-label {
+    color: rgba(255,255,255,0.4); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .hero-scroll {
+    position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    color: rgba(255,255,255,0.3); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase;
+    animation: bounce 2s ease infinite;
+  }
+  .hero-scroll::after {
+    content: ''; width: 1px; height: 40px; background: rgba(74,144,217,0.4);
+    display: block;
+  }
+  @keyframes bounce { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(6px); } }
+
+  /* ---- SECTION BASE ---- */
+  section { padding: 6rem 0; }
+  .section-label {
+    font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--blue); font-weight: 500; margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .section-label::before {
+    content: ''; width: 28px; height: 2px; background: var(--red);
+  }
+  .section-title {
+    font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 3rem);
+    color: var(--blue-dark); font-weight: 900; line-height: 1.15; margin-bottom: 1.2rem;
+  }
+  .section-body {
+    color: var(--text-muted); font-size: 1rem; line-height: 1.75; max-width: 640px;
+  }
+
+  #fundamentacion { background: var(--white); }
+  .principles-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;
+    margin-top: 3.5rem;
+  }
+  .principle-card {
+    background: var(--blue-xpale); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.8rem;
+    position: relative; overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .principle-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(37,99,235,0.1); }
+  .principle-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--blue), var(--red));
+  }
+  .principle-num {
+    font-family: var(--serif); font-size: 2.2rem; color: rgba(37,99,235,0.12);
+    font-weight: 900; line-height: 1; margin-bottom: 0.8rem;
+  }
+  .principle-title { font-weight: 500; font-size: 0.9rem; color: var(--blue-dark); margin-bottom: 0.5rem; }
+  .principle-desc { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
+
+  #diseno { background: var(--blue-dark); }
+  #diseno .section-label { color: #7BB3F0; }
+  #diseno .section-label::before { background: var(--red-light); }
+  #diseno .section-title { color: #fff; }
+  #diseno .section-body { color: rgba(255,255,255,0.5); }
+
+  .objetivo-banner {
+    background: rgba(74,144,217,0.1); border: 1px solid rgba(74,144,217,0.25);
+    border-left: 4px solid var(--red);
+    border-radius: 16px; padding: 2.5rem; margin: 3rem 0;
+    display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;
+  }
+  .objetivo-big {
+    font-family: var(--serif); font-size: 3.5rem; color: #7BB3F0;
+    font-weight: 900; line-height: 1; flex-shrink: 0;
+  }
+  .objetivo-text { color: rgba(255,255,255,0.75); font-size: 1.05rem; line-height: 1.65; }
+  .objetivo-text strong { color: #7BB3F0; font-weight: 500; }
+
+  .sectores-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  .sector-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; padding: 2rem;
+    transition: background 0.3s;
+  }
+  .sector-card:hover { background: rgba(255,255,255,0.09); }
+  .sector-tag {
+    display: inline-block; font-size: 0.68rem; letter-spacing: 0.15em;
+    text-transform: uppercase; padding: 4px 12px;
+    border-radius: 20px; margin-bottom: 1rem; font-weight: 500;
+  }
+  .sector-tag.primario { background: rgba(37,99,235,0.3); color: #7BB3F0; }
+  .sector-tag.secundario { background: rgba(192,57,43,0.25); color: #F08080; }
+  .sector-tag.terciario { background: rgba(74,144,217,0.2); color: #A8C8F0; }
+  .sector-name { color: #fff; font-weight: 500; font-size: 1rem; margin-bottom: 0.5rem; }
+  .sector-occ { color: rgba(255,255,255,0.4); font-size: 0.82rem; line-height: 1.6; }
+
+  #fases { background: var(--page); }
+  .timeline {
+    margin-top: 4rem; position: relative;
+    padding-left: 2rem;
+  }
+  .timeline::before {
+    content: ''; position: absolute; left: 0; top: 8px; bottom: 8px;
+    width: 2px; background: linear-gradient(to bottom, var(--blue), var(--red));
+  }
+  .tl-item {
+    position: relative; padding-left: 2.5rem; margin-bottom: 3.5rem;
+  }
+  .tl-item:last-child { margin-bottom: 0; }
+  .tl-dot {
+    position: absolute; left: -2rem; top: 6px; margin-left: -6px;
+    width: 14px; height: 14px; border-radius: 50%;
+    background: var(--page); border: 2px solid var(--blue);
+    transition: background 0.3s;
+  }
+  .tl-item:hover .tl-dot { background: var(--blue); }
+  .tl-period {
+    font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--red); font-weight: 500; margin-bottom: 0.4rem;
+  }
+  .tl-fase-name {
+    font-family: var(--serif); font-size: 1.5rem; color: var(--blue-dark);
+    font-weight: 700; margin-bottom: 0.8rem;
+  }
+  .tl-body { color: var(--text-muted); font-size: 0.9rem; line-height: 1.7; max-width: 700px; }
+  .tl-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 1rem; }
+  .tl-tag {
+    background: var(--blue-pale); color: var(--blue-mid);
+    font-size: 0.75rem; padding: 4px 12px; border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+
+  #hitos { background: var(--blue-pale); }
+  .hitos-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem; margin-top: 3.5rem;
+  }
+  .hito-card {
+    background: var(--white); border-radius: 12px; border: 1px solid var(--border);
+    padding: 1.5rem 1.8rem; display: flex; gap: 1.2rem; align-items: flex-start;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .hito-card:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(37,99,235,0.1); }
+  .hito-mes {
+    flex-shrink: 0; background: var(--blue-dark); color: #7BB3F0;
+    font-family: var(--serif); font-size: 0.95rem; font-weight: 700;
+    width: 52px; height: 52px; border-radius: 10px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    line-height: 1.1;
+  }
+  .hito-mes span { font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.35); }
+  .hito-info {}
+  .hito-code { font-size: 0.65rem; color: var(--red); font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.2rem; }
+  .hito-title { color: var(--blue-dark); font-size: 0.9rem; font-weight: 500; line-height: 1.4; margin-bottom: 0.3rem; }
+  .hito-kpi { color: var(--text-muted); font-size: 0.8rem; line-height: 1.5; }
+
+  #kpis { background: var(--blue-mid); }
+  #kpis .section-label { color: #A8C8F0; }
+  #kpis .section-label::before { background: var(--red-light); }
+  #kpis .section-title { color: #fff; }
+  .kpi-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem; margin-top: 3.5rem;
+  }
+  .kpi-card {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px; padding: 2rem 1.5rem; text-align: center;
+    transition: background 0.3s;
+  }
+  .kpi-card:hover { background: rgba(255,255,255,0.14); }
+  .kpi-card.red-accent { border-top: 3px solid var(--red-light); }
+  .kpi-big {
+    font-family: var(--serif); font-size: 3rem; font-weight: 900;
+    color: #fff; line-height: 1; margin-bottom: 0.5rem;
+  }
+  .kpi-label { color: rgba(255,255,255,0.9); font-size: 0.82rem; font-weight: 500; margin-bottom: 0.3rem; }
+  .kpi-method { color: rgba(255,255,255,0.4); font-size: 0.75rem; line-height: 1.5; }
+
+  #aliados { background: var(--white); }
+  .aliados-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.2rem; margin-top: 3.5rem;
+  }
+  .aliado-card {
+    background: var(--blue-xpale); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1.5rem 1.8rem;
+    border-left: 3px solid var(--blue);
+    transition: box-shadow 0.3s, border-left-color 0.3s;
+  }
+  .aliado-card:hover { box-shadow: 0 8px 30px rgba(37,99,235,0.1); border-left-color: var(--red); }
+  .aliado-name { color: var(--blue-dark); font-weight: 500; font-size: 0.92rem; margin-bottom: 0.3rem; }
+  .aliado-rol { color: var(--blue); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.6rem; }
+  .aliado-desc { color: var(--text-muted); font-size: 0.82rem; line-height: 1.6; }
+
+  footer {
+    background: var(--blue-dark); color: rgba(255,255,255,0.4);
+    padding: 3rem 0; text-align: center; font-size: 0.8rem;
+    border-top: 3px solid var(--red);
+  }
+  footer strong { color: #7BB3F0; font-weight: 500; }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 720px) {
+    .sectores-grid { grid-template-columns: 1fr; }
+    .hero-meta { gap: 1.5rem; }
+    .objetivo-big { font-size: 2.5rem; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container inner">
+    <a class="nav-brand" href="#">SP-01 · Carabobo</a>
+    <ul class="nav-links">
+      <li><a href="#fundamentacion">Fundamentos</a></li>
+      <li><a href="#diseno">Diseño</a></li>
+      <li><a href="#fases">Fases</a></li>
+      <li><a href="#hitos">Hitos</a></li>
+      <li><a href="#kpis">KPIs</a></li>
+      <li><a href="#aliados">Aliados</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-geo"></div>
+  <div class="container">
+    <div class="hero-line"></div>
+    <p class="hero-eyebrow fade-up">Secretaría de Turismo y Economía Productiva · Estado Carabobo · Código SP-01 · v2.0</p>
+    <h1 class="hero-title fade-up delay-1">
+      Estrategia de<br><em>Bilingüismo</em><br>para el Sector Turístico
+    </h1>
+    <p class="hero-subtitle fade-up delay-2">
+      Inglés para Fines Específicos aplicado al turismo. Competencias comunicativas inmediatas para la atención al cliente de clase mundial.
+    </p>
+    <div class="hero-meta fade-up delay-3">
+      <div class="hero-stat">
+        <span class="hero-stat-num">1.500</span>
+        <span class="hero-stat-label">Prestadores a certificar</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">22</span>
+        <span class="hero-stat-label">Meses de ejecución</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num accent">14</span>
+        <span class="hero-stat-label">Municipios cubiertos</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">8</span>
+        <span class="hero-stat-label">Cohortes planificadas</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- FUNDAMENTACION -->
+<section id="fundamentacion">
+  <div class="container">
+    <p class="section-label fade-up">Fundamentación conceptual</p>
+    <h2 class="section-title fade-up delay-1">Principios que<br>guían la estrategia</h2>
+    <p class="section-body fade-up delay-2">
+      Basada en el enfoque de <strong>IFE/ESP</strong> (Inglés para Fines Específicos), la estrategia posiciona el idioma como catalizador de progreso económico, inclusión laboral y diferenciador competitivo regional.
+    </p>
+
+    <div class="principles-grid">
+      <div class="principle-card fade-up delay-1">
+        <div class="principle-num">01</div>
+        <div class="principle-title">Inclusión</div>
+        <div class="principle-desc">Acceso gratuito mediante módulos públicos para todos los prestadores del estado.</div>
+      </div>
+      <div class="principle-card fade-up delay-2">
+        <div class="principle-num">02</div>
+        <div class="principle-title">Certificación oficial</div>
+        <div class="principle-desc">Alineación con el Marco Común Europeo (A1–B1) y validación por la Secretaría.</div>
+      </div>
+      <div class="principle-card fade-up delay-3">
+        <div class="principle-num">03</div>
+        <div class="principle-title">Sostenibilidad</div>
+        <div class="principle-desc">Instrucción a formadores y actualización periódica para garantizar continuidad.</div>
+      </div>
+      <div class="principle-card fade-up delay-4">
+        <div class="principle-num">04</div>
+        <div class="principle-title">Corresponsabilidad</div>
+        <div class="principle-desc">Convenios con universidades, cámaras, alcaldías y empresas privadas.</div>
+      </div>
+      <div class="principle-card fade-up delay-5">
+        <div class="principle-num">05</div>
+        <div class="principle-title">Enfoque andragógico</div>
+        <div class="principle-desc">Metodologías flexibles, simulación contextual y microaprendizaje para adultos.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DISEÑO ESTRATEGIA -->
+<section id="diseno">
+  <div class="container">
+    <p class="section-label fade-up">Diseño amplio</p>
+    <h2 class="section-title fade-up delay-1">Objetivo &amp;<br>Segmentación</h2>
+
+    <div class="objetivo-banner fade-up delay-2">
+      <div class="objetivo-big">1.500</div>
+      <div class="objetivo-text">
+        Formar y certificar progresivamente a <strong>1.500 prestadores de servicio turístico</strong> —directos e indirectos— del estado Carabobo en <strong>22 meses</strong>, vinculando certificación oficial con mejora medible en indicadores de satisfacción del turista.<br><br>
+        Modalidad <strong>híbrida 60/40</strong> (presencial / virtual) · 120 horas por cohorte · 8 semanas · ~190 participantes por cohorte
+      </div>
+    </div>
+
+    <div class="sectores-grid">
+      <div class="sector-card fade-up delay-1">
+        <span class="sector-tag primario">Sector Primario</span>
+        <div class="sector-name">Recepción, transporte y seguridad</div>
+        <div class="sector-occ">Recepcionistas, botones, taxistas, conductores de rutas turísticas, personal de seguridad, informadores turísticos.</div>
+      </div>
+      <div class="sector-card fade-up delay-2">
+        <span class="sector-tag secundario">Sector Secundario</span>
+        <div class="sector-name">Gastronomía y recreación</div>
+        <div class="sector-occ">Mesoneros, bartenders, chefs, guías de aventura, operadores de parques recreativos, artesanos en ferias.</div>
+      </div>
+      <div class="sector-card fade-up delay-3">
+        <span class="sector-tag terciario">Sector Terciario</span>
+        <div class="sector-name">Administración y gestión</div>
+        <div class="sector-occ">Gerentes de posadas y hoteles boutique, coordinadores de rutas, personal de oficinas municipales, promotores.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FASES -->
+<section id="fases">
+  <div class="container">
+    <p class="section-label fade-up">Cronograma integrado</p>
+    <h2 class="section-title fade-up delay-1">Las tres fases<br>del programa</h2>
+    <p class="section-body fade-up delay-2">Un recorrido de 22 meses estructurado en fases progresivas, desde el diseño curricular hasta la emisión de certificados y sellos de calidad bilingüe.</p>
+
+    <div class="timeline">
+      <div class="tl-item fade-up">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Meses 1 – 3</div>
+        <div class="tl-fase-name">Fase I · Diagnóstico, Planificación y Alianzas</div>
+        <div class="tl-body">Diseño curricular por sector, definición de léxico técnico, firma de convenios marco y diagnóstico de nivel lingüístico inicial. Configuración de plataforma LMS y lanzamiento oficial del programa con la cohorte piloto en Valencia y Puerto Cabello.</div>
+        <div class="tl-tags">
+          <span class="tl-tag">Diseño curricular</span>
+          <span class="tl-tag">Firma de convenios</span>
+          <span class="tl-tag">Diagnóstico inicial</span>
+          <span class="tl-tag">LMS configurado</span>
+        </div>
+      </div>
+
+      <div class="tl-item fade-up delay-1">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Meses 4 – 16</div>
+        <div class="tl-fase-name">Fase II · Ejecución y Capacitación</div>
+        <div class="tl-body">Cohorte piloto (160 participantes) en sectores primario y secundario, evaluación y ajustes curriculares. Despliegue masivo en 14 municipios con 6 cohortes adicionales (1.340 participantes), talleres de inmersión sectorial y ciclos de autoestudio en plataforma con microcápsulas.</div>
+        <div class="tl-tags">
+          <span class="tl-tag">Piloto Valencia / Pto. Cabello</span>
+          <span class="tl-tag">Expansión 14 municipios</span>
+          <span class="tl-tag">Talleres de inmersión</span>
+          <span class="tl-tag">Microcápsulas LMS</span>
+        </div>
+      </div>
+
+      <div class="tl-item fade-up delay-2">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Meses 17 – 22</div>
+        <div class="tl-fase-name">Fase III · Evaluación, Certificación y Cierre</div>
+        <div class="tl-body">Evaluación final estandarizada (nivel B1 esperado para el 70%), auditorías Mystery Shopper en comercios y servicios, emisión de certificados y sellos de calidad bilingüe. Informe de impacto y plan de sostenibilidad para transferencia a política pública permanente.</div>
+        <div class="tl-tags">
+          <span class="tl-tag">Examen B1 estandarizado</span>
+          <span class="tl-tag">Mystery Shopper</span>
+          <span class="tl-tag">Certificados y sellos</span>
+          <span class="tl-tag">Informe de impacto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HITOS -->
+<section id="hitos">
+  <div class="container">
+    <p class="section-label fade-up">Milestones</p>
+    <h2 class="section-title fade-up delay-1">Hitos del proyecto</h2>
+    <p class="section-body fade-up delay-2">Siete hitos verificables que marcan el avance del programa a lo largo de los 22 meses de ejecución.</p>
+
+    <div class="hitos-grid">
+      <div class="hito-card fade-up">
+        <div class="hito-mes">2<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H1</div>
+          <div class="hito-title">Currículo aprobado y 5 convenios marco firmados</div>
+          <div class="hito-kpi">Documentos curriculares por sector y convenios formalizados.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-1">
+        <div class="hito-mes">6<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H2</div>
+          <div class="hito-title">Cohorte piloto completada</div>
+          <div class="hito-kpi">80% de aprobación, satisfacción >85%, lecciones aprendidas documentadas.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-2">
+        <div class="hito-mes">12<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H3</div>
+          <div class="hito-title">50% de la población objetivo en módulos intermedios</div>
+          <div class="hito-kpi">Al menos 750 participantes activos en plataforma y talleres presenciales.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-3">
+        <div class="hito-mes">16<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H4</div>
+          <div class="hito-title">100% de auditorías de campo realizadas</div>
+          <div class="hito-kpi">Cobertura completa de visitas Mystery Shopper con resultados sistematizados.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-1">
+        <div class="hito-mes">20<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H5</div>
+          <div class="hito-title">Meta de cobertura alcanzada</div>
+          <div class="hito-kpi">1.500 prestadores formados, 70% con nivel B1 verificado.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-2">
+        <div class="hito-mes">20<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H6</div>
+          <div class="hito-title">Certificación y sellos de calidad emitidos</div>
+          <div class="hito-kpi">Al menos 1.200 certificados y 500 sellos de calidad bilingüe entregados.</div>
+        </div>
+      </div>
+      <div class="hito-card fade-up delay-3">
+        <div class="hito-mes">22<span>mes</span></div>
+        <div class="hito-info">
+          <div class="hito-code">H7</div>
+          <div class="hito-title">Informe de impacto aprobado</div>
+          <div class="hito-kpi">Reporte final con indicadores de mejora en satisfacción turística y plan de continuidad.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KPIs -->
+<section id="kpis">
+  <div class="container">
+    <p class="section-label fade-up">Evaluación de cumplimiento</p>
+    <h2 class="section-title fade-up delay-1">Indicadores clave<br>de desempeño</h2>
+
+    <div class="kpi-grid">
+      <div class="kpi-card red-accent fade-up">
+        <div class="kpi-big">1.500</div>
+        <div class="kpi-label">Prestadores certificados</div>
+        <div class="kpi-method">Registro LMS vs. certificados emitidos · Frecuencia mensual</div>
+      </div>
+      <div class="kpi-card fade-up delay-1">
+        <div class="kpi-big">70%</div>
+        <div class="kpi-label">Nivel B1 alcanzado</div>
+        <div class="kpi-method">Examen oral y escrito al final de cada cohorte</div>
+      </div>
+      <div class="kpi-card fade-up delay-2">
+        <div class="kpi-big">+25%</div>
+        <div class="kpi-label">Satisfacción del turista</div>
+        <div class="kpi-method">Encuestas + Mystery Shopper · Frecuencia trimestral</div>
+      </div>
+      <div class="kpi-card fade-up delay-3">
+        <div class="kpi-big">85%</div>
+        <div class="kpi-label">Retención del programa</div>
+        <div class="kpi-method">Auditoría de asistencia y progreso en plataforma · Quincenal</div>
+      </div>
+      <div class="kpi-card fade-up delay-4">
+        <div class="kpi-big">100%</div>
+        <div class="kpi-label">Municipios auditados</div>
+        <div class="kpi-method">Reportes Mystery Shopper · Frecuencia semestral</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALIADOS -->
+<section id="aliados">
+  <div class="container">
+    <p class="section-label fade-up">Convenios estratégicos</p>
+    <h2 class="section-title fade-up delay-1">Red de aliados</h2>
+    <p class="section-body fade-up delay-2">Convenios marco con actores públicos, académicos y privados garantizan la corresponsabilidad y sostenibilidad del programa.</p>
+
+    <div class="aliados-grid">
+      <div class="aliado-card fade-up">
+        <div class="aliado-name">Secretaría de Turismo y Economía Productiva</div>
+        <div class="aliado-rol">Ente rector · Financiador · Certificador</div>
+        <div class="aliado-desc">Convocatoria, supervisión, emisión de certificados y sellos de calidad bilingüe.</div>
+      </div>
+      <div class="aliado-card fade-up delay-1">
+        <div class="aliado-name">Universidades (UC, UNEFA, UJAP)</div>
+        <div class="aliado-rol">Soporte académico y metodológico</div>
+        <div class="aliado-desc">Aval curricular, pruebas estandarizadas y emisión conjunta de certificados académicos.</div>
+      </div>
+      <div class="aliado-card fade-up delay-2">
+        <div class="aliado-name">British Council / Embajada del Reino Unido</div>
+        <div class="aliado-rol">Asesoría técnica internacional</div>
+        <div class="aliado-desc">Materiales estandarizados ESP y talleres de actualización docente.</div>
+      </div>
+      <div class="aliado-card fade-up delay-3">
+        <div class="aliado-name">Cámaras de Turismo y Comercio</div>
+        <div class="aliado-rol">Facilitadoras de captación</div>
+        <div class="aliado-desc">Convocatoria sectorial, cesión de espacios y aval empresarial a los sellos de calidad.</div>
+      </div>
+      <div class="aliado-card fade-up delay-1">
+        <div class="aliado-name">Alcaldías de los 14 municipios</div>
+        <div class="aliado-rol">Apoyo logístico y territorial</div>
+        <div class="aliado-desc">Espacios físicos (Infocentros, Casas de Cultura), movilización de participantes y difusión local.</div>
+      </div>
+      <div class="aliado-card fade-up delay-2">
+        <div class="aliado-name">Hoteles, posadas y líneas de transporte</div>
+        <div class="aliado-rol">Espacios de práctica real</div>
+        <div class="aliado-desc">Simulaciones en entornos reales, retroalimentación y participación en auditorías Mystery Shopper.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p><strong>Proyecto SP-01</strong> · Estrategia de Bilingüismo para el Sector Turístico de Carabobo</p>
+    <p style="margin-top: 0.5rem;">Versión 2.0 · 1 de mayo de 2026 · Secretaría de Turismo y Economía Productiva del Estado Carabobo</p>
+  </div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
