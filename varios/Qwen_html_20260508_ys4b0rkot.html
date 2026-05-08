@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto SP-01 | Bilingüismo Turístico Carabobo</title>
+  
+  <!-- Frameworks & Icons via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+  <link href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#f0f9ff', 100: '#e0f2fe', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1', 900: '#0c4a6e' },
+            accent: { 500: '#f59e0b', 600: '#d97706' },
+            success: { 500: '#10b981' },
+            dark: '#0f172a'
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Poppins', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Animaciones y utilidades extra */
+    .reveal { opacity: 0; transform: translateY(24px); transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    
+    .glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(226, 232, 240, 0.6); }
+    
+    .timeline-line { position: relative; }
+    .timeline-line::before { content: ''; position: absolute; left: 1.1rem; top: 0; bottom: 0; width: 3px; background: #e2e8f0; border-radius: 999px; z-index: 0; }
+    @media (min-width: 768px) { .timeline-line::before { left: 50%; transform: translateX(-50%); } }
+    
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-modern { width: 100%; border-collapse: separate; border-spacing: 0; }
+    .table-modern th { position: sticky; top: 0; background: #f8fafc; z-index: 1; }
+    .table-modern th, .table-modern td { padding: 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+    .table-modern tr:last-child td { border-bottom: none; }
+    .table-modern tr:hover td { background: #f1f5f9; transition: background 0.2s; }
+
+    /* Scrollbar personalizada */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans antialiased selection:bg-brand-100 selection:text-brand-900">
+
+  <!-- Navegación -->
+  <nav class="fixed w-full z-50 transition-all duration-300 glass" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center gap-2">
+          <i class="ph-fill ph-globe-hemisphere-west text-brand-600 text-2xl"></i>
+          <span class="font-display font-bold text-xl text-dark tracking-tight">SP<span class="text-brand-500">-01</span></span>
+        </div>
+        <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+          <a href="#concepto" class="hover:text-brand-600 transition">Concepto</a>
+          <a href="#estrategia" class="hover:text-brand-600 transition">Estrategia</a>
+          <a href="#convenios" class="hover:text-brand-600 transition">Aliados</a>
+          <a href="#cronograma" class="hover:text-brand-600 transition">Cronograma</a>
+          <a href="#hitos" class="hover:text-brand-600 transition">Hitos</a>
+          <a href="#kpi" class="hover:text-brand-600 transition">KPIs</a>
+        </div>
+        <button class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition" x-data="{ open: false }" @click="open = !open" :class="{'bg-slate-100': open}">
+          <i class="ph-bold ph-list" x-show="!open"></i>
+          <i class="ph-bold ph-x" x-show="open"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Menú Móvil -->
+    <div class="md:hidden hidden bg-white border-t border-slate-100" id="mobileMenu">
+      <div class="px-4 py-3 space-y-2 text-sm font-medium text-slate-600">
+        <a href="#concepto" class="block py-2 hover:text-brand-600">Concepto</a>
+        <a href="#estrategia" class="block py-2 hover:text-brand-600">Estrategia</a>
+        <a href="#convenios" class="block py-2 hover:text-brand-600">Aliados</a>
+        <a href="#cronograma" class="block py-2 hover:text-brand-600">Cronograma</a>
+        <a href="#hitos" class="block py-2 hover:text-brand-600">Hitos</a>
+        <a href="#kpi" class="block py-2 hover:text-brand-600">KPIs</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="relative pt-24 pb-20 lg:pt-32 lg:pb-28 overflow-hidden bg-gradient-to-br from-dark via-brand-900 to-brand-700 text-white">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djZoLTYiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-30"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl reveal active">
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold tracking-wide backdrop-blur-sm">VERSIÓN 2.0</span>
+          <span class="px-3 py-1 rounded-full bg-accent-500/20 border border-accent-500/30 text-accent-300 text-xs font-semibold tracking-wide backdrop-blur-sm">MAYO 2026</span>
+        </div>
+        <h1 class="font-display text-4xl md:text-6xl font-bold leading-tight mb-6">Estrategia de Bilingüismo para el Sector Turístico</h1>
+        <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
+          Transformando la atención al visitante en Carabobo mediante competencias comunicativas inmediatas, certificación oficial y corresponsabilidad público-privada.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#estrategia" class="px-6 py-3 bg-white text-brand-700 font-semibold rounded-xl shadow-lg hover:bg-slate-100 transition transform hover:-translate-y-1 flex items-center gap-2">
+            Explorar Estrategia <i class="ph-bold ph-arrow-down"></i>
+          </a>
+          <a href="#convenios" class="px-6 py-3 bg-white/10 border border-white/30 text-white font-semibold rounded-xl hover:bg-white/20 transition backdrop-blur-sm flex items-center gap-2">
+            Ver Aliados <i class="ph-bold ph-users"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 py-16">
+    
+    <!-- 1. Fundamentación -->
+    <section id="concepto" class="reveal">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-dark">Fundamentación Conceptual</h2>
+          <p class="text-slate-500 mt-2 max-w-2xl">Inglés para Fines Específicos (IFE/ESP) aplicado al turismo. Catalizador de progreso económico, inclusión laboral y diferenciador competitivo regional.</p>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:border-brand-200 hover:shadow-md transition group">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-3 group-hover:scale-110 transition"><i class="ph-bold ph-globe"></i></div>
+          <h3 class="font-semibold text-dark">Inclusión</h3>
+          <p class="text-sm text-slate-500 mt-1">Acceso gratuito mediante módulos públicos flexibles.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:border-brand-200 hover:shadow-md transition group">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-3 group-hover:scale-110 transition"><i class="ph-bold ph-certificate"></i></div>
+          <h3 class="font-semibold text-dark">Certificación Oficial</h3>
+          <p class="text-sm text-slate-500 mt-1">Alineación MCER (A1-B1) y aval de la Secretaría.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:border-brand-200 hover:shadow-md transition group">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-3 group-hover:scale-110 transition"><i class="ph-bold ph-plant"></i></div>
+          <h3 class="font-semibold text-dark">Sostenibilidad</h3>
+          <p class="text-sm text-slate-500 mt-1">Instrucción a formadores y actualización periódica.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:border-brand-200 hover:shadow-md transition group">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-3 group-hover:scale-110 transition"><i class="ph-bold ph-handshake"></i></div>
+          <h3 class="font-semibold text-dark">Corresponsabilidad</h3>
+          <p class="text-sm text-slate-500 mt-1">Convenios con universidades, cámaras y empresas.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:border-brand-200 hover:shadow-md transition group md:col-span-2 lg:col-span-1">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-3 group-hover:scale-110 transition"><i class="ph-bold ph-graduation-cap"></i></div>
+          <h3 class="font-semibold text-dark">Enfoque Andragógico</h3>
+          <p class="text-sm text-slate-500 mt-1">Simulación contextual y microaprendizaje aplicado.</p>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl p-6 md:p-8 text-white">
+        <h3 class="font-display text-xl font-bold mb-4 flex items-center gap-2"><i class="ph-fill ph-crosshair text-accent-500"></i> Alcance Temático</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="flex items-start gap-3"><i class="ph-bold ph-chat-circle-dots mt-1 text-accent-400"></i><p class="text-sm text-slate-200">Saludos, bienvenida y despedida con calidez cultural</p></div>
+          <div class="flex items-start gap-3"><i class="ph-bold ph-briefcase mt-1 text-accent-400"></i><p class="text-sm text-slate-200">Vocabulario técnico por sector (hotelería, gastronomía, transporte)</p></div>
+          <div class="flex items-start gap-3"><i class="ph-bold ph-warning-circle mt-1 text-accent-400"></i><p class="text-sm text-slate-200">Manejo de quejas, emergencias básicas y protocolos</p></div>
+          <div class="flex items-start gap-3"><i class="ph-bold ph-map-pin mt-1 text-accent-400"></i><p class="text-sm text-slate-200">Descripción de atractivos, precios, horarios y rutas</p></div>
+          <div class="flex items-start gap-3"><i class="ph-bold ph-star mt-1 text-accent-400"></i><p class="text-sm text-slate-200">Ofrecimiento de productos y storytelling local</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Estrategia -->
+    <section id="estrategia" class="reveal">
+      <div class="mb-10">
+        <h2 class="font-display text-3xl font-bold text-dark">Diseño de la Estrategia</h2>
+        <p class="text-slate-500 mt-2 max-w-2xl">Formar y certificar a <strong>1.500 prestadores</strong> en <strong>22 meses</strong>, vinculando certificación oficial con mejora medible en satisfacción.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-6 mb-8">
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="font-bold text-dark mb-2">📊 Segmentación Sectorial</h3>
+          <div class="space-y-3 mt-4">
+            <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-xs font-bold text-brand-600 uppercase tracking-wider">Primario</span>
+              <p class="text-sm text-slate-600 mt-1">Recepción, transporte y seguridad.</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-xs font-bold text-brand-600 uppercase tracking-wider">Secundario</span>
+              <p class="text-sm text-slate-600 mt-1">Gastronomía y recreación.</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-xs font-bold text-brand-600 uppercase tracking-wider">Terciario</span>
+              <p class="text-sm text-slate-600 mt-1">Administración y gestión de destinos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="font-bold text-dark mb-2">🔄 Modalidad & Carga</h3>
+          <ul class="space-y-2 mt-4 text-sm text-slate-600">
+            <li class="flex items-center gap-2"><i class="ph-bold ph-check-circle text-success-500"></i> <strong>Híbrida:</strong> 60% presencial / 40% virtual</li>
+            <li class="flex items-center gap-2"><i class="ph-bold ph-check-circle text-success-500"></i> <strong>Plataforma:</strong> LMS + App IA conversacional</li>
+            <li class="flex items-center gap-2"><i class="ph-bold ph-check-circle text-success-500"></i> <strong>Total:</strong> 120h por cohorte (8h/semana × 15 sem)</li>
+            <li class="flex items-center gap-2"><i class="ph-bold ph-check-circle text-success-500"></i> <strong>Capacidad:</strong> 8 cohortes (~190 part.)</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="font-bold text-dark mb-2">👥 Recursos Clave</h3>
+          <div class="grid grid-cols-2 gap-3 mt-4 text-xs text-slate-600">
+            <div class="p-2 bg-slate-50 rounded text-center font-semibold">15 Instructores (B2+)</div>
+            <div class="p-2 bg-slate-50 rounded text-center font-semibold">3 Coordinadores</div>
+            <div class="p-2 bg-slate-50 rounded text-center font-semibold">1 Administrador</div>
+            <div class="p-2 bg-slate-50 rounded text-center font-semibold">1 Equipo Externo</div>
+            <div class="p-2 bg-slate-50 rounded text-center font-semibold col-span-2">Espacios: Universidades, Hoteles, Infocentros</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fases -->
+      <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-sm overflow-hidden">
+        <h3 class="font-bold text-dark mb-4">Estructura por Fases</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="relative p-4 bg-brand-50 rounded-xl border border-brand-100">
+            <div class="absolute top-4 right-4 text-brand-200 text-6xl font-bold opacity-50">I</div>
+            <h4 class="font-semibold text-brand-700 mb-1">Mes 1-3</h4>
+            <p class="text-sm text-slate-700 font-medium">Diagnóstico, Planificación y Alianzas</p>
+            <p class="text-xs text-slate-500 mt-2">Diseño curricular, firma de convenios, configuración LMS y lanzamiento.</p>
+          </div>
+          <div class="relative p-4 bg-slate-50 rounded-xl border border-slate-200">
+            <div class="absolute top-4 right-4 text-slate-300 text-6xl font-bold opacity-50">II</div>
+            <h4 class="font-semibold text-slate-700 mb-1">Mes 4-16</h4>
+            <p class="text-sm text-slate-700 font-medium">Ejecución y Capacitación</p>
+            <p class="text-xs text-slate-500 mt-2">Piloto, expansión masiva en 14 municipios, inmersión y simulación.</p>
+          </div>
+          <div class="relative p-4 bg-accent-50 rounded-xl border border-accent-200">
+            <div class="absolute top-4 right-4 text-accent-200 text-6xl font-bold opacity-50">III</div>
+            <h4 class="font-semibold text-accent-600 mb-1">Mes 17-22</h4>
+            <p class="text-sm text-slate-700 font-medium">Evaluación, Certificación y Cierre</p>
+            <p class="text-xs text-slate-500 mt-2">Mystery Shopper, exámenes estandarizados, sellos e informe final.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Convenios -->
+    <section id="convenios" class="reveal">
+      <h2 class="font-display text-3xl font-bold text-dark mb-2">Convenios con Partes Interesadas</h2>
+      <p class="text-slate-500 mb-8">Red de colaboración público-privada para garantizar cobertura, validación académica y espacios de práctica real.</p>
+      
+      <div class="table-wrap bg-white rounded-2xl border border-slate-100 shadow-sm">
+        <table class="table-modern min-w-[600px]">
+          <thead>
+            <tr class="text-left text-xs font-bold text-slate-500 uppercase tracking-wider">
+              <th>Entidad</th>
+              <th>Rol</th>
+              <th>Compromiso Específico</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm divide-y divide-slate-100">
+            <tr><td class="font-medium text-dark">Secretaría de Turismo</td><td>Ente rector, financiador y certificador</td><td>Convocatoria, supervisión, emisión de certificados y sellos.</td></tr>
+            <tr><td class="font-medium text-dark">Universidades (UC, UNEFA, UJAP)</td><td>Soporte académico y metodológico</td><td>Aval curricular, pruebas estandarizadas, emisión conjunta.</td></tr>
+            <tr><td class="font-medium text-dark">British Council / Embajada UK</td><td>Asesoría técnica internacional</td><td>Materiales ESP, actualización docente.</td></tr>
+            <tr><td class="font-medium text-dark">Cámaras de Turismo y Comercio</td><td>Facilitadoras de captación</td><td>Convocatoria sectorial, cesión de espacios, aval empresarial.</td></tr>
+            <tr><td class="font-medium text-dark">Alcaldías (14 municipios)</td><td>Apoyo logístico y territorial</td><td>Infocentros, Casas de Cultura, movilización y difusión.</td></tr>
+            <tr><td class="font-medium text-dark">Asociaciones Hoteleras/Transporte</td><td>Espacios de práctica real</td><td>Simulaciones in-situ, retroalimentación, Mystery Shopper.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 p-4 bg-blue-50 text-blue-800 text-sm rounded-lg border border-blue-100 flex items-start gap-2">
+        <i class="ph-bold ph-info text-lg mt-0.5"></i>
+        <span><strong>Formalización:</strong> Cartas de intención (Mes 1) → Convenio marco (45 días) → Acuerdos operativos por municipio pre-despliegue.</span>
+      </div>
+    </section>
+
+    <!-- 4. Cronograma -->
+    <section id="cronograma" class="reveal">
+      <h2 class="font-display text-3xl font-bold text-dark mb-8">Cronograma Integrado (22 Meses)</h2>
+      <div class="timeline-line space-y-8 relative">
+        <!-- Mes 1-3 -->
+        <div class="flex flex-col md:flex-row items-center md:gap-8">
+          <div class="md:w-1/2 md:text-right pr-0 md:pr-12 mb-2 md:mb-0">
+            <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 text-xs font-bold rounded-full">Mes 1-3</span>
+            <h4 class="font-bold text-dark mt-2">Diseño, Diagnóstico y Lanzamiento</h4>
+            <p class="text-sm text-slate-500">Curricular por sector, firma de convenios, configuración LMS, inscripción piloto.</p>
+            <span class="text-xs text-slate-400">👤 Secretaría + Universidades + Cámaras</span>
+          </div>
+          <div class="absolute left-0 md:left-1/2 w-6 h-6 bg-brand-500 border-4 border-white rounded-full shadow-md transform -translate-x-1/2 z-10"></div>
+          <div class="md:w-1/2 pl-12 md:pl-12"></div>
+        </div>
+        <!-- Mes 4-7 -->
+        <div class="flex flex-col md:flex-row items-center md:gap-8">
+          <div class="md:w-1/2 md:text-right pr-0 md:pr-12 mb-2 md:mb-0 order-1 md:order-1"></div>
+          <div class="absolute left-0 md:left-1/2 w-6 h-6 bg-brand-500 border-4 border-white rounded-full shadow-md transform -translate-x-1/2 z-10"></div>
+          <div class="md:w-1/2 pl-12 md:pl-12 order-2 md:order-2">
+            <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 text-xs font-bold rounded-full">Mes 4-7</span>
+            <h4 class="font-bold text-dark mt-2">Cohorte Piloto</h4>
+            <p class="text-sm text-slate-500">160 participantes (Valencia/Pto Cabello), monitoreo intensivo, evaluación y ajustes.</p>
+            <span class="text-xs text-slate-400">👤 Instructores + Coordinación</span>
+          </div>
+        </div>
+        <!-- Mes 8-16 -->
+        <div class="flex flex-col md:flex-row items-center md:gap-8">
+          <div class="md:w-1/2 md:text-right pr-0 md:pr-12 mb-2 md:mb-0">
+            <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 text-xs font-bold rounded-full">Mes 8-16</span>
+            <h4 class="font-bold text-dark mt-2">Expansión Masiva</h4>
+            <p class="text-sm text-slate-500">6 cohortes (1.340 part.), microcápsulas LMS, inmersión sectorial y simulaciones.</p>
+            <span class="text-xs text-slate-400">👤 Instructores + Cámaras + Alcaldías</span>
+          </div>
+          <div class="absolute left-0 md:left-1/2 w-6 h-6 bg-brand-500 border-4 border-white rounded-full shadow-md transform -translate-x-1/2 z-10"></div>
+          <div class="md:w-1/2 pl-12 md:pl-12"></div>
+        </div>
+        <!-- Mes 17-22 -->
+        <div class="flex flex-col md:flex-row items-center md:gap-8">
+          <div class="md:w-1/2 md:text-right pr-0 md:pr-12 mb-2 md:mb-0 order-1 md:order-1"></div>
+          <div class="absolute left-0 md:left-1/2 w-6 h-6 bg-accent-500 border-4 border-white rounded-full shadow-md transform -translate-x-1/2 z-10"></div>
+          <div class="md:w-1/2 pl-12 md:pl-12 order-2 md:order-2">
+            <span class="inline-block px-3 py-1 bg-accent-100 text-accent-700 text-xs font-bold rounded-full">Mes 17-22</span>
+            <h4 class="font-bold text-dark mt-2">Evaluación & Certificación</h4>
+            <p class="text-sm text-slate-500">Exámenes B1, Mystery Shopper, emisión de sellos, informe de impacto y transferencia a política pública.</p>
+            <span class="text-xs text-slate-400">👤 Universidades + Evaluadores Externos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Hitos -->
+    <section id="hitos" class="reveal">
+      <h2 class="font-display text-3xl font-bold text-dark mb-2">Hitos del Proyecto</h2>
+      <p class="text-slate-500 mb-8">Indicadores de éxito críticos para validar el avance y garantizar la calidad.</p>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H1</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 2</span>
+            </div>
+            <h4 class="font-bold text-dark">Aprobación & Alianzas</h4>
+            <p class="text-sm text-slate-500 mt-2">Currículo validado y 5 convenios marco firmados.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Documentos por sector + formalización</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H2</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 6</span>
+            </div>
+            <h4 class="font-bold text-dark">Piloto Completado</h4>
+            <p class="text-sm text-slate-500 mt-2">80% aprobación, satisfacción >85%, lecciones documentadas.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Graduación + Ajustes</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H3</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 12</span>
+            </div>
+            <h4 class="font-bold text-dark">50% Cobertura Activa</h4>
+            <p class="text-sm text-slate-500 mt-2">≥750 participantes activos en plataforma y talleres.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Módulos intermedios masivos</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H4</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 16</span>
+            </div>
+            <h4 class="font-bold text-dark">Auditorías 100%</h4>
+            <p class="text-sm text-slate-500 mt-2">Cobertura completa de visitas Mystery Shopper sistematizadas.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Evaluadores externos</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H5</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 20</span>
+            </div>
+            <h4 class="font-bold text-dark">Meta de Cobertura</h4>
+            <p class="text-sm text-slate-500 mt-2">1.500 formados, 70% con nivel B1 verificado.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Examen estandarizado final</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded">H6</span>
+              <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 20</span>
+            </div>
+            <h4 class="font-bold text-dark">Certificación</h4>
+            <p class="text-sm text-slate-500 mt-2">≥1.200 certificados y 500 sellos de calidad entregados.</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">Actos de entrega oficial</div>
+        </div>
+
+        <div class="md:col-span-2 lg:col-span-3 bg-gradient-to-r from-brand-50 to-slate-50 p-5 rounded-2xl border border-brand-100 shadow-sm text-center">
+          <div class="flex justify-center items-center gap-3 mb-2">
+            <span class="px-2 py-1 bg-brand-100 text-brand-600 text-xs font-bold rounded">H7</span>
+            <span class="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded">Mes 22</span>
+          </div>
+          <h4 class="font-bold text-dark text-lg">Informe de Impacto Aprobado</h4>
+          <p class="text-sm text-slate-500 mt-1">Reporte final con indicadores de mejora turística y plan de continuidad institucionalizado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. KPIs -->
+    <section id="kpi" class="reveal">
+      <h2 class="font-display text-3xl font-bold text-dark mb-2">Evaluación & KPIs</h2>
+      <p class="text-slate-500 mb-8">Métricas cuantitativas y cualitativas para garantizar efectividad, retención y mejora continua.</p>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm text-center">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Alcance</p>
+          <p class="text-3xl font-bold text-brand-600 mt-1">1.500</p>
+          <p class="text-xs text-slate-500 mt-1">Prestadores certificados</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm text-center">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Fluidez B1</p>
+          <p class="text-3xl font-bold text-brand-600 mt-1">70%</p>
+          <p class="text-xs text-slate-500 mt-1">Meta por cohorte</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm text-center">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Satisfacción</p>
+          <p class="text-3xl font-bold text-brand-600 mt-1">+25%</p>
+          <p class="text-xs text-slate-500 mt-1">Respecto a línea base</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm text-center">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Retención</p>
+          <p class="text-3xl font-bold text-brand-600 mt-1">>85%</p>
+          <p class="text-xs text-slate-500 mt-1">Permanencia programática</p>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
+          <div class="p-5 border-b border-slate-100 bg-slate-50 flex items-center gap-2">
+            <i class="ph-bold ph-wrench text-brand-600"></i>
+            <h3 class="font-bold text-dark">Herramientas de Evaluación</h3>
+          </div>
+          <div class="p-5 space-y-4">
+            <div class="flex items-start gap-3"><i class="ph-fill ph-file-text text-brand-500 mt-1"></i><p class="text-sm text-slate-600">Pruebas de entrada/salida estandarizadas (MCER A1-B1)</p></div>
+            <div class="flex items-start gap-3"><i class="ph-fill ph-chalkboard-teacher text-brand-500 mt-1"></i><p class="text-sm text-slate-600">Rúbricas de simulación presencial de atención al cliente</p></div>
+            <div class="flex items-start gap-3"><i class="ph-fill ph-robot text-brand-500 mt-1"></i><p class="text-sm text-slate-600">App de práctica con IA conversacional y tracking</p></div>
+            <div class="flex items-start gap-3"><i class="ph-fill ph-eye text-brand-500 mt-1"></i><p class="text-sm text-slate-600">Auditorías Mystery Shopper en entornos reales</p></div>
+            <div class="flex items-start gap-3"><i class="ph-fill ph-users-three text-brand-500 mt-1"></i><p class="text-sm text-slate-600">Panel trimestral con empresarios para ajuste curricular</p></div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
+          <div class="p-5 border-b border-slate-100 bg-red-50 flex items-center gap-2">
+            <i class="ph-bold ph-warning-circle text-red-500"></i>
+            <h3 class="font-bold text-dark">Plan de Depuración & Corrección</h3>
+          </div>
+          <div class="p-5 space-y-4">
+            <div>
+              <p class="text-xs font-bold text-slate-400 uppercase">Disparadores de Alerta</p>
+              <p class="text-sm text-slate-600 mt-1">Deserción >15%, satisfacción <3.5/5, bajo desempeño repetido en auditorías.</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-400 uppercase">Acciones Correctivas</p>
+              <p class="text-sm text-slate-600 mt-1">Refuerzo pedagógico focalizado, rotación de instructores, ajuste de horarios, bonos de permanencia, mentorías 1:1.</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-slate-400 uppercase">Revisión Estratégica</p>
+              <p class="text-sm text-slate-600 mt-1">Semestral con todos los aliados y retroalimentación del sector productivo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-slate-300 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <i class="ph-fill ph-globe-hemisphere-west text-brand-400 text-2xl"></i>
+            <span class="font-display font-bold text-xl text-white">SP<span class="text-brand-400">-01</span></span>
+          </div>
+          <p class="text-sm text-slate-400 leading-relaxed">Iniciativa pública para elevar la competitividad turística del estado Carabobo mediante la capacitación lingüística certificada.</p>
+          <div class="mt-4 flex gap-2">
+            <span class="px-2 py-1 bg-slate-800 text-xs rounded text-slate-400">v2.0</span>
+            <span class="px-2 py-1 bg-slate-800 text-xs rounded text-slate-400">Mayo 2026</span>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-bold text-white mb-4">Navegación</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#concepto" class="hover:text-brand-400 transition">Concepto & Alcance</a></li>
+            <li><a href="#estrategia" class="hover:text-brand-400 transition">Diseño Estratégico</a></li>
+            <li><a href="#convenios" class="hover:text-brand-400 transition">Convenios & Aliados</a></li>
+            <li><a href="#cronograma" class="hover:text-brand-400 transition">Cronograma 22 Meses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white mb-4">Contacto Institucional</h4>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-center gap-2"><i class="ph-bold ph-briefcase text-brand-400"></i> Secretaría de Turismo y Economía Productiva</li>
+            <li class="flex items-center gap-2"><i class="ph-bold ph-envelope text-brand-400"></i> coordinacion.sp01@turismo.carabobo.gob.ve</li>
+            <li class="flex items-center gap-2"><i class="ph-bold ph-map-pin text-brand-400"></i> Av. Bolívar, Valencia, Edo. Carabobo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+        © 2026 Secretaría de Turismo y Economía Productiva del Estado Carabobo. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Volver Arriba -->
+  <button id="backTop" class="fixed bottom-6 right-6 w-12 h-12 bg-brand-500 text-white rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:bg-brand-600 hover:scale-105 z-40">
+    <i class="ph-bold ph-arrow-up"></i>
+  </button>
+
+  <script>
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.querySelector('nav button');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Scroll Reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('active');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Back to Top & Navbar Shadow
+    const backTop = document.getElementById('backTop');
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        backTop.classList.remove('opacity-0', 'pointer-events-none');
+        navbar.classList.add('shadow-sm');
+      } else {
+        backTop.classList.add('opacity-0', 'pointer-events-none');
+        navbar.classList.remove('shadow-sm');
+      }
+    });
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+  </script>
+</body>
+</html>
