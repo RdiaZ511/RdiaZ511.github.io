@@ -1,0 +1,51 @@
+set shell := ["/bin/zsh", "-cu"]
+
+# Muestra la lista de comandos de mantenimiento disponibles
+default:
+    @just --list
+
+# Ejecuta un mantenimiento completo y seguro en el orden correcto
+all: update-system clean-system verify-system clean-logs clean-thumbnails
+
+# Actualiza la lista de paquetes y aplica actualizaciones de forma segura con Nala
+update-system:
+    @echo "=== [1/3] Actualizando el sistema ==="
+    sudo nala update
+    sudo nala upgrade -y
+    @# Si usas Flatpaks, descomenta la siguiente línea:
+    @# flatpak update -y
+
+# Elimina paquetes residuales, limpia la caché de nala y reduce los logs del sistema
+clean-system:
+    @echo "=== [2/3] Limpiando el sistema ==="
+    @echo "-> Removiendo paquetes huérfanos..."
+    sudo nala autoremove -y
+    @echo "-> Limpiando caché de descargas..."
+    sudo nala clean
+    @echo "-> Reduciendo logs de Systemd (Journal) a los últimos 7 días..."
+    sudo journalctl --vacuum-time=7d
+
+# Verifica la integridad de los paquetes instalados de forma no bloqueante
+verify-system:
+    @echo "=== [3/3] Verificando la salud del sistema ==="
+    @# DEBIAN_FRONTEND=noninteractive evita que dpkg se congele esperando una respuesta infinita
+    sudo DEBIAN_FRONTEND=noninteractive dpkg --configure -a || echo "Nota: Hubo paquetes retenidos o interactivos que requieren atención manual."
+
+# Comando específico para ver el tamaño actual de los logs y limpiarlos manualmente
+clean-logs:
+    @echo "=== Estado actual del Journal ==="
+    journalctl --disk-usage
+    @echo "\n-> Limpiando logs: manteniendo solo los últimos 3 días..."
+    sudo journalctl --vacuum-time=3d
+    @echo "-> Logs optimizados."
+
+# Muestra el historial de transacciones de Nala
+history:
+    @echo "=== Historial de transacciones de Nala ==="
+    sudo nala history
+
+# Limpia la caché de miniaturas de imágenes del usuario actual
+clean-thumbnails:
+    @echo "=== Limpiando caché de miniaturas ==="
+    rm -rf ~/.cache/thumbnails/*
+    @echo "Caché de miniaturas limpia."
