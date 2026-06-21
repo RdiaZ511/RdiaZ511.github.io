@@ -50,3 +50,22 @@ clean-old-backups:
     @echo "=== Buscando respaldos antiguos (>30 días) ==="
     find {{backup_dir}} -type f -name "*.tar.gz" -mtime +30 -exec rm {} \;
     @echo "Limpieza completada."
+
+
+¿Qué debes cambiar exactamente en el servidor?Para que este script funcione correctamente en la máquina de destino,
+abre el justfile en el servidor y edita la sección superior de CONFIGURACIÓN:backup_dir: Cambia "/home/usuario_servidor/backups/espocrm" 
+por la ruta donde quieras almacenar los respaldos. Puede ser un disco externo montado, una carpeta en el home del administrador, 
+o un directorio dedicado como /var/backups/espocrm. Asegúrate de que el usuario que ejecute just tenga permisos de escritura 
+ahí.crm_volume y db_volume: Busca el archivo docker-compose.yml que está corriendo actualmente en el servidor. Mira la sección 
+volumes: de los servicios de EspoCRM y MySQL/MariaDB. Debes poner las rutas de la izquierda (las que apuntan a la máquina real).
+Ejemplo en el docker-compose: - /opt/espocrm/data:/var/www/html $\rightarrow$ Tu ruta en el justfile será
+/opt/espocrm/data.project_name: Si entras a la carpeta del docker-compose en el servidor y ejecutas docker compose ps,
+verás que los contenedores tienen un prefijo (ej: espocrm_prod-daemon-1). Ese prefijo antes del guion es el nombre del
+proyecto. Ponlo aquí para que just sepa exactamente a qué contenedores darles stop y start sin importar desde qué directorio
+se ejecute el script.¿Por qué es seguro este método?Usa docker compose stop en lugar de down: stop apaga los procesos de los
+contenedores pero no destruye las redes virtuales ni los entornos intermedios. Es mucho más rápido de levantar después.
+Consistencia de Datos: Al detener la base de datos antes de hacer el tar, te aseguras de que MySQL/MariaDB no esté escribiendo
+nada en las tablas en ese milisegundo, evitando que el respaldo de la base de datos se corrompa.Usa sudo tar preservando permisos:
+Como los volúmenes de Docker a menudo pertenecen a usuarios internos de los contenedores (como www-data o mysql), el script usa
+sudo para empaquetarlos sin alterar los permisos ni los IDs de usuario (UID/GID), lo cual es crucial para que el respaldo funcione
+si necesitas restaurarlo.
